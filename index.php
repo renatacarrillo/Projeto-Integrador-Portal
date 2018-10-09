@@ -237,10 +237,5 @@
             include('imports/footer.php');
         ?>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<script src="js/jquery-3.3.1.min.js"> </script>
-  	<script src="js/bootstrap.js"> </script>
-    <script src="js/nosso-js.js"> </script>
     </body>
 </html>
