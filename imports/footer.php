@@ -1,7 +1,7 @@
   <footer id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6">
           <p>SERVIÇOS</p>
         </div>
         <div class="col-md-3">
@@ -25,7 +25,7 @@
             </ul>
           </nav>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1 col-sm-6">
           <p>MAPA</p>
         </div>
         <div class="col-md-3">
@@ -55,7 +55,7 @@
         <div class="col-md-1">
           <p>CONTATO</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-12">
           <nav class="menu-secundario">
             <ul class="nav flex-column">
               <li class="nav-item nav-link">
