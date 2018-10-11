@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<!--head-->
-    <?php
+  <?php
         include('imports/head.php');
-    ?>
-    <body>
+  ?>
+  <body>
 
     <!-- Menu top das paginas -->
     <?php
       include('imports/menu.php');
-      ?>
+    ?>
     <!-- Conteúdo do pagina -->
    <main>
     <div class="container">
@@ -74,7 +74,7 @@
   </div>
     <div class="container">
       <!-- As colun com os testos do carrossel -->
-      <article class="art-home">
+      <article class="art-home mt-3">
         <div class="row">
           <div class="col">
             <h2>Noticias e Novidades</h2>
@@ -232,15 +232,10 @@
       </div>
     </div>
   </main>
-         <!-- FOOTER -->
-        <?php
-            include('imports/footer.php');
-        ?>
+  <!-- importando o footer da pagina -->
+  <?php
+    include('imports/footer.php');
+  ?>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<script src="js/jquery-3.3.1.min.js"> </script>
-  	<script src="js/bootstrap.js"> </script>
-    <script src="js/nosso-js.js"> </script>
-    </body>
+  </body>
 </html>
