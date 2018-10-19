@@ -24,6 +24,7 @@
 	}else{
 		echo '<link rel="stylesheet" href="../css/bootstrap.min.css">';
 		echo '<link rel="stylesheet" href="../css/mystyle.css">';
+    echo '<link rel="stylesheet" href="../css/magnific-popup.css">';
 		echo '<link rel="icon" type="image/png" href="../images/favicon.png">';
 		//echo "else " .$pagina[2];
 	}

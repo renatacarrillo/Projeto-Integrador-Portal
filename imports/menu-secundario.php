@@ -21,7 +21,7 @@
     <a href="#" class="navbar-nav slide-menu-open"> <i class="fas fa-bars"></i></a>
   </div>
   <!-- logo -->
-	<a class="navbar-brand" href="../../portal/">
+	<a class="navbar-brand" href="../">
 		<img src="../images/home/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
 		Ecletic.Music
 	</a>
