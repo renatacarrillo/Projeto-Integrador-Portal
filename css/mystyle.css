@@ -1,111 +1,115 @@
-﻿/**** estilo do menu oculto ********************/
+/**** estilo do menu oculto ********************/
 .side-menu-sec {
-    overflow: hidden;
-    background: rgba(0,0,0,.95);
-    background: linear-gradient(to left,rgba(212,21,246,1),rgba(24,70,94,1));/* rgba(136,166,176,.9)*/
-    padding: 40px 0 0 40px;
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100%;
-    z-index: 2;
-    transition: 0.5s;
-    width: 290px;
-    font-size: 1.6em;
+  overflow: hidden;
+  background: rgba(0, 0, 0, .95);
+  background: linear-gradient(to left, rgba(212, 21, 246, 1), rgba(24, 70, 94, 1));
+  /* rgba(136,166,176,.9)*/
+  padding: 40px 0 0 40px;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  height: 100%;
+  z-index: 2;
+  transition: 0.5s;
+  width: 290px;
+  font-size: 1.6em;
 }
 
-.side-menu-sec ul{
-    list-style:none;
-    padding:0;
-    margin:0;
-    overflow-y: auto;
-    width:500px;
-    height:80%;
+.side-menu-sec ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  width: 500px;
+  height: 80%;
 }
+
 .side-menu-sec ul li a {
-    display: block;
-    padding: 6px 4px 6px 4px;
-    color: #989898;
-    transition: 0.3s;
-    text-decoration: none;
-    /* border-bottom: solid 1px rgba(255,255,255,.7); */
+  display: block;
+  padding: 6px 4px 6px 4px;
+  color: #989898;
+  transition: 0.3s;
+  text-decoration: none;
+  /* border-bottom: solid 1px rgba(255,255,255,.7); */
 }
-.side-menu-sec a.menu-close {
-    padding: 8px 0 4px 23px;
-    color: #6B6B6B;
-    display: block;
-    margin: -30px 0 -10px -20px;
-    font-size: 35px;
-    text-decoration: none;
 
+.side-menu-sec a.menu-close {
+  padding: 8px 0 4px 23px;
+  color: #6B6B6B;
+  display: block;
+  margin: -30px 0 -10px -20px;
+  font-size: 35px;
+  text-decoration: none;
 }
 
 .side-menu-overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.7);
-    overflow-y: auto;
-    overflow-x: hidden;
-    opacity: 0;
-    transition: opacity 1s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .paginas li a:hover {
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, .7);
   /* border-bottom: solid 1px rgba(0,0,0,.7); */
 }
 
-#redes-sociais ul{
-	list-style: none;
-	text-align: left;
+#redes-sociais ul {
+  list-style: none;
+  text-align: left;
 }
 
 #redes-sociais ul li {
-	display: inline;
+  display: inline;
   margin: 0 1em;
-
 }
 
 #redes-sociais ul li a {
-		display: inline-block;
-    text-decoration: none;
-		color:#fff;
-    padding: 0.1em;
-    font-size: 1.2em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.1em;
+  font-size: 1.2em;
 }
+
 /*** Hover do icones das redes sociais  ***/
-#redes-sociais ul li.face a:hover, #redes-sociais-footer ul li.face a:hover{
+#redes-sociais ul li.face a:hover, #redes-sociais-footer ul li.face a:hover {
   transition: color 0.3s;
-  color:#3b5998;
+  color: #3b5998;
 }
-#redes-sociais ul li.twit a:hover, #redes-sociais-footer ul li.twit a:hover{
+
+#redes-sociais ul li.twit a:hover, #redes-sociais-footer ul li.twit a:hover {
   transition: color 0.3s;
-  color:#1da1f2;
+  color: #1da1f2;
 }
-#redes-sociais ul li.insta a:hover,#redes-sociais-footer ul li.insta a:hover{
+
+#redes-sociais ul li.insta a:hover, #redes-sociais-footer ul li.insta a:hover {
   transition: color 0.3s;
-  color:#c13584;
+  color: #c13584;
 }
 
 /************************************************/
-.fa-bars,.fa-search{
-	font-size: 1.7em;
-	color:#fff;
+.fa-bars, .fa-search {
+  font-size: 1.7em;
+  color: #fff;
 }
 
 /******* ajuste do carrosel *******************************************/
-.my-carousel-indicators{
+.my-carousel-indicators {
   position: absolute;
   right: 0;
   bottom: 10px;
   left: inherit;
 }
 
-.my-carousel-indicators li{
+.my-carousel-indicators li {
   text-indent: 0;
   margin: 0 2px;
   width: 20px;
@@ -118,100 +122,103 @@
   transition: all 0.25s ease;
 }
 
-.my-carousel-indicators li.active{
-  color:#3A01DF;
+.my-carousel-indicators li.active {
+  color: #3A01DF;
   background-color: #3A01DF;
   width: 20px;
   height: 20px;
 }
 
-.my-carousel-indicators li:hover{
-  color:#999;
+.my-carousel-indicators li:hover {
+  color: #999;
   background-color: #999;
   width: 20px;
   height: 20px;
 }
 
-
 /**************** FONTES DO SITE ****************************************/
-
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
+
 /*************   Header das paginas *****************************************/
-#navheader{
-	background: #fc00ff;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left,#fc00ff, #00dbde);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left,#fc00ff, #00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color:#fff;
+#navheader {
+  background: #fc00ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fc00ff, #00dbde);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fc00ff, #00dbde);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
 }
 
-#navheader a{
-  color:#fff;
+#navheader a {
+  color: #fff;
 }
 
-#navprincipal{
-	text-decoration: none;
-	background-color: #000;
-	color:#fff;
+#navprincipal {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
 }
 
-#navprincipal a{
-	text-decoration: none;
-	color:#fff;
+#navprincipal a {
+  text-decoration: none;
+  color: #fff;
 }
 
-#navprincipal a:hover{
+#navprincipal a:hover {
   transition: color 0.3s;
-	color: #d6dde3;
+  color: #d6dde3;
 }
-
-
 
 /********** AJUSTE DO FOOTER ******************************/
-footer{
+#footer {
   padding-top: 2em;
   background-color: #000;
-  color:#fff;
+  color: #fff;
 }
 
-#redes-sociais-footer ul{
-	list-style: none;
-	padding: 0;
+#redes-sociais-footer ul {
+  list-style: none;
+  padding: 0;
   text-align: right;
 }
 
 #redes-sociais-footer ul li {
-	display: inline;
+  display: inline;
 }
 
 #redes-sociais-footer ul li a {
-    padding-right:1.5em;
-		display: inline-block;
-    text-decoration: none;
-		color:#fff;
-    font-size: 1.5em;
+  padding-right: 1.5em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
 }
 
-footer a{
-  color:#fff;
+#footer a {
+  color: #fff;
 }
 
-footer a:hover{
+#footer a:hover {
   transition: color 0.3s;
-  color:#d6dde3;
+  color: #d6dde3;
 }
-.logo-footer{
+
+.logo-footer {
   margin: 0 auto;
-  width:4em;
-  height:4em;
+  width: 4em;
+  height: 4em;
 }
-.copy{
+
+.copy {
   padding-top: 2em;
   text-align: center;
 }
-/********************* HOME ************************************************/
-.home-cifras h3,.home-ritmo h3{
+
+/********************* HOME PRINCIPAL *****************************************/
+.home-cifras h3, .home-ritmo h3 {
   max-width: 100%;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -220,112 +227,218 @@ footer a:hover{
   border: none;
 }
 
-.home-cifras h3{
+.home-cifras h3 {
   background: url('../images/home/cifras.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.home-cifras h3:hover,.home-ritmo h3:hover{
+.home-cifras h3:hover, .home-ritmo h3:hover {
   background-color: #FFF;
   color: #000;
-  border-bottom:none;
+  border-bottom: none;
 }
 
-
-.home-indica{
+.home-indica {
   padding-top: 2em;
 }
 
-.r-item{
+.r-item {
   padding: .9em 0 0.9em 0;
 }
 
-.rank{
-    /* box-shadow: 2px 1px 1px #000000; */
-    /* background-color: #f1f1f1; */
-    padding: 1em 0em 1em 1.5em;
-    margin: 20px 0;
-    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important; */
+.rank {
+  /* box-shadow: 2px 1px 1px #000000; */
+  /* background-color: #f1f1f1; */
+  padding: 1em 0em 1em 1.5em;
+  margin: 20px 0;
+  /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important; */
 }
 
-
-/*****************AJUSTES DAS PAGINAS SERTANEJO ****************************************/
-#header-sert{
-  background: #782710;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right,#782711, #FF9100);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right,#782711, #FF9100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color:#fff;
+/*****************AJUSTES DAS PAGINAS SERTANEJO *******************************/
+/** Header **/
+#header-sert {
+  background: #782710;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #782711, #FF9100);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #782711, #FF9100);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
 }
 
-#header-sert a{
-  color:#fff;
+#header-sert a {
+  color: #fff;
 }
-.sect-1-home-sert{
+
+/*** Sertanejo home ***/
+.sect-1-home-sert {
   height: 310px;
   background: #D2EFFF url('../images/sertanejo/historia.jpg') no-repeat;
   background-size: cover;
 }
-.sect-2-home-sert{
+
+.sect-2-home-sert {
   height: 314px;
   background: #D2EFFF url('../images/sertanejo/artistas.jpg') no-repeat;
   background-size: cover;
 }
-.sect-3-home-sert{
+
+.sect-3-home-sert {
   height: 314px;
   background: #D2EFFF url('../images/sertanejo/marcos.jpg') no-repeat;
   background-size: cover;
 }
 
-.fundo-texto{
+.fundo-texto {
   padding-left: 0.5em;
-  color:#fff;
+  padding-right: 0.5em;
+  color: #fff;
   position: absolute;
   bottom: 0px;
-  background-color: rgba(0,0,0,.3);
-  width: 87%;
+  background-color: rgba(0, 0, 0, .4);
+  width: 90%;
 }
-.fundo-texto a{
-  color:#fff;
+
+.fundo-texto a {
+  color: #fff;
   font-size: 1em;
 }
 
+/*** Sertanejo artistas ***/
+.list-albuns {
+  list-style: none;
+}
+
+.list-albuns li {
+  display: inline;
+}
+
+/*** Sertanejo origem ***/
+.origem-sert .jumbotron {
+  background: url('../images/sertanejo/historia.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+/***sertanejo lacamentos  **/
+#img-lancamento {
+  width: 21.875em;
+  height: 21.875em;
+}
+
+/***sertanejo destaque**/
+img.img-destaque {
+  width: 1140px;
+  height: auto;
+}
+
+/****************************AJUSTES DA PAGINA INDIE  ********************/
+/** Header **/
+#header-indie {
+  background: #fd7e14;
+}
+
+#header-indie a {
+  color: #fff;
+}
+
+h3.titulos-indie {
+  font-size: 20px;
+  color: #ff2800 !important;
+}
 
 
 
+/****************************** AJUSTES PG POP ******************************/
+#header-pop  {
+    background: #FF0080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7D00F9, #FF0080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7D00F9, #FF0080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#header-pop a  {
+  color: #fff;
+}
 
+/* ======== AJUSTES HOME ======== */
+.caixa1 {
+    position: relative;
+    width:100%;
+
+}
+.caixaT1 {
+    font-size: 0.9em;
+    color:#fff;
+    padding: 5px;
+    transition: background-color 1s;
+    position: relative;
+    bottom: 90px;
+    width: 70%;
+    margin-left: 30%;
+    background-color: rgba(169, 169, 169, 0.57);
+}
+
+
+.caixaT1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caixaT2 {
+    font-size: 0.9em;
+    color:#fff;
+    padding: 5px;
+    transition: background-color 1s;
+    position: relative;
+    bottom: 90px;
+    width: 70%;
+    margin-left: 30%;
+    background-color: rgba(169, 169, 169, 0.57);
+}
+
+
+.caixaT2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.espaço-art {padding: 10px;}
 
 
 /************* AJUSTES RESPONSIVOS **********************/
 /* // Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
 @media (max-width: 575.98px) {
-  .menu-text{
+  .menu-text {
     display: none;
   }
-  .no-display{
+
+  .no-display {
     display: none;
   }
 }
+
 /* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .menu-text{
+  .menu-text {
     display: none;
   }
-  .no-display{
+
+  .no-display {
     display: none;
   }
 }
+
 /* // Dispositivos médios (tablets com 768px ou mais) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .menu-text{
+  .menu-text {
     display: none;
   }
 }
+
 /* // Dispositivos large (desktops com 992px ou mais) */
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {}
+
 /**** HELPS **********************************************/
 /** cores **/
 /* https://www.color-hex.com/color  */
