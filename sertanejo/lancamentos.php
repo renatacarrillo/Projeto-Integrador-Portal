@@ -4,7 +4,7 @@
   <?php
     include('../imports/head.php');
   ?>
-  <body>
+  <body class="lancamento">
     <!--importandoo menu da pagina -->
     <?php
       include('../imports/menu-secundario.php');
@@ -30,8 +30,8 @@
             ?>
           </figure>
         </div>
-        <h1 class="text-center h4">Os Lançamentos da Semana</h1>
-        <table class="table table-borderless text-center">
+        <h1 class="text-center h4 shadow-sm">Os Lançamentos da Semana</h1>
+        <table class="table table-borderless text-center shadow-sm bg-light rounded">
           <thead>
             <tr>
               <th scope="col">Album</th>
@@ -72,7 +72,6 @@
 
     </div>
   </article>
-
 </div>
 
     <!-- importando o footer da pagina -->

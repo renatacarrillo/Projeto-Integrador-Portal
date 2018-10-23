@@ -327,6 +327,12 @@ body {
   height: 21.875em;
 }
 
+.lancamento{
+  background: url('../images/sertanejo/textura.png');
+
+
+}
+
 /***sertanejo destaque**/
 img.img-destaque {
   width: 1140px;
