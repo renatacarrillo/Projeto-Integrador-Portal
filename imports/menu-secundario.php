@@ -1,15 +1,33 @@
 <?php
 //PHP para alterar a cor do header de acordo com a pagina
-	$URL_ATUAL= "$_SERVER[REQUEST_URI]";
-	$pagina = explode("/", $URL_ATUAL);
+
+	// $URL_ATUAL= "$_SERVER[REQUEST_URI]";
+	// $pagina = explode("/", $URL_ATUAL);
 	//echo "pagina1 ".$pagina[0];
 	//echo "pagina2 ".$pagina[1];
 	//echo "pagina3 ".$pagina[2];
-	if ($pagina[2]=="sertanejo"){
+	// if ($pagina[2]=="sertanejo"){
+	// 	$navheader = '"header-sert"';
+	// }elseif ($pagina[2]=="indie"){
+	// 	$navheader = '"header-indie"';
+	// }elseif ($pagina[2]=="pop"){
+	// 	$navheader = '"header-pop"';
+	// }	else{
+	// 	$navheader = '"navheader"';
+	// }
+
+	// echo(basename (dirname($_SERVER['PHP_SELF']),"/")) .'<br>';
+	// echo basename(__DIR__) . '<br>' ;
+	//pegar o diretorio do arquivo atual
+	$pagina = basename (dirname($_SERVER['PHP_SELF']),"/");
+ 	// echo $pagina;
+	if ($pagina=="sertanejo"){
 		$navheader = '"header-sert"';
-	}elseif ($pagina[2]=="indie"){
+	}elseif ($pagina=="indie"){
 		$navheader = '"header-indie"';
-	}else{
+	}elseif ($pagina=="pop"){
+		$navheader = '"header-pop"';
+	}	else{
 		$navheader = '"navheader"';
 	}
 
@@ -63,9 +81,9 @@
   <ul class="nav nav-justified">
 		<!-- Icone home de cada pagina secundaria usando o PHP para mudar o titulo -->
 	  <li class="nav-item">
-		  <a class="nav-link active" href="index.php" title="<?php echo $pagina[2] ?>">
+		  <a class="nav-link active" href="index.php" title="<?php echo $pagina ?>">
 			 	<span class="menu-icon"><i class="fas fa-home "></i></span>
-			  <span class="menu-text"> <?php echo ucwords($pagina[2]) ?></span>
+			  <span class="menu-text"> <?php echo ucwords($pagina) ?></span>
 		  </a>
 	 	</li>
 

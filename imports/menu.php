@@ -1,23 +1,6 @@
 <!-- Menu top das paginas -->
 
-<?php
-//PHP para alterar a cor do header de acordo com a pagina
-	$URL_ATUAL= "$_SERVER[REQUEST_URI]";
-	$pagina = explode("/", $URL_ATUAL);
-	//echo "pagina1 ".$pagina[0];
-	//echo "pagina2 ".$pagina[1];
-	//echo "pagina3 ".$pagina[2];
-	// if ($pagina[2]=="sertanejo"){
-	// 	$navheader = '"header-sert"';
-	// }elseif ($pagina[2]=="indie"){
-	// 	$navheader = '"header-indie"';
-	// }else{
-	// 	$navheader = '"navheader"';
-	// }
-	$navheader = '"navheader"';
-
-  echo '<nav id='.$navheader .' class="navbar navbar-light">';
-?>
+	<nav id="navheader" class="navbar navbar-light">
     <!-- botão do menu secundario com as paginas -->
     <!-- <a href="#" class="navbar-nav slide-menu-open">Open Menu</a> -->
     <div class="navbar-nav slide-menu-open">
