@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-var slidebar_width  = 300; //tamamho do slide
+var slidebar_width  = 320; //tamamho do slide
 var slide_bar       = $(".side-menu-sec"); //slidebar
 var slide_open_btn  = $(".slide-menu-open");
 var slide_close_btn = $(".menu-close");

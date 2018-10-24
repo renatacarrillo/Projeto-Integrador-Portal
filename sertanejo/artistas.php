@@ -14,8 +14,8 @@
       <article class="mt-3 mb-3">
         <h1>Os Melhores Artistas Sertanejo</h1>
         <div class="card-deck">
-          <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top rounded-circle" src="../images/sertanejo/artista-1.jpg" alt="Michel Teló">
+          <div class="card text-white bk-sertanejo mb-3">
+            <img class="card-img-top rounded-circle py-2 px-2" src="../images/sertanejo/artista-1.jpg" alt="Michel Teló">
             <div class="card-body">
               <h5 class="card-title">Michel Teló</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -31,8 +31,8 @@
               </ul>
             </div>
           </div>
-          <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top rounded-circle" src="../images/sertanejo/artista-2.jpg" alt="Luan Santana">
+          <div class="card text-white bk-sertanejo mb-3">
+            <img class="card-img-top rounded-circle py-2 px-2" src="../images/sertanejo/artista-2.jpg" alt="Luan Santana">
             <div class="card-body">
               <h5 class="card-title">Luan Santana</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -46,8 +46,8 @@
               </ul>
             </div>
           </div>
-          <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top rounded-circle" src="../images/sertanejo/artista-3.jpg" alt="Chitãozinho & Xororó">
+          <div class="card text-white bk-sertanejo mb-3">
+            <img class="card-img-top rounded-circle py-2 px-2" src="../images/sertanejo/artista-3.jpg" alt="Chitãozinho & Xororó">
             <div class="card-body">
               <h5 class="card-title">Chitãozinho & Xororó</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -61,8 +61,8 @@
               </ul>
             </div>
           </div>
-          <div class="card text-white bg-dark mb-3">
-            <img class="card-img-top rounded-circle" src="../images/sertanejo/artista-4.jpg" alt="Simone & Simaria">
+          <div class="card text-white bk-sertanejo mb-3">
+            <img class="card-img-top rounded-circle py-2 px-2" src="../images/sertanejo/artista-4.jpg" alt="Simone & Simaria">
             <div class="card-body">
               <h5 class="card-title">Simone & Simaria</h5>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

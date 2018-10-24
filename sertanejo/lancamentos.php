@@ -11,12 +11,12 @@
     ?>
     <!-- conteudo da pagina -->
 
-<div class="container mt-4">
+<div class="container mt-4 mb-4">
   <article class="lanc-sert">
     <div class="row justify-content-md-center">
-      <div class="col-md-6">
-        <div class="text-center mb-5">
-          <figure class="figure">
+      <div class="col-md-6 shadow-sm bg-light rounded">
+        <div class="text-center">
+          <figure class="pt-2 figure">
             <?php
               date_default_timezone_set('America/Sao_Paulo');
               // echo date('s');
@@ -30,8 +30,8 @@
             ?>
           </figure>
         </div>
-        <h1 class="text-center h4 shadow-sm">Os Lançamentos da Semana</h1>
-        <table class="table table-borderless text-center shadow-sm bg-light rounded">
+        <h1 class="text-center h3">Os Lançamentos da Semana</h1>
+        <table class="table table-borderless text-center">
           <thead>
             <tr>
               <th scope="col">Album</th>
@@ -40,6 +40,31 @@
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <th scope="row"><img src="../images/sertanejo/michel1.jpg" class="rounded shadow" alt="CD Michael Telo"></th>
+              <td class="align-middle lead">Por Trás da Maquiagem</td>
+              <td class="align-middle text-muted">Michel Teló</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="../images/sertanejo/lancamento-02.jpg" class="rounded shadow" alt="CD Marília Mendonça"></th>
+              <td class="align-middle lead">Bem Pior Que Eu</td>
+              <td class="align-middle text-muted">Marília Mendonça</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="../images/sertanejo/lancamento-03.jpg" class="rounded shadow" alt="CD Paula Fernandes"></th>
+              <td class="align-middle lead">Eu sem você</td>
+              <td class="align-middle text-muted">Paula Fernandes</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="../images/sertanejo/lancamento-04.jpg" class="rounded shadow" alt="CD Daniel"></th>
+              <td class="align-middle lead">Meu Reino Encantado</td>
+              <td class="align-middle text-muted">Daniel</td>
+            </tr>
+            <tr>
+              <th scope="row"><img src="../images/sertanejo/lancamento-05.jpg" class="rounded shadow" alt="CD Gusttavo Lima"></th>
+              <td class="align-middle lead">Apelido Carinhoso</td>
+              <td class="align-middle text-muted">Gusttavo Lima</td>
+            </tr>
             <tr>
               <th scope="row"><img src="../images/sertanejo/michel1.jpg" class="rounded shadow" alt="CD Michael Telo"></th>
               <td class="align-middle lead">Por Trás da Maquiagem</td>
