@@ -27,7 +27,10 @@
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
                             
+=======
+>>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
                         <div class="col-12 col-sm-6 mt-3 mb-1 pr-2">
                             <div class="card bg-dark text-white">
                                 <img src="../images/hip-hop/blackbear-2.jpg" class="img-fluid" alt="Responsive image">
