@@ -46,27 +46,22 @@
   <!-- Icone de busca -->
   <a href="#"><i class="form-inline fas fa-search"></i></a>
   <!-- menu oculto -->
+
   <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
   <div class="side-menu-sec">
     <a href="#" class="menu-close">&times;</a>
-    <nav>
-      <ul>
-        <!-- <li><a href="#">Classica</a></li>
-        <li><a href="#">Hip-Hop</a></li>
-        <li><a href="#">Indie</a></li>
-        <li><a href="#">Pop</a></li>
-        <li><a href="#">Punk</a></li>
-        <li><a href="#">Sertanejo</a></li> -->
-        <li>PRINCIPAL</li>
-        <li><a  href="#"><i class="fas fa-home"></i> Home</a></li>
+
+      <ul class="paginas">
+        <li>MENU PRINCIPAL</li>
+        <li><a  href="../index.php"><i class="fas fa-home"></i> Home</a></li>
         <li><a  href="#"><i class="far fa-newspaper"></i> Noticias</a></li>
         <li><a  href="#"><i class="fas fa-chart-line"></i> Ranking</a></li>
         <li><a  href="#"><i class="fas fa-music"></i> Cifras</a></li>
         <li><a  href="#"><i class="fas fa-headphones"></i> Indicações</a></li>
-        <li><a  href="#"><i class="far fa-address-card"></i> Quem Somos</a></li>
+        <li><a  href="../quem-somos.php"><i class="far fa-address-card"></i> Quem Somos</a></li>
         <li><a  href="#"><i class="fas fa-phone"></i> Contato</a></li>
       </ul>
-    </nav>
+
     <div id="redes-sociais">
       <ul>
         <li class="face"> <a href="#"><i class="fab fa-facebook-f"></i></a></li>

@@ -15,10 +15,12 @@
     <!-- Icone de busca -->
     <a href="#"><i class="form-inline fas fa-search"></i></a>
     <!-- menu oculto -->
+
     <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
     <div class="side-menu-sec">
       <a href="#" class="menu-close">&times;</a>
       <ul class="paginas">
+				<li>PAGINAS SECUNDARIAS</li>
         <li><a href="classica/index.php">Classica</a></li>
         <li><a href="hip-hop/index.php">Hip-Hop</a></li>
         <li><a href="indie/index.php">Indie</a></li>
@@ -54,35 +56,35 @@
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-trophy"></i> Ranking</a> -->
-        <a class="nav-link" href="#" title="Ranking">
+        <a class="nav-link" href="ranking.php" title="Ranking">
           <span class="menu-icon"><i class="fas fa-chart-line"></i></span>
           <span class="menu-text">Ranking</span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-music"></i> Cifras</a> -->
-        <a class="nav-link" href="#" title="Cifras">
+        <a class="nav-link" href="cifras.php" title="Cifras">
           <span class="menu-icon"><i class="fas fa-music"></i></span>
           <span class="menu-text">Cifras</span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-headphones"></i> Indicações</a> -->
-        <a class="nav-link" href="#" title="Indicações">
+        <a class="nav-link" href="indicacoes.php" title="Indicações">
           <span class="menu-icon"><i class="fas fa-headphones"></i></span>
           <span class="menu-text">Indicações</span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="far fa-address-card"></i> Quem Somos</a> -->
-        <a class="nav-link" href="#" title="Quem Somos">
+        <a class="nav-link" href="quem-somos.php?i=2" title="Quem Somos">
           <span class="menu-icon"><i class="fas fa-users"></i></span>
           <span class="menu-text">Quem Somos</span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-phone"></i> Contato</a> -->
-        <a class="nav-link" href="#" title="Contato">
+        <a class="nav-link" href="contato.php" title="Contato">
           <span class="menu-icon"><i class="fas fa-phone"></i></span>
           <span class="menu-text">Contato</span>
         </a>

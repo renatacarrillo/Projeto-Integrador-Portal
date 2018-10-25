@@ -32,22 +32,22 @@
           <nav class="menu-secundario">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Artistas</a>
+                <a class="nav-link" href="artistas.php">Artistas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Noticias</a>
+                <a class="nav-link" href="noticias.php">Noticias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ranking</a>
+                <a class="nav-link" href="ranking.php">Ranking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Cifras</a>
+                <a class="nav-link" href="cifras.php">Cifras</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Indicações</a>
+                <a class="nav-link" href="indicacoes.php">Indicações</a>
               </li>
             </ul>
           </nav>
@@ -79,8 +79,30 @@
           <div class="logo-footer">
             <img src="images/home/LOGO.svg" class="d-inline-block" alt="[LOGO] Ecletic.Music">
           </div>
+          <div class="text-right">
+            <!-- Alterar  o Idioma do conteudo -->
+            <?php
+            $urlidioma = basename($_SERVER['SCRIPT_FILENAME']);
+            // basename($_SERVER['SCRIPT_FILENAME'])
+
+            if (!isset($_GET['i'])) {
+              $_GET['i']=2;
+            }
+            // if ($_GET['i']==1) {
+            //   echo "idioma atual: Ingles<br>" .$urlidioma ."<br>";
+            // }
+            // if ($_GET['i']==2) {
+            //   echo "idioma atual: Portugues <br>" .$urlidioma ."<br>";
+            // }
+            echo '<p class="text-right"> Selecione seu Idioma:</p>';
+            echo '<p class="text-right"> <a href="'.$urlidioma .'?i=1"><img src="images/home/united_states_flags.png" alt="Idioma Ingles"></a>';
+            echo '<a href="'.$urlidioma .'?i=2"><img src="images/home/brazil_flags.png" alt="Idioma Portugues"></a</p>';
+          ?>
+
+          </div>
         </div>
       </div>
+
       <div class="row copy">
         <div class="col-12">
           <p><small>todos os direitos reservado e etc,etc e etc</small> </p>
