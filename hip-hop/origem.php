@@ -16,11 +16,7 @@
                 <main>
                     <div class="container-fluid">
                         <div class="row">
-<<<<<<< HEAD
                             <div class="col-12 mt-4 mb-2">
-=======
-                            <div class="col-sm-12">
->>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
                                     <h1 class="text-white bg-dark text-center font-italic font-weight-bold">Origem</h1>
                             </div>
                         </div>
@@ -33,20 +29,14 @@
                             </div>
                         </div>
                         <div class="row">
-<<<<<<< HEAD
                             <div class="col-sm-4 mt-4 mb-4">
                                 <div class="shadow p-3 mb-5 bg-white rounded">
                                 <h4 class="text-center">PARCERIAS</h4>
                                 </div>
-=======
-                            <div class="col-sm-4">
-                                <h4 class="text-center">PARCERIAS</h4>
->>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
                                 <img src="../images/hip-hop/mac_1.jpg" class="img-fluid" alt="Responsive image">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
                             </div>
 
-<<<<<<< HEAD
                             <div class="col-sm-4 mt-4 mb-4">
                                 <div class="shadow p-3 mb-5 bg-white rounded">
                                 <h4 class="text-center">SHOWS</h4>
@@ -58,15 +48,6 @@
                                 <div class="shadow p-3 mb-5 bg-white rounded">
                                 <h4 class="text-center">ACONTECIMENTOS</h4>
                                 </div>
-=======
-                            <div class="col-sm-4">
-                                <h4 class="text-center">SHOWS</h4>
-                                <img src="../images/hip-hop/mac_1.jpg" class="img-fluid" alt="Responsive image">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <h4 class="text-center">ACONTECIMENTOS</h4>
->>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
                                 <img src="../images/hip-hop/mac_1.jpg" class="img-fluid" alt="Responsive image">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin urna nec vestibulum pellentesque. Ut leo felis, malesuada quis nunc id, ornare aliquam dolor. Cras sed felis pretium ex sollicitudin fermentum. Donec ultricies felis sed consectetur accumsan.</p>
                             </div>
