@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<!--head-->
-    <?php
+  <?php
         include('imports/head.php');
-    ?>
-    <body>
+  ?>
+  <body>
 
     <!-- Menu top das paginas -->
     <?php
       include('imports/menu.php');
-      ?>
+    ?>
     <!-- Conteúdo do pagina -->
    <main>
     <div class="container">
@@ -27,7 +27,7 @@
             <div class="carousel-caption text-left">
               <h1>Example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Noticias</a></p>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Veja Mais</a></p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="carousel-caption text-right">
               <h1>One more for good measure.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Confira</a></p>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
             <div class="carousel-caption text-right">
               <h1>One more for good measure.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Veja Mais</a></p>
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@
   </div>
     <div class="container">
       <!-- As colun com os testos do carrossel -->
-      <article class="art-home">
+      <article class="art-home mt-3">
         <div class="row">
           <div class="col">
             <h2>Noticias e Novidades</h2>
@@ -232,15 +232,10 @@
       </div>
     </div>
   </main>
-         <!-- FOOTER -->
-        <?php
-            include('imports/footer.php');
-        ?>
+  <!-- importando o footer da pagina -->
+  <?php
+    include('imports/footer.php');
+  ?>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  	<script src="js/jquery-3.3.1.min.js"> </script>
-  	<script src="js/bootstrap.js"> </script>
-    <script src="js/nosso-js.js"> </script>
-    </body>
+  </body>
 </html>

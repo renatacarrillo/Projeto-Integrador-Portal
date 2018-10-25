@@ -14,18 +14,20 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <?php
 //PHP para ajustar o path do diretorio dos CSS e outros links
-	$URL_ATUAL= "$_SERVER[REQUEST_URI]";
-	$pagina = explode("/", $URL_ATUAL);
-	if ($pagina[2]== ""){
-		echo '<link rel="stylesheet" href="css/bootstrap.min.css">';
+
+  $pagina = basename (dirname($_SERVER['PHP_SELF']),"/");
+	if ($pagina == "sertanejo" or $pagina == "pop" or $pagina == "indie" or $pagina == "punk" or $pagina == "classica" or $pagina == "hip-hop"){
+    echo '<link rel="stylesheet" href="../css/bootstrap.min.css">';
+    echo '<link rel="stylesheet" href="../css/mystyle.css">';
+    echo '<link rel="stylesheet" href="../css/magnific-popup.css">';
+    echo '<link rel="icon" type="image/png" href="../images/favicon.png">';
+    // echo "IF " .$pagina;
+
+	}else{
+    echo '<link rel="stylesheet" href="css/bootstrap.min.css">';
 		echo '<link rel="stylesheet" href="css/mystyle.css">';
 		echo '<link rel="icon" type="image/png" href="images/favicon.png">';
-		//echo "IF " .$pagina[2];
-	}else{
-		echo '<link rel="stylesheet" href="../css/bootstrap.min.css">';
-		echo '<link rel="stylesheet" href="../css/mystyle.css">';
-		echo '<link rel="icon" type="image/png" href="../images/favicon.png">';
-		//echo "else " .$pagina[2];
+		// echo "ELSE " .$pagina;
 	}
 ?>
 
