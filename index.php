@@ -221,7 +221,7 @@
                       <a href="#" class="list-group-item list-group-item-action list-group-item-light">Indie</a>
                       <a href="#" class="list-group-item list-group-item-action list-group-item-light">Pop</a>
                       <a href="#" class="list-group-item list-group-item-action list-group-item-light">Punk</a>
-                      <a href="#" class="list-group-item list-group-item-action list-group-item-light">Sertanejo</a>
+                      <a href="#" class="list-sertanejo list-group-item list-group-item-action list-group-item-light">Sertanejo</a>
                     </div>
                   </div>
                 </nav>
