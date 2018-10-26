@@ -27,6 +27,8 @@
 		$navheader = '"header-indie"';
 	}elseif ($pagina=="pop"){
 		$navheader = '"header-pop"';
+	}elseif ($pagina=="classica"){
+		$navheader = '"header-classica"';
 	}	else{
 		$navheader = '"navheader"';
 	}
