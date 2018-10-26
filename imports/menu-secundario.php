@@ -27,6 +27,8 @@
 		$navheader = '"header-indie"';
 	}elseif ($pagina=="pop"){
 		$navheader = '"header-pop"';
+	}elseif ($pagina=="classica"){
+		$navheader = '"header-classica"';
 	}	else{
 		$navheader = '"navheader"';
 	}
@@ -54,12 +56,12 @@
       <ul class="paginas">
         <li>MENU PRINCIPAL</li>
         <li><a  href="../index.php"><i class="fas fa-home"></i> Home</a></li>
-        <li><a  href="#"><i class="far fa-newspaper"></i> Noticias</a></li>
-        <li><a  href="#"><i class="fas fa-chart-line"></i> Ranking</a></li>
-        <li><a  href="#"><i class="fas fa-music"></i> Cifras</a></li>
-        <li><a  href="#"><i class="fas fa-headphones"></i> Indicações</a></li>
+        <li><a  href="../noticias.php"><i class="far fa-newspaper"></i> Noticias</a></li>
+        <li><a  href="../ranking.php"><i class="fas fa-chart-line"></i> Ranking</a></li>
+        <li><a  href="../cifras.php"><i class="fas fa-music"></i> Cifras</a></li>
+        <li><a  href="../indicacoes.php"><i class="fas fa-headphones"></i> Indicações</a></li>
         <li><a  href="../quem-somos.php"><i class="far fa-address-card"></i> Quem Somos</a></li>
-        <li><a  href="#"><i class="fas fa-phone"></i> Contato</a></li>
+        <li><a  href="../contato.php"><i class="fas fa-phone"></i> Contato</a></li>
       </ul>
 
     <div id="redes-sociais">

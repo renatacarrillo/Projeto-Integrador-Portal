@@ -390,7 +390,146 @@ img.img-destaque {
 .menu-text-dest {
   font-size: .9em;
 }
-
+/****************************AJUSTES CLASSICA*****************************/
+#header-classica {
+  background: #D1913C;
+  background: linear-gradient(to right, #D1913C, #FFD194);
+}
+/*Home clássica*/
+#artistas {
+    background-image: url('../images/classica/artistasmenuteste.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#origem {
+    background-image: url('../images/classica/origemmenuteste.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#famosas {
+    background-image: url('../images/classica/famosasmenuteste.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#destaques {
+    background-image: url('../images/classica/destaquesmenuteste.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#curiosidades {
+    background-image: url('../images/classica/curiosidadesmenuteste.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tmenu {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.pmenu {
+    font-size: 14px;
+    color: white;
+    padding: 0px 0px 10px 10px;
+}
+.tboxmenu {
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    top: 250px;
+    height: 150px;
+}
+/*Artistas da clássica*/
+.partistas {
+    text-indent: 40px;
+}
+/*Origem a clássica*/
+.porigem {
+    padding: 15px 0px 0px 0px;
+    text-indent: 40px;
+    text-align: justify;
+}
+.tboxorigem {
+    padding: 10px;
+    margin: 2px;
+    color: black;
+}
+#boxorigem {
+    background-color: #efbe6b;
+    border-radius: 10px;
+    padding: 10px;
+}
+/*Destaques da clássica*/
+.pdestaques {
+    text-indent: 40px;
+    padding: 10px 0px 0px 0px;
+}
+/*Curiosidades da clássica*/
+.tmarcos {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.mleiamais {
+    background-color: #ffa000;
+    border-radius: 5px;
+    padding: 3px;
+    color: black;
+    font-weight: bold;
+}
+/*Famosas da clássica*/
+.tableclassica tr {
+    border-bottom: 1px solid lightgray;
+}
+.fprimeiracolocada {
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: 1px 3px 10px #efbe6b;
+}
+.fcolor {
+    background-color: #efbe6b;
+}
+/****************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
+/*NOTICIAS*/
+imgnot {
+    width: 100%;
+    height: 100%;
+}
+.tnot {
+    padding: 0px 10px 0 10px;
+    text-align: left;
+}
+.pnot {
+    padding: 0px 10px 0 10px;
+    margin: 0;
+    text-align: justify;
+}
+.tnoticias {
+    padding: 0;
+    margin: 0;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+}
+.pnoticias {
+    padding: 0;
+    margin: 0;
+    color:white;
+    text-align: left;
+}
+.bnot {
+    background-image: url('../images/noticias/slide/katy-perry.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
 #header-indie {

@@ -49,7 +49,7 @@
       </li>
       <li class="nav-item icone">
         <!-- <a class="nav-link" href="#"><i class="far fa-newspaper"></i> Noticias</a> -->
-        <a class="nav-link" href="#" title="Noticias">
+        <a class="nav-link" href="noticias.php" title="Noticias">
           <span class="menu-icon"><i class="far fa-newspaper"></i></span>
           <span class="menu-text">Noticias</span>
         </a>
