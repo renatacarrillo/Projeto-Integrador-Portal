@@ -467,6 +467,9 @@ img.img-destaque {
     padding: 10px;
 }
 /*Destaques da clássica*/
+.tcarousel {
+    padding: 40px;
+}
 .pdestaques {
     text-indent: 40px;
     padding: 10px 0px 0px 0px;
@@ -485,6 +488,7 @@ img.img-destaque {
     font-weight: bold;
 }
 /*Famosas da clássica*/
+
 .tableclassica tr {
     border-bottom: 1px solid lightgray;
 }

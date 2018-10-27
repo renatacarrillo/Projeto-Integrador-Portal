@@ -22,8 +22,8 @@
         <!--NAV ENDS-->
         <!--ARTICLE-->
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-12 mt-4 mb-4">
-               <img src="../images/classica/TEST.jpg" alt="top 10 músicas clássicas mais famosas" class="img-fluid imgfamosas">
+            <div class="col-12 col-md-12 col-lg-12 mt-4">
+               <img src="../images/classica/famosas-01.jpg" alt="top 10 músicas clássicas mais famosas" class="img-fluid imgfamosas">
             </div>
             <div class="col-12 col-md-12 col-lg-12 mt-4 mb-4">
                 <article>
@@ -37,12 +37,12 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <a href="#"><tr>
                                 <th class="fprimeiracolocada">1º</th>
                                 <td class="fprimeiracolocada">Ludwig Van Beethoven</td>
                                 <td class="fprimeiracolocada">Sonata Ao Luar</td>
                                 <td class="fprimeiracolocada">Classicismo</td>
-                            </tr>
+                            </tr></a>
                             <tr>
                                 <th>2º</th>
                                 <td>Claude Debussy</td>
