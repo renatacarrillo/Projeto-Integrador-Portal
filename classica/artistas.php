@@ -21,7 +21,7 @@
 
             <div class="row mb-3  mt-3" id="box">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img src="../images/classica/beethovenartistasteste.jpg" class="img-fluid mt-2 mb-2 rounded" alt="beethoven" id="imgone">
+                    <img src="../images/classica/artistas-01.jpg" class="img-fluid mt-2 mb-2 rounded" alt="beethoven" id="imgone">
                 </div>
                 <article class="col-12 col-md-6 col-lg-8">
                     <div>
@@ -32,7 +32,7 @@
             </div>
             <div class="row mb-3" id="boxtwo">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img src="../images/classica/mozartartistasteste.jpg" class="img-fluid mt-2 mb-2 rounded" alt="mozart" id="imgtwo">
+                    <img src="../images/classica/artistas-02.jpg" class="img-fluid mt-2 mb-2 rounded" alt="mozart" id="imgtwo">
                 </div>
                 <article class="col-12 col-md-6 col-lg-8">
                     <div>
@@ -43,7 +43,7 @@
             </div>
             <div class="row mb-3" id="boxthree">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img src="../images/classica/chopinartistasteste.jpg" class="img-fluid mt-2 mb-2 rounded" alt="chopin" id="imgthree">
+                    <img src="../images/classica/artistas-03.jpg" class="img-fluid mt-2 mb-2 rounded" alt="chopin" id="imgthree">
                 </div>
                 <article class="col-12 col-md-6 col-lg-8">
                     <div>
@@ -54,7 +54,7 @@
             </div>
             <div class="row mb-3" id="boxfour">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img src="../images/classica/tchaikovskyartistasteste.jpg" class="img-fluid mt-2 mb-2 rounded" alt="tchaikovsky" id="imgfour">
+                    <img src="../images/classica/artistas-04.jpg" class="img-fluid mt-2 mb-2 rounded" alt="tchaikovsky" id="imgfour">
                 </div>
                 <article class="col-12 col-md-6 col-lg-8">
                     <div>

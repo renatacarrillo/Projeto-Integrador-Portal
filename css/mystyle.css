@@ -397,32 +397,32 @@ img.img-destaque {
 }
 /*Home clássica*/
 #artistas {
-    background-image: url('../images/classica/artistasmenuteste.jpg');
+    background-image: url('../images/classica/menu-01.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #origem {
-    background-image: url('../images/classica/origemmenuteste.jpg');
+    background-image: url('../images/classica/menu-02.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #famosas {
-    background-image: url('../images/classica/famosasmenuteste.jpg');
+    background-image: url('../images/classica/menu-03.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 #destaques {
-    background-image: url('../images/classica/destaquesmenuteste.jpg');
+    background-image: url('../images/classica/menu-04.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #curiosidades {
-    background-image: url('../images/classica/curiosidadesmenuteste.jpg');
+    background-image: url('../images/classica/menu-05.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
