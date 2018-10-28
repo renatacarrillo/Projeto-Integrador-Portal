@@ -9,7 +9,7 @@
     <!-- logo -->
     <!-- <a class="navbar-brand" href="#">Ecletic.Music</a> -->
 		<a class="navbar-brand" href="./">
-			<img src="images/home/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
+			<img src="images/principal/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
 			Ecletic.Music
 		</a>
     <!-- Icone de busca -->
@@ -77,7 +77,7 @@
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="far fa-address-card"></i> Quem Somos</a> -->
-        <a class="nav-link" href="quem-somos.php?i=2" title="Quem Somos">
+        <a class="nav-link" href="quem-somos.php" title="Quem Somos">
           <span class="menu-icon"><i class="fas fa-users"></i></span>
           <span class="menu-text">Quem Somos</span>
         </a>

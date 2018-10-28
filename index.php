@@ -22,7 +22,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide" src="images/home/carrossel-01.jpg" alt="First slide">
+          <img class="first-slide" src="images/principal/carrossel-01.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
               <h1>Example headline.</h1>
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="images/home/carrossel-02.jpg" alt="Second slide">
+          <img class="second-slide" src="images/principal/carrossel-02.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="images/home/carrossel-03.jpg" alt="Third slide">
+          <img class="third-slide" src="images/principal/carrossel-03.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption text-right">
               <h1>One more for good measure.</h1>
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="four-slide" src="images/home/carrossel-04.jpg" alt="Four slide">
+          <img class="four-slide" src="images/principal/carrossel-04.jpg" alt="Four slide">
           <div class="container">
             <div class="carousel-caption text-right">
               <h1>One more for good measure.</h1>
@@ -83,19 +83,19 @@
         </div>
         <div class="row text-center home-geral">
           <div class="col-12 col-lg-4">
-            <a href="#"><img class="rounded img-fluid" src="images/home/home-1.jpg" alt="Generic placeholder image"></a>
+            <a href="#"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             <h2>Lorem Ipsum</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
               vehicula ut id elit. <span class="badge badge-info">Noticias</span></p>
           </div>
           <div class="col-12 col-lg-4">
-            <a href="#"><img class="rounded img-fluid" src="images/home/home-2.jpg" alt="Generic placeholder image"></a>
+            <a href="#"><img class="rounded img-fluid" src="images/principal/home-2.jpg" alt="Generic placeholder image"></a>
             <h2>Lorem Ipsum</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
               vehicula ut id elit.<span class="badge badge-success">Novidades</span></p>
           </div>
           <div class="col-12 col-lg-4">
-            <a href="#"><img class="rounded img-fluid" src="images/home/home-3.jpg" alt="Generic placeholder image"></a>
+            <a href="#"><img class="rounded img-fluid" src="images/principal/home-3.jpg" alt="Generic placeholder image"></a>
             <h2>Lorem Ipsum</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
               vehicula ut id elit. <span class="badge badge-success">Novidades</span></p>
@@ -115,7 +115,7 @@
             </div>
             <div class="row no-gutters align-items-center">
               <div class="col-5">
-                <img class="img-fluid" src="images/home/ranking.png" alt="Top da Paradas">
+                <img class="img-fluid" src="images/principal/ranking.jpg" alt="Top da Paradas">
               </div>
               <div class="col-7">
                 <ol>
@@ -127,7 +127,7 @@
             </div>
             <div class="row no-gutters align-items-center">
               <div class="col-5">
-                <img class="img-fluid" src="images/home/ranking.png" alt="Top da Paradas">
+                <img class="img-fluid" src="images/principal/ranking.jpg" alt="Top da Paradas">
               </div>
               <div class="col-7">
                 <ol>
@@ -139,7 +139,7 @@
             </div>
             <div class="row no-gutters align-items-center">
               <div class="col-5">
-                <img class="img-fluid" src="images/home/ranking.png" alt="Top da Paradas">
+                <img class="img-fluid" src="images/principal/ranking.jpg" alt="Top da Paradas">
               </div>
               <div class="col-7">
                 <ol>
@@ -166,30 +166,30 @@
                 <!-- Linha 1 da sugestão -->
                 <div class="row justify-content-md-center text-center">
                   <div class="col-6 col-lg-4">
-                    <img class="rounded img-fluid" src="images/home/home-9.jpg" alt="Donec sed odio duielit.">
+                    <img class="rounded img-fluid" src="images/principal/home-9.jpg" alt="Donec sed odio duielit.">
                     <p>Donec sed odio duielit.</p>
                   </div>
                   <div class="col-6 col-lg-4">
-                    <img class="rounded img-fluid" src="images/home/home-4.jpg" alt="Lorem Ipsummm">
+                    <img class="rounded img-fluid" src="images/principal/home-4.jpg" alt="Lorem Ipsummm">
                     <p>Lorem Ipsummm</p>
                   </div>
                   <div class="no-display col-6 col-lg-4">
-                    <img class="rounded img-fluid" src="images/home/home-5.jpg" alt="Donec sed odio duielit.">
+                    <img class="rounded img-fluid" src="images/principal/home-5.jpg" alt="Donec sed odio duielit.">
                     <p>Donec sed odio duielit.</p>
                   </div>
                 </div>
                 <!-- Linha 2 da sugestão -->
                 <div class="row justify-content-md-center align-items-center text-center">
                   <div class="col-6 col-lg-4">
-                    <img class="rounded img-fluid" src="images/home/home-6.jpg" alt="Donec sed odio duielit.">
+                    <img class="rounded img-fluid" src="images/principal/home-6.jpg" alt="Donec sed odio duielit.">
                     <p>Donec sed odio duielit.</p>
                   </div>
                   <div class="col-6 col-lg-4">
-                    <img class="rounded img-fluid" src="images/home/home-7.jpg" alt="Lorem Ipsummm">
+                    <img class="rounded img-fluid" src="images/principal/home-7.jpg" alt="Lorem Ipsummm">
                     <p>Lorem Ipsummm</p>
                   </div>
                   <div class="no-display col-6 col-lg-4">
-                    <img class="rounded img-fluid" src="images/home/home-8.jpg" alt="Donec sed odio duielit.">
+                    <img class="rounded img-fluid" src="images/principal/home-8.jpg" alt="Donec sed odio duielit.">
                     <p>Donec sed odio duielit.</p>
                   </div>
                 </div>

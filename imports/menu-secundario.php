@@ -42,7 +42,7 @@
   </div>
   <!-- logo -->
 	<a class="navbar-brand" href="../">
-		<img src="../images/home/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
+		<img src="../images/principal/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
 		Ecletic.Music
 	</a>
   <!-- Icone de busca -->
