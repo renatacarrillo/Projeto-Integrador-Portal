@@ -70,8 +70,8 @@
                     <a href="#" class="tdestaqueslink">
                         <h3 class="tdestaques text-center">A música clássica hoje</h3>
                     </a>
-                    <img src="../images/classica/destaque-01.jpg" class="img-fluid" alt="notícia um: a música clássica hoje">
-                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.</p>
+                    <img src="../images/classica/destaque-01.jpg" class="img-fluid rounded" alt="notícia um: a música clássica hoje">
+                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">Leia mais</a></p>
                 </section>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
@@ -79,8 +79,8 @@
                     <a href="#" class="tdestaqueslink">
                         <h3 class="tdestaques text-center">Para estudar e relaxar</h3>
                     </a>
-                    <img src="../images/classica/destaque-02.jpg" class="img-fluid" alt="notícia dois: para estudar e ralaxar">
-                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.</p>
+                    <img src="../images/classica/destaque-02.jpg" class="img-fluid rounded" alt="notícia dois: para estudar e ralaxar">
+                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">Leia mais</a></p>
                 </section>
             </div>
             <div class="col-12 col-md-4 col-lg-4">
@@ -88,8 +88,8 @@
                     <a href="#" class="tdestaqueslink">
                         <h3 class="tdestaques text-center">Sucesso nos desenhos</h3>
                     </a>
-                    <img src="../images/classica/destaque-03.jpg" class="img-fluid" alt="notícia três: sucesso nos desenhos">
-                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.</p>
+                    <img src="../images/classica/destaque-03.jpg" class="img-fluid rounded" alt="notícia três: sucesso nos desenhos">
+                    <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">Leia mais</a></p>
                 </section>
             </div>
         </div>

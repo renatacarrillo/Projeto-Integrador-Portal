@@ -52,7 +52,7 @@
                     <img src="images/noticias/slide/slide-03.jpg" class="img-fluid d-block imgnot" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
-                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Por que ouvir Ratos de Porão?</h3>
+                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Punk: uma crítica ao sistema</h3>
                             <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                         </a>
                     </div>
@@ -112,7 +112,7 @@
             <article class="col-12 col-md-6 col-lg-3 ">
                 <div>
                     <h3 class="tnoticias font-weight-bold mt-3">Gusttavo Lima e o sucesso</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat... <a href="#" id="lnoticias"> Leia mais</a></p>
+                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
                 </div>
             </article>
             <div class="col-12 col-md-6 col-lg-3 ">
@@ -121,7 +121,7 @@
             <article class="col-12 col-md-6 col-lg-3">
                 <div>
                     <h3 class="tnoticias font-weight-bold mt-3">Por que ouvir Ratos de Porão?</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat... <a href="#"> Leia mais</a></p>
+                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
                 </div>
             </article>
         </div>
@@ -132,7 +132,7 @@
             <article class="col-12 col-md-6 col-lg-3 mt-3 mb-4">
                 <div>
                     <h3 class="tnoticias font-weight-bold">Topo das paradas: Bateu os Beatles!</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat... <a href="#"> Leia mais</a></p>
+                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
                 </div>
             </article>
             <div class="col-12 col-md-6 col-lg-3 mt-3">
@@ -141,7 +141,7 @@
             <article class="col-12 col-md-6 col-lg-3 mt-3 mb-4">
                 <div>
                     <h3 class="tnoticias font-weight-bold">Novo albúm: The Neighbourhood</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat... <a href="#"> Leia mais</a></p>
+                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
                 </div>
             </article>
         </div>

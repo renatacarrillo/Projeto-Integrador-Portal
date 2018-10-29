@@ -450,6 +450,9 @@ img.img-destaque {
 .partistas {
     text-indent: 40px;
 }
+.imgartistas {
+    width: 100%;
+}
 /*Origem a clássica*/
 .porigem {
     padding: 15px 0px 0px 0px;
@@ -474,16 +477,20 @@ img.img-destaque {
     text-indent: 40px;
     padding: 10px 0px 0px 0px;
 }
+.tdestaques {
+    color: black;
+    font-weight: bold;
+}
 /*Curiosidades da clássica*/
 .tmarcos {
     padding: 10px;
     margin: 0;
     text-align: center;
 }
-.mleiamais {
-    background-color: #ffa000;
+.cleiamais {
+    background: linear-gradient(to right, #D1913C, #FFD194);
     border-radius: 5px;
-    padding: 3px;
+    padding: 5px;
     color: black;
     font-weight: bold;
 }
@@ -500,14 +507,20 @@ img.img-destaque {
 .fcolor {
     background-color: #efbe6b;
 }
+.linklancamentos {
+    color: black;
+}
+.tlancamentos {
+    font-weight: bold;
+    text-align: center;
+}
 /****************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
 /*NOTICIAS*/
 .tnoticias {
-    padding: 0px 10px 0 10px;
     color: black;
 }
 .pnoticias {
-    padding: 0px 10px 0 10px;
+    padding: 0px 0px 10px 0px;
     margin: 0;
     color: black;
 }
@@ -519,13 +532,14 @@ img.img-destaque {
     padding: 0;
     margin: 0;
 }
-#lnoticias {
+.lnoticias {
     background: linear-gradient(to left, #fc00ff, #00dbde);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
 }
-.hnoticias:hover {
-    text-decoration: none;
-    color: linear-gradient(to left, #fc00ff, #00dbde);
-}
+
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
 #header-indie {
