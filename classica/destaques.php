@@ -27,7 +27,7 @@
 
                         <img src="../images/classica/slide/slide-01.jpg" class="img-fluid d-block" alt="primeiro slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <a href="#"><h3 class="tcarousel text-left font-weight-bold text-white">A maior orquestra brasileira</h3>
+                            <a href="#"><h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">A maior orquestra brasileira</h3>
                             <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.</p></a>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
 
                         <img src="../images/classica/slide/slide-02.jpg" class="img-fluid d-block" alt="segundo slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <a href="#"><h3 class="tcarousel text-left font-weight-bold text-white">Composições que marcaram o Brasil</h3>
+                            <a href="#"><h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Composições que marcaram o Brasil</h3>
                                 <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.</p></a>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
 
                         <img src="../images/classica/slide/slide-03.jpg" class="img-fluid d-block" alt="terceiro slide">
                         <div class="carousel-caption d-none d-md-block text-white">
-                            <a href="#"><h3 class="tcarousel text-left font-weight-bold text-white">Instrumentos principais</h3>
+                            <a href="#"><h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Instrumentos principais</h3>
                                 <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui.</p></a>
                         </div>
                     </div>

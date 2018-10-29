@@ -502,37 +502,29 @@ img.img-destaque {
 }
 /****************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
 /*NOTICIAS*/
-imgnot {
-    width: 100%;
-    height: 100%;
-}
-.tnot {
-    padding: 0px 10px 0 10px;
-    text-align: left;
-}
-.pnot {
-    padding: 0px 10px 0 10px;
-    margin: 0;
-    text-align: justify;
-}
 .tnoticias {
-    padding: 0;
-    margin: 0;
-    color:white;
-    text-align: left;
-    font-weight: bold;
+    padding: 0px 10px 0 10px;
+    color: black;
 }
 .pnoticias {
+    padding: 0px 10px 0 10px;
+    margin: 0;
+    color: black;
+}
+.tcarrossel {
     padding: 0;
     margin: 0;
-    color:white;
-    text-align: left;
 }
-.bnot {
-    background-image: url('../images/noticias/slide/katy-perry.jpg');
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.pcarrossel {
+    padding: 0;
+    margin: 0;
+}
+#lnoticias {
+    background: linear-gradient(to left, #fc00ff, #00dbde);
+}
+.hnoticias:hover {
+    text-decoration: none;
+    color: linear-gradient(to left, #fc00ff, #00dbde);
 }
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
