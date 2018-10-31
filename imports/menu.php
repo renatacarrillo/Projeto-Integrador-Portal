@@ -1,5 +1,14 @@
 <!-- Menu top das paginas -->
-
+<!-- definição em PHP para alterar o idioma, OBS: USAR 0 = Pt-BR 1 = En-US-->
+<?php
+	$menu_pt = array("Home","Noticias","Ranking","Cifras","Indicações","Quem Somos","Contato","Normas do Site","Conteudo");
+	$menu_en = array("Home","News","Ranking","Chords","Indications","About Us","Contact","Site Rules","Content");
+	$menu = array($menu_pt, $menu_en);
+	// print_r($menu);
+	if (!isset($_GET['i'])) {
+		$_GET['i']=0;
+	}
+ ?>
 	<nav id="navheader" class="navbar navbar-light">
     <!-- botão do menu secundario com as paginas -->
     <!-- <a href="#" class="navbar-nav slide-menu-open">Open Menu</a> -->
@@ -42,51 +51,51 @@
     <ul class="nav nav-justified">
       <li class="nav-item icone">
         <!-- <a class="nav-link active" href="#"></i> Home</a> -->
-        <a class="nav-link" href="index.php" title="Home">
+        <a class="nav-link" href="index.php" title="<?php echo $menu[$_GET['i']][0]?>">
           <span class="menu-icon"><i class="fas fa-home"></i></span>
-          <span class="menu-text">Home</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][0]?></span>
         </a>
       </li>
       <li class="nav-item icone">
         <!-- <a class="nav-link" href="#"><i class="far fa-newspaper"></i> Noticias</a> -->
-        <a class="nav-link" href="noticias.php" title="Noticias">
+        <a class="nav-link" href="noticias.php" title="<?php echo $menu[$_GET['i']][1]?>">
           <span class="menu-icon"><i class="far fa-newspaper"></i></span>
-          <span class="menu-text">Noticias</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][1]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-trophy"></i> Ranking</a> -->
-        <a class="nav-link" href="ranking.php" title="Ranking">
+        <a class="nav-link" href="ranking.php" title="<?php echo $menu[$_GET['i']][2]?>">
           <span class="menu-icon"><i class="fas fa-chart-line"></i></span>
-          <span class="menu-text">Ranking</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][2]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-music"></i> Cifras</a> -->
-        <a class="nav-link" href="cifras.php" title="Cifras">
+        <a class="nav-link" href="cifras.php" title="<?php echo $menu[$_GET['i']][3]?>">
           <span class="menu-icon"><i class="fas fa-music"></i></span>
-          <span class="menu-text">Cifras</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][3]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-headphones"></i> Indicações</a> -->
-        <a class="nav-link" href="indicacoes.php" title="Indicações">
+        <a class="nav-link" href="indicacoes.php" title="<?php echo $menu[$_GET['i']][4]?>">
           <span class="menu-icon"><i class="fas fa-headphones"></i></span>
-          <span class="menu-text">Indicações</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][4]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="far fa-address-card"></i> Quem Somos</a> -->
-        <a class="nav-link" href="quem-somos.php" title="Quem Somos">
+        <a class="nav-link" href="quem-somos.php" title="<?php echo $menu[$_GET['i']][5]?>">
           <span class="menu-icon"><i class="fas fa-users"></i></span>
-          <span class="menu-text">Quem Somos</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][5]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-phone"></i> Contato</a> -->
-        <a class="nav-link" href="contato.php" title="Contato">
+        <a class="nav-link" href="contato.php" title="<?php echo $menu[$_GET['i']][6]?>">
           <span class="menu-icon"><i class="fas fa-phone"></i></span>
-          <span class="menu-text">Contato</span>
+          <span class="menu-text"> <?php echo $menu[$_GET['i']][6]?></span>
         </a>
       </li>
     </ul>
