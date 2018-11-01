@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!--PHP para verificar qual o idioma do html -->
+<html <?php if ($_GET['i']=='EN') { echo 'lang="en-US"';
+            } else {echo 'lang="pt-BR"';}?>>
 	<!--head-->
   <?php
         include('imports/head.php');

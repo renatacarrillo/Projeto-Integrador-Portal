@@ -2,15 +2,20 @@
 <?php
 	$menu_pt = array("Home","Noticias","Ranking","Cifras","Indicações","Quem Somos","Contato","Normas do Site","Conteudo");
 	$menu_en = array("Home","News","Ranking","Chords","Indications","About Us","Contact","Site Rules","Content");
-	$menu = array($menu_pt, $menu_en);
+	//$menu = array($menu_pt, $menu_en);
+	$menu = array('PT'=> $menu_pt,'EN' => $menu_en);
 //menu das paginas secundarias
-	$menu_sec_pt = array("Artistas","Origem","Lançamentos","Destaques","Indicações","Marcos");
-	$menu_sec_en = array("Artists","Origin","Releases","Highlights","Indications","Mark");
-	$menu_sec = array($menu_sec_pt, $menu_sec_en);
+	$menu_sec_pt = array("Artistas","Origem","Lançamentos","Destaques","Marcos");
+	$menu_sec_en = array("Artists","Origin","Releases","Highlights","Mark");
+	//$menu_sec = array($menu_sec_pt, $menu_sec_en);
+	$menu_sec = array('PT'=> $menu_sec_pt,'EN' => $menu_sec_en);
+
 	// print_r($menu);
 	if (!isset($_GET['i'])) {
-		$_GET['i']=0;
+		$_GET['i']='PT';
 	}
+
+	$ID = $_GET['i'];
 
 //PHP para alterar a cor do header de acordo com a pagina
 	// $URL_ATUAL= "$_SERVER[REQUEST_URI]";
@@ -53,7 +58,7 @@
     <a href="#" class="navbar-nav slide-menu-open"> <i class="fas fa-bars"></i></a>
   </div>
   <!-- logo -->
-	<a class="navbar-brand" href="../">
+	<a class="navbar-brand" href="<?php echo "../?i=".$ID?>">
 		<img src="../images/principal/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
 		Ecletic.Music
 	</a>
@@ -67,13 +72,13 @@
 		<!-- menu das paginas principais do site -->
       <ul class="paginas">
         <li>MENU PRINCIPAL</li>
-        <li><a  href="../index.php"><i class="fas fa-home"> </i>  <?php echo $menu[$_GET['i']][0]?></a></li>
-        <li><a  href="../noticias.php"><i class="far fa-newspaper"> </i>  <?php echo $menu[$_GET['i']][1]?></a></li>
-        <li><a  href="../ranking.php"><i class="fas fa-chart-line"> </i>  <?php echo $menu[$_GET['i']][2]?></a></li>
-        <li><a  href="../cifras.php"><i class="fas fa-music"> </i>  <?php echo $menu[$_GET['i']][3]?></a></li>
-        <li><a  href="../indicacoes.php"><i class="fas fa-headphones"> </i>  <?php echo $menu[$_GET['i']][4]?></a></li>
-        <li><a  href="../quem-somos.php"><i class="far fa-address-card"> </i>  <?php echo $menu[$_GET['i']][5]?></a></li>
-        <li><a  href="../contato.php"><i class="fas fa-phone"> </i>  <?php echo $menu[$_GET['i']][6]?></a></li>
+        <li><a  href="<?php echo "../index.php?i=".$ID?>"><i class="fas fa-home"> </i>  <?php echo $menu[$ID][0]?></a></li>
+        <li><a  href="<?php echo "../noticias.php?i=".$ID?>"><i class="far fa-newspaper"> </i>  <?php echo $menu[$ID][1]?></a></li>
+        <li><a  href="<?php echo "../ranking.php?i=".$ID?>"><i class="fas fa-chart-line"> </i>  <?php echo $menu[$ID][2]?></a></li>
+        <li><a  href="<?php echo "../cifras.php?i=".$ID?>"><i class="fas fa-music"> </i>  <?php echo $menu[$ID][3]?></a></li>
+        <li><a  href="<?php echo "../indicacoes.php?i=".$ID?>"><i class="fas fa-headphones"> </i>  <?php echo $menu[$ID][4]?></a></li>
+        <li><a  href="<?php echo "../quem-somos.php?i=".$ID?>"><i class="far fa-address-card"> </i>  <?php echo $menu[$ID][5]?></a></li>
+        <li><a  href="<?php echo "../contato.php?i=".$ID?>"><i class="fas fa-phone"> </i>  <?php echo $menu[$ID][6]?></a></li>
       </ul>
 
     <div id="redes-sociais">
@@ -89,39 +94,39 @@
 <nav id="navprincipal">
   <ul class="nav nav-justified">
 	  <li class="nav-item">
-		  <a class="nav-link active" href="index.php" title="<?php echo $pagina ?>">
+		  <a class="nav-link active" href="<?php echo "index.php?i=".$ID?>" title="<?php echo $pagina ?>">
 			 	<span class="menu-icon"><i class="fas fa-home "></i></span>
 			  <span class="menu-text"> <?php echo ucwords($pagina) ?></span>
 		  </a>
 	 	</li>
     <li class="nav-item">
-      <a class="nav-link active" href="artistas.php" title="<?php echo $menu_sec[$_GET['i']][0]?>">
+      <a class="nav-link active" href="<?php echo "artistas.php?i=".$ID?>" title="<?php echo $menu_sec[$ID][0]?>">
         <span class="menu-icon"><i class="fas fa-microphone-alt"></i></span>
-        <span class="menu-text"><?php echo $menu_sec[$_GET['i']][0]?></span>
+        <span class="menu-text"><?php echo $menu_sec[$ID][0]?></span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="origem.php" title="<?php echo $menu_sec[$_GET['i']][1]?>">
+      <a class="nav-link active" href="<?php echo "origem.php?i=".$ID?>" title="<?php echo $menu_sec[$ID][1]?>">
         <span class="menu-icon"><i class="fas fa-book-open"></i> </span>
-        <span class="menu-text"><?php echo $menu_sec[$_GET['i']][1]?></span>
+        <span class="menu-text"><?php echo $menu_sec[$ID][1]?></span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="lancamentos.php" title="<?php echo $menu_sec[$_GET['i']][2]?>">
+      <a class="nav-link active" href="<?php echo "lancamentos.php?i=".$ID?>" title="<?php echo $menu_sec[$ID][2]?>">
         <span class="menu-icon"><i class="fab fa-itunes-note"></i> </span>
-        <span class="menu-text"><?php echo $menu_sec[$_GET['i']][2]?></span>
+        <span class="menu-text"><?php echo $menu_sec[$ID][2]?></span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="destaques.php" title="<?php echo $menu_sec[$_GET['i']][3]?>">
+      <a class="nav-link active" href="<?php echo "destaques.php?i=".$ID?>" title="<?php echo $menu_sec[$ID][3]?>">
         <span class="menu-icon"><i class="fas fa-clipboard-list"></i></span>
-        <span class="menu-text"><?php echo $menu_sec[$_GET['i']][3]?></span>
+        <span class="menu-text"><?php echo $menu_sec[$ID][3]?></span>
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="marcos.php" title="<?php echo $menu_sec[$_GET['i']][4]?>">
+      <a class="nav-link active" href="<?php echo "marcos.php?i=".$ID?>" title="<?php echo $menu_sec[$ID][4]?>">
         <span class="menu-icon"><i class="fas fa-bookmark"></i></span>
-        <span class="menu-text"><?php echo $menu_sec[$_GET['i']][4]?></span>
+        <span class="menu-text"><?php echo $menu_sec[$ID][4]?></span>
       </a>
     </li>
   </ul>
