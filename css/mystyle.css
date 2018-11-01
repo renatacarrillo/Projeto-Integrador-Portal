@@ -390,6 +390,155 @@ img.img-destaque {
 .menu-text-dest {
   font-size: .9em;
 }
+/****************************AJUSTES CLASSICA*****************************/
+#header-classica {
+  background: #D1913C;
+  background: linear-gradient(to right, #D1913C, #FFD194);
+}
+/*Home clássica*/
+#artistas {
+    background-image: url('../images/classica/menu-01.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#origem {
+    background-image: url('../images/classica/menu-02.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#famosas {
+    background-image: url('../images/classica/menu-03.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#destaques {
+    background-image: url('../images/classica/menu-04.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#curiosidades {
+    background-image: url('../images/classica/menu-05.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tmenu {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.pmenu {
+    font-size: 14px;
+    color: white;
+    padding: 0px 0px 10px 10px;
+}
+.tboxmenu {
+    background-color: rgba(0, 0, 0, .5);
+    position: relative;
+    top: 250px;
+    height: 150px;
+}
+/*Artistas da clássica*/
+.partistas {
+    text-indent: 40px;
+}
+.imgartistas {
+    width: 100%;
+}
+/*Origem a clássica*/
+.porigem {
+    padding: 15px 0px 0px 0px;
+    text-indent: 40px;
+    text-align: justify;
+}
+.tboxorigem {
+    padding: 10px;
+    margin: 2px;
+    color: black;
+}
+#boxorigem {
+    background-color: #efbe6b;
+    border-radius: 10px;
+    padding: 10px;
+}
+/*Destaques da clássica*/
+.tcarousel {
+    padding: 40px;
+}
+.pdestaques {
+    text-indent: 40px;
+    padding: 10px 0px 0px 0px;
+}
+.tdestaques {
+    color: black;
+    font-weight: bold;
+}
+/*Curiosidades da clássica*/
+.tmarcos {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.cleiamais {
+    background: linear-gradient(to right, #D1913C, #FFD194);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+/*Famosas da clássica*/
+
+.tableclassica tr {
+    border-bottom: 1px solid lightgray;
+}
+.fprimeiracolocada {
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: 1px 3px 10px #efbe6b;
+}
+.fcolor {
+    background-color: #efbe6b;
+}
+.linklancamentos {
+    color: black;
+}
+.tlancamentos {
+    font-weight: bold;
+    text-align: center;
+}
+/****************************FINAL DOS AJUSTES DA PÁGINA CLÁSSICA*********/
+/*NOTICIAS*/
+.tnoticias {
+    color: black;
+}
+.pnoticias {
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+    color: black;
+}
+.tcarrossel {
+    padding: 0;
+    margin: 0;
+}
+.pcarrossel {
+    padding: 0;
+    margin: 0;
+}
+.lnoticias {
+    background: linear-gradient(to left, #fc00ff, #00dbde);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
 
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
