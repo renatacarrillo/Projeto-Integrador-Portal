@@ -24,7 +24,7 @@
                 echo '<img id="img-lancamento" src="../images/sertanejo/lancamento-01.jpg" class="shadow figure-img img-fluid rounded" alt="CD Luan Santana">';
                 echo '<figcaption class="text-left figure-caption"><strong>Sofazinho</strong> <br>Luan Santana</figcaption>';
               } else{
-                echo '<img id="img-lancamento" src="../images/home/home-8.jpg" class="shadow figure-img img-fluid rounded" alt="CD Zé Neto & Cristiano">';
+                echo '<img id="img-lancamento" src="../images/principal/home-8.jpg" class="shadow figure-img img-fluid rounded" alt="CD Zé Neto & Cristiano">';
                 echo '<figcaption class="text-left figure-caption"><strong>Status Que Eu Não Queria</strong> <br>Zé Neto & Cristiano</figcaption>';
               }
             ?>

@@ -14,10 +14,8 @@
     <!-- Conteudo da pagina  -->
     <main>
         <div class="container mt-3">
-<<<<<<< HEAD
             <h1 class="text-center">Noticias do Mundo POP</h1>
-=======
->>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
+
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="caixa1">

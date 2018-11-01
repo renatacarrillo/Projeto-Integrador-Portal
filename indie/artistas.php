@@ -23,7 +23,7 @@
             
                 <!-- Primeira Imagem -->
                 <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
             
                 <div class="col-lg-3">
@@ -34,7 +34,7 @@
 
                 <!-- Segunda Imagem -->
                 <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
             
                 <div class="col-lg-3">
@@ -53,7 +53,7 @@
             
             <!-- Primeira Imagem -->
             <div class="col-lg-3">
-                <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             </div>
             
             <div class="col-lg-3">
@@ -64,7 +64,7 @@
 
             <!-- Segunda Imagem -->
             <div class="col-lg-3">
-                <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             </div>
             
             <div class="col-lg-3">
@@ -83,7 +83,7 @@
             
             <!-- Primeira Imagem -->
             <div class="col-lg-3">
-                <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             </div>
             
             <div class="col-lg-3">
@@ -94,7 +94,7 @@
 
             <!-- Segunda Imagem -->
             <div class="col-lg-3">
-                <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             </div>
             
             <div class="col-lg-3">
@@ -113,7 +113,7 @@
             
             <!-- Primeira Imagem -->
             <div class="col-lg-3">
-                <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             </div>
             
             <div class="col-lg-3">
@@ -124,7 +124,7 @@
 
             <!-- Segunda Imagem -->
             <div class="col-lg-3">
-                <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
             </div>
             
             <div class="col-lg-3">

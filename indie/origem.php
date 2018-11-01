@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/carrossel-04.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/carrossel-04.jpg" alt="Generic placeholder image"></a>
                 </div>
             </div>
         </div>
@@ -50,15 +50,15 @@
             <div class="row text-center home-geral">
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-2.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-3.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
                 </div>
 
             </div>
@@ -71,15 +71,15 @@
             <div class="row text-center home-geral">
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-2.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-3.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
                 </div>
 
             </div>

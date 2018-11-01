@@ -42,7 +42,7 @@
             <div class="card-footer">
               <small>Albuns:</small>
               <ul class="list-albuns">
-                <li> <img class="w-25" src="../images/sertanejo/michel1.jpg" alt="Bem Sertanejo"></li>
+                <li> <img class="w-25" src="../images/sertanejo/lancamento-01.jpg" alt="CD-Duetos"></li>
               </ul>
             </div>
           </div>
@@ -57,7 +57,7 @@
             <div class="card-footer">
               <small>Albuns:</small>
               <ul class="list-albuns">
-                <li> <img class="w-25" src="../images/sertanejo/michel3.jpg" alt="Na Balada"></li>
+                <li> <img class="w-25" src="../images/sertanejo/lancamento-04.jpg" alt="Albun-Acustico"></li>
               </ul>
             </div>
           </div>
@@ -72,7 +72,8 @@
             <div class="card-footer">
               <small>Albuns:</small>
               <ul class="list-albuns">
-                <li> <img class="w-25" src="../images/sertanejo/michel2.jpg" alt="Sunset"></li>
+                <li> <img class="w-25" src="../images/sertanejo/lancamento-02.jpg" alt="CD- Simone e Simara"></li>
+                <li> <img class="w-25" src="../images/sertanejo/lancamento-03.jpg" alt="CD- Simone e Simara"></li>
               </ul>
             </div>
           </div>

@@ -19,7 +19,7 @@
             <a href="../images/sertanejo/destaques-2.jpg" title="lorem Ipsum -1977"><img src="../images/sertanejo/destaques-2.jpg" width="200" height="200"></a>
             <a href="../images/sertanejo/destaques-3.jpg" title="lorem Ipsum -1990"><img src="../images/sertanejo/destaques-3.jpg" width="200" height="200"></a>
             <a href="../images/sertanejo/destaques-4.jpg" title="lorem Ipsum -1995"><img src="../images/sertanejo/destaques-4.jpg" width="200" height="200"></a>
-            <a href="../images/home/carrossel-04.jpg" title="lorem Ipsum -2000"><img src="../images/home/carrossel-04.jpg" width="200" height="200"></a>
+            <a href="../images/principal/carrossel-04.jpg" title="lorem Ipsum -2000"><img src="../images/principal/carrossel-04.jpg" width="200" height="200"></a>
           </div>
         </div>
       </div>

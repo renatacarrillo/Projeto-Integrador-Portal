@@ -21,11 +21,11 @@
                 </div>
                 <div class="col-md-6 mt-1">
                     <div class="container-fluid">
-                        <img class="img-fluid" src="images/home/indicacao1.png" title="Coca-Cola">
-                        <img class="img-fluid" src="images/home/indicacao2.png" title="Kiss-FM">
-                        <img class="img-fluid" src="images/home/indicacao1.png" title="Coca-Cola">
-                        <img class="img-fluid" src="images/home/indicacao2.png" title="Kiss-FM">
-                        <img class="img-fluid" src="images/home/indicacao1.png" title="Coca-Cola">
+                        <img class="img-fluid" src="images/principal/indicacao1.jpg" title="Coca-Cola">
+                        <img class="img-fluid" src="images/principal/indicacao2.jpg" title="Kiss-FM">
+                        <img class="img-fluid" src="images/principal/indicacao1.jpg" title="Coca-Cola">
+                        <img class="img-fluid" src="images/principal/indicacao2.jpg" title="Kiss-FM">
+                        <img class="img-fluid" src="images/principal/indicacao1.jpg" title="Coca-Cola">
                     </div>
                 </div>
             </div>

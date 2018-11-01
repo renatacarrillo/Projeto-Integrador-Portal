@@ -32,7 +32,7 @@
                 <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <img class="first-slide" src="../images/home/carrossel-01.jpg" alt="First slide">
+                                <img class="first-slide" src="../images/principal/carrossel-01.jpg" alt="First slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>Example headline.</h1>
@@ -43,7 +43,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="second-slide" src="../images/home/carrossel-02.jpg" alt="Second slide">
+                                <img class="second-slide" src="../images/principal/carrossel-02.jpg" alt="Second slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>Another example headline.</h1>
@@ -54,7 +54,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="third-slide" src="../images/home/carrossel-03.jpg" alt="Third slide">
+                                <img class="third-slide" src="../images/principal/carrossel-03.jpg" alt="Third slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>One more for good measure.</h1>
@@ -65,7 +65,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="four-slide" src="../images/home/carrossel-04.jpg" alt="Four slide">
+                                <img class="four-slide" src="../images/principal/carrossel-04.jpg" alt="Four slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>One more for good measure.</h1>
@@ -118,15 +118,15 @@
             <div class="row text-center home-geral">
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-2.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-3.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
                 </div>
 
             </div>
@@ -139,15 +139,15 @@
             <div class="row text-center home-geral">
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-2.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <a href="#"><img class="rounded img-fluid" src="../images/home/home-3.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
                 </div>
 
             </div>

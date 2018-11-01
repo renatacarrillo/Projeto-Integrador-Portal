@@ -21,7 +21,7 @@
             <div class="container">
                 <div class="row text-left">
                     <div class="col-lg-4">
-                        <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                        <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                     </div>
 
                     <!-- Texto -->
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                        <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                     </div>
                 </div>
             </div>
