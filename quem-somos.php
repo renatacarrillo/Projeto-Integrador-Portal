@@ -23,12 +23,14 @@
               if ($_GET['i']=='PT') {
                 echo "<p>RA:2650831813014 - Desenvolvedor</p>";
                 echo '<p><a href="classica/index.php">Classica</a></p>';
-                echo "<p>Eu sou a Karina Cavalcanti Lucindo, 18 anos de idade. Sou estudante da FATEC São Roque, cursando Sistemas para Internet. Eu escolhi esse curso, pois eu não consegui obter uma nota boa no ENEM, então eu tentei o vestibular da FATEC e entrei.</p>";
+                echo "<p>Eu sou a Karina Cavalcanti Lucindo, 18 anos de idade. Sou estudante da FATEC São Roque, cursando o 2º semestre do curso Sistemas para Internet. Sou responsável pela criação das páginas Clássica e da página Notícias.</p>";
+
               }
               if ($_GET['i']=='EN') {
                 echo "<p>RA:2650831813022 - Developer</p>";
-                echo '<p><a href="classica/index.php">Classica</a></p>';
-                echo "<p>I'm Karina Cavalcanti Lucindo, 18 years old. I'm student at FATEC São Roque, cursing Systems for Internet. I've choosed this course because I haven't gotten a good grade at ENEM, so I've tried FATEC's test and gotten at it.</p>";
+               echo '<p><a href="classica/index.php">Classica</a></p>';
+                echo "<p>I'm Karina Cavalcanti Lucindo, 18 years old. I'm student at FATEC São Roque, cursing the second semester of Systems for Internet. I'm responsable about criation of the Classic pages and the News page.</p>";
+
                 }
               ?>
           </div>

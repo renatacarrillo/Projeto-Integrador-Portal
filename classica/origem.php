@@ -17,10 +17,10 @@
     <!--ARTICLE-->
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-12 col-lg-8 mt-3">
+            <div class="col-12 col-md-12 col-lg-8">
                 <section>
-                    <h3 id="torigem" class="text-center">História da música clássica</h3>
-                    <img src="../images/classica/sescsp.jpg" alt="origem" class="img-fluid">
+                    <h3 id="torigem" class="text-center font-weight-bold mt-3 mb-3">História da música clássica</h3>
+                    <img src="../images/classica/origem-01.jpg" alt="origem" class="img-fluid">
                 </section>
 
                 <article>
@@ -28,17 +28,17 @@
                 </article>
 
                 <section>
-                    <img src="../images/classica/origemtesteteste.jpg" alt="origem" class="img-fluid">
+                    <img src="../images/classica/origem-02.jpg" alt="origem" class="img-fluid">
                 </section>
                 <section>
-                    <p class="porigem text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. Donec blandit metus ut arcu iaculis iaculis. </p>
+                    <p class="porigem text-justify mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. </p>
                 </section>
             </div>
 
-            <div class="col-12 col-md-12 col-lg-4 mt-5">
+            <div class="col-12 col-md-12 col-lg-4 mt-5 mb-4">
 
                 <div id="boxorigem">
-                    <h5 class="text-center">Veja também:</h5>
+                    <h5 class="text-center font-weight-bold">Veja também:</h5>
                 </div>
                     <div class="row mt-4">
                         <div class="col-12 col-md-2 col-lg-12 morigem">
