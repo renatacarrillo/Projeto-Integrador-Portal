@@ -28,7 +28,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4 mb-4">
                 <article>
                     <h5 class="tlancamentos">Clique na composição e aprecie!</h5>
-                    <table class="align-content-center table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                    <table class="align-content-center tableclassica table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
                         <thead class="fcolor">
                             <tr>
                                 <th></th>
