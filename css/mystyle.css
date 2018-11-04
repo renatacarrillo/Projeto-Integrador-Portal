@@ -82,17 +82,20 @@
 }
 
 /*** Hover do icones das redes sociais  ***/
-#redes-sociais ul li.face a:hover, #redes-sociais-footer ul li.face a:hover {
+#redes-sociais ul li.face a:hover, #redes-sociais-footer ul li.face a:hover,
+#redes-sociais-footer-mobi ul li.face a:hover {
   transition: color 0.3s;
   color: #3b5998;
 }
 
-#redes-sociais ul li.twit a:hover, #redes-sociais-footer ul li.twit a:hover {
+#redes-sociais ul li.twit a:hover, #redes-sociais-footer ul li.twit a:hover,
+#redes-sociais-footer-mobi ul li.twit a:hover {
   transition: color 0.3s;
   color: #1da1f2;
 }
 
-#redes-sociais ul li.insta a:hover, #redes-sociais-footer ul li.insta a:hover {
+#redes-sociais ul li.insta a:hover, #redes-sociais-footer ul li.insta a:hover,
+#redes-sociais-footer-mobi ul li.insta a:hover {
   transition: color 0.3s;
   color: #c13584;
 }
@@ -189,6 +192,22 @@ body {
   color: #fff;
 }
 
+#redes-sociais-footer-mobi{
+  display: none;
+  text-align: center;
+  padding-right: 1.5em;
+}
+
+#redes-sociais-footer-mobi ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+#redes-sociais-footer-mobi ul li{
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
 #redes-sociais-footer ul {
   list-style: none;
   padding: 0;
@@ -200,11 +219,11 @@ body {
 }
 
 #redes-sociais-footer ul li a {
-  padding-right: 1.5em;
+  padding-right: 1.1em;
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 #footer a {
@@ -215,15 +234,18 @@ body {
   transition: color 0.3s;
   color: #9C9C9C;
 }
+.lista-conteudo{
+  list-style: none;
+}
 
 .logo-footer {
-  margin: 0 auto;
-  width: 4em;
-  height: 4em;
+  margin-left: 1em;
+  width: 6em;
+  height: 6em;
 }
 
 .copy {
-  padding-top: 2em;
+  padding-top: 0.5em;
   text-align: center;
 }
 
@@ -242,7 +264,7 @@ a.home-cifras, a.home-ritmo{
 }
 
 .home-cifras h3 {
-  background: url('../images/home/cifras.jpg');
+  background: url('../images/principal/cifras.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -363,7 +385,7 @@ a div.fundo-texto:hover {
 }
 
 .lancamento {
-  background: url('../images/sertanejo/textura.png');
+  background: url('../images/sertanejo/textura.jpg');
 }
 
 /***sertanejo destaque**/
@@ -469,6 +491,10 @@ img.img-destaque {
     border-radius: 10px;
     padding: 10px;
 }
+.artistas-classica .jumbotron {
+    background-image: url('../images/classica/jumbotron.jpg');
+    background-size: cover;
+}
 /*Destaques da clássica*/
 .tcarousel {
     padding: 40px;
@@ -495,7 +521,6 @@ img.img-destaque {
     font-weight: bold;
 }
 /*Famosas da clássica*/
-
 .tableclassica tr {
     border-bottom: 1px solid lightgray;
 }
@@ -505,7 +530,7 @@ img.img-destaque {
     text-shadow: 1px 3px 10px #efbe6b;
 }
 .fcolor {
-    background-color: #efbe6b;
+    background: linear-gradient(to right, #D1913C, #FFD194);
 }
 .linklancamentos {
     color: black;
@@ -629,8 +654,6 @@ h3.titulos-indie {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.espaço-art {padding: 10px;}
-
 /************************* HIP-HOP ***************************************/
 /** Header **/
 #header-hip-hop {
@@ -661,6 +684,10 @@ h3.titulos-indie {
 
 /*PÁGINA ORIGEM - HIP HOP*/
 
+
+
+
+
 /************* AJUSTES RESPONSIVOS **********************/
 /* // Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
 @media (max-width: 575.98px) {
@@ -676,6 +703,15 @@ h3.titulos-indie {
     width: 100%;
     max-height: 200px;
   }
+  #redes-sociais-footer{
+    display: none;
+  }
+  #redes-sociais-footer-mobi{
+    display: block;
+  }
+  .pl-xs-3{
+      padding-left: 1.6em;
+  }
 }
 
 /* // Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -688,6 +724,7 @@ h3.titulos-indie {
     display: none;
   }
 }
+
 
 /* // Dispositivos médios (tablets com 768px ou mais) */
 @media (min-width: 768px) and (max-width: 991.98px) {
