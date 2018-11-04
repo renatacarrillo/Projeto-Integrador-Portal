@@ -491,6 +491,10 @@ img.img-destaque {
     border-radius: 10px;
     padding: 10px;
 }
+.artistas-classica .jumbotron {
+    background-image: url('../images/classica/jumbotron.jpg');
+    background-size: cover;
+}
 /*Destaques da clássica*/
 .tcarousel {
     padding: 40px;
@@ -517,7 +521,6 @@ img.img-destaque {
     font-weight: bold;
 }
 /*Famosas da clássica*/
-
 .tableclassica tr {
     border-bottom: 1px solid lightgray;
 }
@@ -527,7 +530,7 @@ img.img-destaque {
     text-shadow: 1px 3px 10px #efbe6b;
 }
 .fcolor {
-    background-color: #efbe6b;
+    background: linear-gradient(to right, #D1913C, #FFD194);
 }
 .linklancamentos {
     color: black;
