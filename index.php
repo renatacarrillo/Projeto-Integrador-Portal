@@ -1,4 +1,11 @@
 <?php
+  $home_pt = array();
+  $home_en = array();
+  $home = array('PT'=> $home_pt,'EN' => $home_en);
+// print_r($sertanejo);
+//usar $ID para os Vetores
+ ?>
+<?php
 //PHP para verificar qual o idioma do html
   include('imports/idioma.php');
 ?>
@@ -24,7 +31,7 @@
         <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <section class="carousel-item active">
           <img class="first-slide" src="images/principal/carrossel-01.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
@@ -33,8 +40,8 @@
               <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Noticias</a></p>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="second-slide" src="images/principal/carrossel-02.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
@@ -43,8 +50,8 @@
               <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Veja Mais</a></p>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="third-slide" src="images/principal/carrossel-03.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption text-right">
@@ -53,8 +60,8 @@
               <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Confira</a></p>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
+        </section>
+        <section class="carousel-item">
           <img class="four-slide" src="images/principal/carrossel-04.jpg" alt="Four slide">
           <div class="container">
             <div class="carousel-caption text-right">
@@ -63,7 +70,7 @@
               <p><a class="btn btn-sm btn-outline-light" href="#" role="button">Veja Mais</a></p>
             </div>
           </div>
-        </div>
+        </section>
       </div>
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>

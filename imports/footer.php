@@ -5,7 +5,6 @@
   //$footer = array($footer_pt, $footer_en);
   $footer = array('PT'=> $footer_pt,'EN' => $footer_en);
 ?>
-
   <footer id="footer">
     <div class="container">
       <div class="row no-gutters">
@@ -19,13 +18,13 @@
                 <nav class="menu-secundario">
                   <ul class="nav flex-column pl-xs-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="quem-somos.php"><?php echo $menu[$ID][5]?></a>
+                      <a class="nav-link" href="<?php echo "quem-somos.php".$link?>"><?php echo $menu[$ID][5]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="normas.php"><?php echo $menu[$ID][7]?></a>
+                      <a class="nav-link" href="<?php echo "normas.php".$link?>"><?php echo $menu[$ID][7]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contato.php"><?php echo $menu[$ID][6]?></a>
+                      <a class="nav-link" href="<?php echo "contato.php".$link?>"><?php echo $menu[$ID][6]?></a>
                     </li>
                   </ul>
                 </nav>
@@ -37,30 +36,30 @@
                 <nav class="menu-secundario">
                   <ul class="nav flex-column pl-xs-3">
                     <li class="nav-item">
-                      <a class="nav-link" href="index.php"><?php echo $menu[$ID][0]?></a>
+                      <a class="nav-link" href="<?php echo "index.php".$link?>"><?php echo $menu[$ID][0]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="noticias.php"><?php echo $menu[$ID][1]?></a>
+                      <a class="nav-link" href="<?php echo "noticias.php".$link?>"><?php echo $menu[$ID][1]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="ranking.php"><?php echo $menu[$ID][2]?></a>
+                      <a class="nav-link" href="<?php echo "ranking.php".$link?>"><?php echo $menu[$ID][2]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="cifras.php"><?php echo $menu[$ID][3]?></a>
+                      <a class="nav-link" href="<?php echo "cifras.php".$link?>"><?php echo $menu[$ID][3]?></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="indicacoes.php"><?php echo $menu[$ID][4]?></a>
+                      <a class="nav-link" href="<?php echo "indicacoes.php".$link?>"><?php echo $menu[$ID][4]?></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link dropdown-toggle" data-toggle="collapse" href="#conteudosite"
                       role="button" aria-expanded="false" aria-controls="conteudosite"><?php echo $menu[$ID][8]?></a>
                         <ul  class="collapse lista-conteudo" id="conteudosite">
-                          <li class="nav-item"><a class="nav-link" href="classica/index.php">Classica</a></li>
-                          <li class="nav-item"><a class="nav-link" href="hip-hop/index.php">Hip-Hop</a></li>
-                          <li class="nav-item"><a class="nav-link" href="indie/index.php">Indie</a></li>
-                          <li class="nav-item"><a class="nav-link" href="pop/index.php">Pop</a></li>
-                          <li class="nav-item"><a class="nav-link" href="punk/index.php">Punk</a></li>
-                          <li class="nav-item"><a class="nav-link" href="sertanejo/index.php">Sertanejo</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "classica/index.php".$link?>">Classica</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "hip-hop/index.php".$link?>">Hip-Hop</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "indie/index.ph".$link?>">Indie</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "pop/index.php".$link?>">Pop</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "punk/index.php".$link?>">Punk</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "sertanejo/index.php".$link?>">Sertanejo</a></li>
                         </ul>
                     </li>
                   </ul>
@@ -73,10 +72,10 @@
                 <nav class="menu-secundario">
                   <ul class="nav flex-column pl-xs-3">
                     <li class="nav-item nav-link">
-                      +55 11 1254 5678
+                      contato@ecletic.music.com
                     </li>
                     <li class="nav-item nav-link">
-                      contato@ecletic.music.com
+                      +55 11 1254 5678
                     </li>
                     <li class="nav-item nav-link">
                       <?php echo $footer[$ID][4] ?>
@@ -104,8 +103,6 @@
           </div>
         </div>
       </div>
-
-
       <div class="row">
         <div class="col">
           <div class="logo-footer">
@@ -124,9 +121,16 @@
             // if ($_GET['i']==2) {
             //   echo "idioma atual: Portugues <br>" .$urlidioma ."<br>";
             // }
+            if ($ID == 'PT') {
+              $idativo1 = 'idiomaatual';
+              $idativo2 = '';
+            } elseif(($ID == 'EN')){
+              $idativo2 = 'idiomaatual';
+              $idativo1 = '';
+            }
             echo '<p class="text-right">' .$footer[$ID][3] .'</p>';
-            echo '<p class="text-right"> <a href="'.$urlidioma .'?i=EN"><img src="images/principal/united_states_flags.png" alt="Idioma Ingles"></a>';
-            echo '<a href="'.$urlidioma .'?i=PT"><img src="images/principal/brazil_flags.png" alt="Idioma Portugues"></a></p>';
+            echo '<p class="text-right"> <a href="'.$urlidioma .'?i=EN"><img class="selidioma '.$idativo2 .'" src="images/principal/united_states_flags.png" alt="Idioma Ingles"></a>';
+            echo '<a href="'.$urlidioma .'?i=PT"><img class="selidioma '.$idativo1 .'" src="images/principal/brazil_flags.png" alt="Idioma Portugues"></a></p>';
           ?>
 
           </div>

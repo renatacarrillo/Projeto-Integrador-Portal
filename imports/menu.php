@@ -6,10 +6,8 @@
 	//$menu = array($menu_pt, $menu_en);
 	$menu = array('PT'=> $menu_pt,'EN' => $menu_en);
 	// print_r($menu);
-	if (!isset($_GET['i'])) {
-		$_GET['i']='PT';
-	}
-	$ID = $_GET['i'];
+	$paginaAtual = basename($_SERVER['SCRIPT_NAME']);
+	//echo $paginaAtual;
  ?>
 	<nav id="navheader" class="navbar navbar-light">
     <!-- botão do menu secundario com as paginas -->
@@ -19,7 +17,7 @@
     </div>
     <!-- logo -->
     <!-- <a class="navbar-brand" href="#">Ecletic.Music</a> -->
-		<a class="navbar-brand" href="./">
+		<a class="navbar-brand" href="<?php echo "./".$link?>">
 			<img src="images/principal/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
 			Ecletic.Music
 		</a>
@@ -32,12 +30,12 @@
       <a href="#" class="menu-close">&times;</a>
       <ul class="paginas">
 				<li>PAGINAS SECUNDARIAS</li>
-        <li><a href="<?php echo "classica/index.php?i=".$ID?>">Classica</a></li>
-        <li><a href="<?php echo "hip-hop/index.php?i=".$ID?>">Hip-Hop</a></li>
-        <li><a href="<?php echo "indie/index.php?i=".$ID?>">Indie</a></li>
-        <li><a href="<?php echo "pop/index.php?i=".$ID?>">Pop</a></li>
-        <li><a href="<?php echo "punk/index.php?i=".$ID?>">Punk</a></li>
-        <li><a href="<?php echo "sertanejo/index.php?i=".$ID?>">Sertanejo</a></li>
+        <li><a href="<?php echo "classica/index.php".$link?>">Classica</a></li>
+        <li><a href="<?php echo "hip-hop/index.php".$link?>">Hip-Hop</a></li>
+        <li><a href="<?php echo "indie/index.php".$link?>">Indie</a></li>
+        <li><a href="<?php echo "pop/index.php".$link?>">Pop</a></li>
+        <li><a href="<?php echo "punk/index.php".$link?>">Punk</a></li>
+        <li><a href="<?php echo "sertanejo/index.php".$link?>">Sertanejo</a></li>
       </ul>
       <div id="redes-sociais">
         <ul>
@@ -53,49 +51,56 @@
     <ul class="nav nav-justified">
       <li class="nav-item icone">
         <!-- <a class="nav-link active" href="#"></i> Home</a> -->
-        <a class="nav-link" href="<?php echo "index.php?i=".$ID?>" title="<?php echo $menu[$ID][0]?>">
+        <a href="<?php echo "index.php".$link?>" title="<?php echo $menu[$ID][0]?>" <?php if ($paginaAtual == 'index.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="fas fa-home"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][0]?></span>
         </a>
       </li>
       <li class="nav-item icone">
         <!-- <a class="nav-link" href="#"><i class="far fa-newspaper"></i> Noticias</a> -->
-        <a class="nav-link" href="<?php echo "noticias.php?i=".$ID?>" title="<?php echo $menu[$ID][1]?>">
+        <a  href="<?php echo "noticias.php".$link?>" title="<?php echo $menu[$ID][1]?>" <?php if ($paginaAtual == 'noticias.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="far fa-newspaper"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][1]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-trophy"></i> Ranking</a> -->
-        <a class="nav-link" href="<?php echo "ranking.php?i=".$ID?>" title="<?php echo $menu[$ID][2]?>">
+        <a href="<?php echo "ranking.php".$link?>" title="<?php echo $menu[$ID][2]?>" <?php if ($paginaAtual == 'ranking.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="fas fa-chart-line"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][2]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-music"></i> Cifras</a> -->
-        <a class="nav-link" href="<?php echo "cifras.php?i=".$ID?>" title="<?php echo $menu[$ID][3]?>">
+        <a href="<?php echo "cifras.php".$link?>" title="<?php echo $menu[$ID][3]?>" <?php if ($paginaAtual == 'cifras.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="fas fa-music"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][3]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-headphones"></i> Indicações</a> -->
-        <a class="nav-link" href="<?php echo "indicacoes.php?i=".$ID?>" title="<?php echo $menu[$ID][4]?>">
+        <a href="<?php echo "indicacoes.php".$link?>" title="<?php echo $menu[$ID][4]?>" <?php if ($paginaAtual == 'indicacoes.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="fas fa-headphones"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][4]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="far fa-address-card"></i> Quem Somos</a> -->
-        <a class="nav-link" href="<?php echo "quem-somos.php?i=".$ID?>" title="<?php echo $menu[$ID][5]?>">
+        <a href="<?php echo "quem-somos.php".$link?>" title="<?php echo $menu[$ID][5]?>" <?php if ($paginaAtual == 'quem-somos.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="fas fa-users"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][5]?></span>
         </a>
       </li>
       <li class="nav-item">
         <!-- <a class="nav-link" href="#"><i class="fas fa-phone"></i> Contato</a> -->
-        <a class="nav-link" href="<?php echo "contato.php?i=".$ID?>" title="<?php echo $menu[$ID][6]?>">
+        <a href="<?php echo "contato.php".$link?>" title="<?php echo $menu[$ID][6]?>" <?php if ($paginaAtual == 'contato.php') {
+        	echo 'class="nav-link paginaAtual"';}else{echo 'class="nav-link"';} ?>>
           <span class="menu-icon"><i class="fas fa-phone"></i></span>
           <span class="menu-text"> <?php echo $menu[$ID][6]?></span>
         </a>
