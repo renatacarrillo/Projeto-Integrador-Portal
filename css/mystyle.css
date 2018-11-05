@@ -370,6 +370,15 @@ a div.fundo-texto:hover {
 .bk-sertanejo{
   background: linear-gradient(to right, #782711, #FF9100,#782711);
 }
+.bk-sertanejo-2{
+  background: linear-gradient(to bottom, #782711 0%,#FF9100 100%);
+}
+.bk-sertanejo-3{
+  background: radial-gradient(ellipse at center, #782711 0%,#FF9100 100%);
+}
+.bk-sertanejo-4{
+  background-color: #782711;
+}
 
 /*** Sertanejo origem ***/
 .origem-sert .jumbotron {

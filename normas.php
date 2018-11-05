@@ -1,7 +1,11 @@
+<?php
+//PHP para verificar qual o idioma do html
+  include('imports/idioma.php');
+?>
 <!DOCTYPE html>
-<html lang="pt-br">
-  <!--importando o head da pagina -->
+<html lang ="<?php echo $lang?>">
   <?php
+  //importando o head da pagina
     include('imports/head.php');
   ?>
   <body>

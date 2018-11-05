@@ -1,13 +1,14 @@
+<?php
+//PHP para verificar qual o idioma do html
+  include('imports/idioma.php');
+?>
 <!DOCTYPE html>
-<!--PHP para verificar qual o idioma do html -->
-<html <?php if ($_GET['i']=='EN') { echo 'lang="en-US"';
-            } else {echo 'lang="pt-BR"';}?>>
-	<!--head-->
+<html lang ="<?php echo $lang?>">
   <?php
-        include('imports/head.php');
+  //importando o head da pagina
+    include('imports/head.php');
   ?>
   <body>
-
     <!-- Menu top das paginas -->
     <?php
       include('imports/menu.php');
