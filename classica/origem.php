@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <!--HEAD-->
-    <?php 
+<?php 
     include('../imports/head.php');
 ?>
 <!--FINAL DO HEAD-->
@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-12 col-md-12 col-lg-8">
                 <section>
-                    <h3 id="torigem" class="text-center font-weight-bold mt-3 mb-3">História da música clássica</h3>
+                    <h3 class="text-center mt-4">A história da música clássica</h3>
                     <img src="../images/classica/origem-01.jpg" alt="origem" class="img-fluid">
                 </section>
 
@@ -34,33 +34,32 @@
                     <p class="porigem text-justify mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non. Quisque convallis pharetra tempor. Donec id pretium leo. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Fusce in urna sem. Vivamus vehicula dignissim augue et scelerisque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Etiam quam nisi, molestie ac dolor in, tincidunt tincidunt arcu. Donec id pretium leo. etiam nisi metolist. Pellentesque luctus massa non elit viverra pellentesque. Cras vitae neque molestie, rhoncus ipsum sit amet, lobortis dui. Praesent sed justo finibus, fringilla velit quis, porta erat. </p>
                 </section>
             </div>
-
-            <div class="col-12 col-md-12 col-lg-4 mt-5 mb-4">
-
-                <div id="boxorigem">
-                    <h5 class="text-center font-weight-bold">Veja também:</h5>
-                </div>
-                    <div class="row mt-4">
-                        <div class="col-12 col-md-2 col-lg-12 morigem">
-                            <a href="#">
-                                <h5 class="tboxorigem text-center">Períodos da música clássica</h5>
-                            </a>
-                        </div>
+            
+            <div class="col-12 col-md-12 col-lg-4 mt-4">
+                <aside>
+                    <div id="boxorigem">
+                        <h5 class="text-center ajustevejamais">Veja também:</h5>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-md-2 col-lg-12 morigem">
+                    
+                        <div class="col-12 col-md-12 col-lg-12 morigem">
                             <a href="#">
-                                <h5 class="tboxorigem text-center">Orquestras mais conhecidas</h5>
+                                <h5 class="tboxorigem text-left">Períodos da música clássica</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-2 col-lg-12 morigem">
+                        <div class="col-12 col-md-12 col-lg-12 morigem">
                             <a href="#">
-                                <h5 class="tboxorigem text-center">Por que ouvir música clássica?</h5>
+                                <h5 class="tboxorigem text-left">Orquestras mais conhecidas</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </a>
                         </div>
-                </div>
+                        <div class="col-12 col-md-12 col-lg-12 morigem">
+                            <a href="#">
+                                <h5 class="tboxorigem text-left">Por que ouvir música clássica?</h5>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </a>
+                        </div>
+                </aside>
             </div>
         </div>
     </div>
@@ -71,7 +70,7 @@
     include('../imports/footer-secundario.php');
 ?>
     <!--FIM FOOTER-->
-    
+
 </body>
 
 </html>
