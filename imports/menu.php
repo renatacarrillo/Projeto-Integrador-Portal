@@ -27,9 +27,9 @@
 
     <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
     <div class="side-menu-sec">
-      <a href="#" class="menu-close">&times;</a>
+      <a href="#" class="mb-4 menu-close">&times;</a>
       <ul class="paginas">
-				<li>PAGINAS SECUNDARIAS</li>
+				<li class="mb-2">PAGINAS SECUNDARIAS</li>
         <li><a href="<?php echo "classica/index.php".$link?>">Classica</a></li>
         <li><a href="<?php echo "hip-hop/index.php".$link?>">Hip-Hop</a></li>
         <li><a href="<?php echo "indie/index.php".$link?>">Indie</a></li>
