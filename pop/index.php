@@ -14,6 +14,8 @@
     <!-- Conteudo da pagina  -->
     <main>
         <div class="container mt-3">
+            <h1 class="text-center">Noticias do Mundo POP</h1>
+
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="caixa1">

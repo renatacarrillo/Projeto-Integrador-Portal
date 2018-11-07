@@ -25,10 +25,17 @@
             <div class="col-12 col-md-12 col-lg-12 mt-4">
                <img src="../images/classica/famosas-01.jpg" alt="top 10 músicas clássicas mais famosas" class="img-fluid imgfamosas">
             </div>
+<<<<<<< HEAD
             <div class="col-12 col-md-12 col-lg-12 mt-4 mb-4">
                 <article>
                     <h1 class="tlancamentos">Clique na composição e aprecie!</h1>
                     <table class="tableclassica table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+=======
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4 mb-4">
+                <article>
+                    <h5 class="tlancamentos">Clique na composição e aprecie!</h5>
+                    <table class="align-content-center tableclassica table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
                         <thead class="fcolor">
                             <tr>
                                 <th></th>

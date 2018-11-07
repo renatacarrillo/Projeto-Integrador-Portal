@@ -1,9 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <!--importando o head da pagina -->
-  <?php
-    include('../imports/head.php');
-  ?>
+<?php
+  $sertanejo_pt = array("Os Fatos que Marcaram a Música","Anterior","Próximo");
+  $sertanejo_en = array("The Facts That Marked Music","Previous","Next");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+// print_r($sertanejo);
+//usar $ID para os Vetores
+ ?>
+ <?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
   <body>
     <!--importandoo menu da pagina -->
     <?php
@@ -13,18 +24,19 @@
     <div class="container mt-4 mb-4">
       <div class="row">
         <div class="col text-center">
-          <h1>Os Fatos que Marcaram a Musica</h1>
+          <header>
+            <h1><?php echo $sertanejo[$ID][0]?></h1>
+          </header>
           <div class="popup-gallery">
-            <a href="../images/sertanejo/lancamento-01.jpg" title="The Cleaner"><img src="../images/sertanejo/lancamento-01.jpg" width="200" height="200"></a>
-            <a href="../images/sertanejo/lancamento-02.jpg" title="Winter Dance"><img src="../images/sertanejo/lancamento-02.jpg" width="100" height="200"></a>
-            <a href="../images/sertanejo/lancamento-03.jpg" title="The Uninvited Guest"><img src="../images/sertanejo/lancamento-03.jpg" width="100" height="200"></a>
-            <a href="../images/sertanejo/lancamento-04.jpg" title="The Cleaner"><img src="../images/sertanejo/lancamento-04.jpg" width="100" height="200"></a>
-            <a href="../images/sertanejo/lancamento-05.jpg" title="Winter Dance"><img src="../images/sertanejo/lancamento-05.jpg" width="100" height="200"></a>
+            <a href="../images/sertanejo/destaques-1.jpg" title="lorem Ipsum -1970"><img src="../images/sertanejo/destaques-1.jpg" class="bk-color" width="200" height="150"></a>
+            <a href="../images/sertanejo/destaques-2.jpg" title="lorem Ipsum -1977"><img src="../images/sertanejo/destaques-2.jpg" width="200" height="150"></a>
+            <a href="../images/sertanejo/destaques-3.jpg" title="lorem Ipsum -1990"><img src="../images/sertanejo/destaques-3.jpg" width="200" height="150"></a>
+            <a href="../images/sertanejo/destaques-4.jpg" title="lorem Ipsum -1995"><img src="../images/sertanejo/destaques-4.jpg" width="200" height="150"></a>
+            <a href="../images/principal/carrossel-04.jpg" title="lorem Ipsum -2000"><img src="../images/principal/carrossel-04.jpg" width="200" height="150"></a>
           </div>
         </div>
       </div>
     </div>
-
     <!-- importando o footer da pagina -->
     <?php
       include('../imports/footer-secundario.php');
@@ -45,7 +57,7 @@
       		image: {
       			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
       			titleSrc: function(item) {
-      				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+      				return item.el.attr('title') + '<small>Fatos Importantes</small>';
       			}
       		}
       	});

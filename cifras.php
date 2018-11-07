@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 	<!--head-->
@@ -6,11 +7,28 @@
     ?>
     <body>
 
+=======
+<?php
+//PHP para verificar qual o idioma do html
+  include('imports/idioma.php');
+?>
+<!DOCTYPE html>
+<html lang ="<?php echo $lang?>">
+  <?php
+  //importando o head da pagina
+    include('imports/head.php');
+  ?>
+  <body>
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
     <!-- Menu top das paginas -->
     <?php
       include('imports/menu.php');
       ?>
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
         <main>
         <div class="container">
         <div class="row">
@@ -38,10 +56,18 @@
             </div>
             </div>
         </main>
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
                  <!-- FOOTER -->
         <?php
             include('imports/footer.php');
         ?>
     </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650

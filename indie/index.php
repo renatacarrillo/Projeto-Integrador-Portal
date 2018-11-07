@@ -2,34 +2,37 @@
 <html lang="pt-br">
 
 <!--importando o head da pagina -->
-  <?php
+<?php
     include('../imports/head.php');
-  ?>
+?>
 
-    <body>
+<body>
 
-        <!-- Menu top das paginas -->
-      <?php
-      include('../imports/menu-secundario.php');
-      ?>
+<!-- Menu -->
+<?php
+    include('../imports/menu-secundario.php');
+?>
 
-            <!-- Conteúdo da pagina -->
-            <!-- Carrocel -->
-            <main>
-                <div class="container">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   
+    <!-- Conteúdo da Página -->
+    <main> 
+        
+        <!-- Carrocel -->
+        <div class="container">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                        <ol class="carousel-indicators my-carousel-indicators">
+                <ol class="carousel-indicators my-carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
                             <li data-target="#myCarousel" data-slide-to="3"></li>
                         </ol>
 
-                        <div class="carousel-inner">
+                <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <img class="first-slide" src="../images/home/carrossel-01.jpg" alt="First slide">
+                                <img class="first-slide" src="../images/principal/carrossel-01.jpg" alt="First slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>Example headline.</h1>
@@ -40,7 +43,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="second-slide" src="../images/home/carrossel-02.jpg" alt="Second slide">
+                                <img class="second-slide" src="../images/principal/carrossel-02.jpg" alt="Second slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>Another example headline.</h1>
@@ -51,7 +54,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="third-slide" src="../images/home/carrossel-03.jpg" alt="Third slide">
+                                <img class="third-slide" src="../images/principal/carrossel-03.jpg" alt="Third slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>One more for good measure.</h1>
@@ -62,7 +65,7 @@
                             </div>
 
                             <div class="carousel-item">
-                                <img class="four-slide" src="../images/home/carrossel-04.jpg" alt="Four slide">
+                                <img class="four-slide" src="../images/principal/carrossel-04.jpg" alt="Four slide">
                                 <div class="container">
                                     <div class="carousel-caption text-left">
                                         <h1>One more for good measure.</h1>
@@ -74,93 +77,91 @@
 
                         </div>
 
-                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                </a>
 
-                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
 
-                    </div>
+            </div>
+        </div>
+        <!-- Final Carrocel -->
+        <br>
 
+        <!-- Título & Subtítulo -->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2>Mundo Indie</h2>
+                    <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Texto -->
+        <div class="container">    
+            <div class="row text-justify">
+                <div class="col-lg-12" id="tt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quadrados 1 ao 3 -->
+        <br>
+
+        <div class="container">
+            <div class="row text-center home-geral">
+
+                <div class="col-12 col-lg-4">
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
 
-                <!-- Final Carrocel -->
-                <br>
-
-                <!-- Texto -->
-                <br>
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-lg-12">
-                            <h2>Lorem Ipsun.</h2>
-                            <h3 class="titulos-indie">Lorem ipsum dolor sit amet.</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row text-justify">
-                        <div class="col-lg-12" id="tt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum molestie auctor. Vestibulum id ultrices diam, ac efficitur magna. Nam viverra faucibus enim ac bibendum. Curabitur quam lorem, efficitur a est accumsan, dictum consectetur leo. Etiam tempus sem odio. Duis et augue tempor, imperdiet neque quis, luctus sem. Nam eleifend ornare facilisis. Fusce ultricies luctus lacus, scelerisque accumsan risus convallis in. Phasellus tincidunt tortor et aliquam mollis. Donec ac est lorem. Nullam et pretium purus. Vivamus quis diam sagittis, egestas tellus eget, faucibus neque.</p>
-                        </div>
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 </div>
 
-                <!-- Quadrados -->
-                <br>
-
-                <div class="container">
-                    <div class="row text-center home-geral">
-
-                        <div class="col-12 col-lg-4">
-                            <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
-                        </div>
-
-                        <div class="col-12 col-lg-4">
-                            <a href="#"><img class="rounded img-fluid" src="../images/home/home-2.jpg" alt="Generic placeholder image"></a>
-                        </div>
-
-                        <div class="col-12 col-lg-4">
-                            <a href="#"><img class="rounded img-fluid" src="../images/home/home-3.jpg" alt="Generic placeholder image"></a>
-                        </div>
-
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
                 </div>
 
-                <!-- Segunda linha de quadrados -->
-                <br>
+            </div>
+        </div>
 
-                <div class="container">
-                    <div class="row text-center home-geral">
+        <!-- Quadrados 4 ao 6 -->
+        <br>
 
-                        <div class="col-12 col-lg-4">
-                            <a href="#"><img class="rounded img-fluid" src="../images/home/home-1.jpg" alt="Generic placeholder image"></a>
-                        </div>
+        <div class="container">
+            <div class="row text-center home-geral">
 
-                        <div class="col-12 col-lg-4">
-                            <a href="#"><img class="rounded img-fluid" src="../images/home/home-2.jpg" alt="Generic placeholder image"></a>
-                        </div>
-
-                        <div class="col-12 col-lg-4">
-                            <a href="#"><img class="rounded img-fluid" src="../images/home/home-3.jpg" alt="Generic placeholder image"></a>
-                        </div>
-
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 </div>
 
+                <div class="col-12 col-lg-4">
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
+                </div>
 
-            </main>
+                <div class="col-12 col-lg-4">
+                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
+                </div>
 
-            <!-- FOOTER -->
-            <br>
+            </div>
+        </div>
 
-            <?php
-              include('../imports/footer-secundario.php');
-            ?>
+    </main>
 
-    </body>
+    <!-- FOOTER -->
+    <br>
+
+    <?php
+        include('../imports/footer-secundario.php');
+    ?>
+
+</body>
 
 </html>
