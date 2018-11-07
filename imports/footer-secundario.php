@@ -12,7 +12,7 @@
           <div class="container">
             <div class="row">
               <div class="col-3 col-md-1 py-2">
-                <p class="text-center"><?php echo strtoupper($footer[$ID][0])?></p>
+                <p class="text-center"><?php echo mb_strtoupper($footer[$ID][0],'UTF-8')?></p>
               </div>
               <div class="col-8 col-md-3 pb-3 pb-sm-0">
                 <nav class="menu-secundario">

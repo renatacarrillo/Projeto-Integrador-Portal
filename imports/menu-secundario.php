@@ -64,17 +64,17 @@
 
   <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
   <div class="side-menu-sec">
-    <a href="#" class="menu-close">&times;</a>
+    <a href="#" class="mb-4 menu-close">&times;</a>
 		<!-- menu das paginas principais do site -->
       <ul class="paginas">
-        <li>MENU PRINCIPAL</li>
-        <li><a  href="<?php echo "../index.php".$link?>"><i class="fas fa-home"> </i>  <?php echo $menu[$ID][0]?></a></li>
-        <li><a  href="<?php echo "../noticias.php".$link?>"><i class="far fa-newspaper"> </i>  <?php echo $menu[$ID][1]?></a></li>
-        <li><a  href="<?php echo "../ranking.php".$link?>"><i class="fas fa-chart-line"> </i>  <?php echo $menu[$ID][2]?></a></li>
-        <li><a  href="<?php echo "../cifras.php".$link?>"><i class="fas fa-music"> </i>  <?php echo $menu[$ID][3]?></a></li>
-        <li><a  href="<?php echo "../indicacoes.php".$link?>"><i class="fas fa-headphones"> </i>  <?php echo $menu[$ID][4]?></a></li>
-        <li><a  href="<?php echo "../quem-somos.php".$link?>"><i class="far fa-address-card"> </i>  <?php echo $menu[$ID][5]?></a></li>
-        <li><a  href="<?php echo "../contato.php".$link?>"><i class="fas fa-phone"> </i>  <?php echo $menu[$ID][6]?></a></li>
+        <li class="mb-2">MENU PRINCIPAL</li>
+        <li><a  href="<?php echo "../index.php".$link?>"><i class="mr-3 fas fa-home"> </i>  <?php echo $menu[$ID][0]?></a></li>
+        <li><a  href="<?php echo "../noticias.php".$link?>"><i class="mr-3 far fa-newspaper"> </i>  <?php echo $menu[$ID][1]?></a></li>
+        <li><a  href="<?php echo "../ranking.php".$link?>"><i class="mr-3 fas fa-chart-line"> </i>  <?php echo $menu[$ID][2]?></a></li>
+        <li><a  href="<?php echo "../cifras.php".$link?>"><i class="mr-3 fas fa-music"> </i>  <?php echo $menu[$ID][3]?></a></li>
+        <li><a  href="<?php echo "../indicacoes.php".$link?>"><i class="mr-3 fas fa-headphones"> </i>  <?php echo $menu[$ID][4]?></a></li>
+        <li><a  href="<?php echo "../quem-somos.php".$link?>"><i class="mr-3 far fa-address-card"> </i>  <?php echo $menu[$ID][5]?></a></li>
+        <li><a  href="<?php echo "../contato.php".$link?>"><i class="mr-3 fas fa-phone"> </i>  <?php echo $menu[$ID][6]?></a></li>
       </ul>
 
     <div id="redes-sociais">
