@@ -1,7 +1,16 @@
+<?php
+  $sertanejo_pt = array("A História do Sertanejo","Conheça origem e história do sertanejo","A Origem","A História","Os Primeiros Cantores");
+  $sertanejo_en = array("The History of Sertanejo Music","Know the origin and history of the Sertanejo","The Origin","The History","The First Singers");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+ ?>
+<?php
+//PHP para verificar qual o idioma do html
+  include('../imports/idioma.php');
+?>
 <!DOCTYPE html>
-<html lang="pt-br">
-  <!--importando o head da pagina -->
+<html lang ="<?php echo $lang?>">
   <?php
+  //importando o head da pagina
     include('../imports/head.php');
   ?>
   <body>
@@ -11,16 +20,16 @@
     ?>
     <!-- conteudo da pagina -->
     <article class="origem-sert">
-      <div class="jumbotron jumbotron-fluid">
+      <header class="jumbotron jumbotron-fluid">
         <div class="container text-center">
-          <h1 class="display-4">A Historia do Sertanejo</h1>
-          <p class="lead">Conheça origem e historia do sertanejo</p>
+          <h1 class="display-4"><?php echo $sertanejo[$ID][0]?></h1>
+          <p class="lead"><?php echo $sertanejo[$ID][1]?></p>
         </div>
-      </div>
+      </header>
       <div class="container text-center text-md-left">
         <div class="row">
           <div class="col-12 col-lg-6">
-            <h2>A Origem</h2>
+            <h2><?php echo $sertanejo[$ID][2]?></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -39,7 +48,7 @@
             <img src="../images/sertanejo/origem-2.jpg" class="img-fluid" alt="Violão">
           </div> -->
           <div class="col-12 order-1 col-lg-12">
-            <h2>A Historia</h2>
+            <h2><?php echo $sertanejo[$ID][3]?></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -60,7 +69,7 @@
       <div class="container mt-4">
         <div class="row">
           <div class="col">
-            <h2>Os Primeiros Cantores</h2>
+            <h2><?php echo $sertanejo[$ID][4]?></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -69,10 +78,6 @@
         </div>
       </div>
     </aside>
-
-
-
-
     <!-- importando o footer da pagina -->
     <?php
       include('../imports/footer-secundario.php');

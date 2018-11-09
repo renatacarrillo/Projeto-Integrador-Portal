@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<!--importando o head da pagina -->
 <?php
-    include('../imports/head.php');
-  ?>
-
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <body>
     <!--importandoo menu da pagina -->
     <?php
@@ -14,10 +17,8 @@
     <!-- Conteudo da pagina  -->
     <main>
         <div class="container mt-3">
-<<<<<<< HEAD
             <h1 class="text-center">Noticias do Mundo POP</h1>
-=======
->>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
+
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="caixa1">

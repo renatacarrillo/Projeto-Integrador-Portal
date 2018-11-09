@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<!--importando o head da pagina -->
-  <?php
-    include('../imports/head.php');
-  ?>
-
+<?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <body>
   <!--importandoo menu da pagina -->
   <?php
@@ -27,10 +30,7 @@
                                 </div>
                             </div>
                         </div>
-<<<<<<< HEAD
                             
-=======
->>>>>>> e496d6e4b84b2ef6a9fcad8a6a32899adc46bea4
                         <div class="col-12 col-sm-6 mt-3 mb-1 pr-2">
                             <div class="card bg-dark text-white">
                                 <img src="../images/hip-hop/blackbear-2.jpg" class="img-fluid" alt="Responsive image">

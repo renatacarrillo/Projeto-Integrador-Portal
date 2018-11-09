@@ -1,5 +1,9 @@
-<html lang="pt-br">
-
+<?php
+//PHP para verificar qual o idioma do html
+  include('imports/idioma.php');
+?>
+<!DOCTYPE html>
+<html lang ="<?php echo $lang?>">
 <!--head-->
 <?php
     include('imports/head.php');
@@ -47,12 +51,12 @@
         <div class="row text-center no-gutters">
 
             <div class="col-6">
-                <a href="#"><img class="rounded img-fluid" src="images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 <p> TELEFONE </p>
             </div>
 
             <div class="col-6">
-                <a href="#"><img class="rounded img-fluid" src="images/home/home-2.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 <p> TELEFONE </p>
             </div>
 
@@ -66,12 +70,12 @@
         <div class="row text-center no-gutters">
 
             <div class="col-6">
-                <a href="#"><img class="rounded img-fluid" src="images/home/home-1.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="images/principal/home-1.jpg" alt="Generic placeholder image"></a>
                 <p> TELEFONE </p>
             </div>
 
             <div class="col-6">
-                <a href="#"><img class="rounded img-fluid" src="images/home/home-2.jpg" alt="Generic placeholder image"></a>
+                <a href="#"><img class="rounded img-fluid" src="images/principal/home-2.jpg" alt="Generic placeholder image"></a>
                 <p> TELEFONE </p>
             </div>
 

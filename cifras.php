@@ -1,16 +1,19 @@
+<?php
+//PHP para verificar qual o idioma do html
+  include('imports/idioma.php');
+?>
 <!DOCTYPE html>
-<html lang="pt-br">
-	<!--head-->
-    <?php
-        include('imports/head.php');
-    ?>
-    <body>
-
+<html lang ="<?php echo $lang?>">
+  <?php
+  //importando o head da pagina
+    include('imports/head.php');
+  ?>
+  <body>
     <!-- Menu top das paginas -->
     <?php
       include('imports/menu.php');
       ?>
-        
+
         <main>
         <div class="container">
         <div class="row">
@@ -38,7 +41,7 @@
             </div>
             </div>
         </main>
-        
+
                  <!-- FOOTER -->
         <?php
             include('imports/footer.php');
