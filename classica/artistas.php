@@ -14,18 +14,15 @@
     include('../imports/menu-secundario.php');
 ?>
     <!--NAV ENDS-->
-    <section class="artistas-classica">
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4 text-white">Compositores</h1>
-            <p class="lead text-white">Conheça um pouco dos vários compositores talentosos da história da música clássica</p>
+    <div clas="row">
+      <section class="artistas-classica">
+        <div class="jumbotron jumbotron-fluid">
+          <h1 class="display-4 text-white pl-5">Compositores</h1>
+          <p class="lead text-white pl-5">Conheça um pouco dos vários compositores talentosos da história da música clássica</p>
         </div>
-    </div>
-        </section>
-
+      </section>
+    <!--ARTICLE-->
     <div class="container">
-        <!--ARTICLE-->
-        <div clas="row">
 
             <div class="row mb-3  mt-3" id="box">
                 <div class="col-12 col-md-6 col-lg-4">
