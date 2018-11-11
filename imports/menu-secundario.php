@@ -1,7 +1,7 @@
 <!-- definição em PHP para alterar o idioma, OBS: USAR 0 = Pt-BR 1 = En-US-->
 <?php
-	$menu_pt = array("Home","Noticias","Ranking","Cifras","Indicações","Quem Somos","Contato","Normas do Site","Conteudo");
-	$menu_en = array("Home","News","Ranking","Chords","Indications","About Us","Contact","Site Rules","Content");
+	$menu_pt = array("Home","Noticias","Ranking","Cifras","Indicações","Quem Somos","Contato","Normas do Site","Conteudo","Menu Principal");
+	$menu_en = array("Home","News","Ranking","Chords","Indications","About Us","Contact","Site Rules","Content", "Main Menu");
 	//$menu = array($menu_pt, $menu_en);
 	$menu = array('PT'=> $menu_pt,'EN' => $menu_en);
 //menu das paginas secundarias
@@ -48,11 +48,17 @@
 
   echo '<nav id='.$navheader .' class="navbar navbar-light">';
 ?>
-  <!-- botão do menu secundario com as paginas -->
-  <!-- <a href="#" class="navbar-nav slide-menu-open">Open Menu</a> -->
-  <div class="navbar-nav slide-menu-open">
+  <!-- botão do menu com as paginas principais do site -->
+  <!-- <div class="navbar-nav slide-menu-open">
     <a href="#" class="navbar-nav slide-menu-open"> <i class="fas fa-bars"></i></a>
-  </div>
+	</div> -->
+	<div class="navbar-nav slide-menu-open">
+		<a href="#" class="hamburgue slide-menu-open">
+			<div class="l-um"> </div>
+			<div class="l-dois"> </div>
+			<div class="l-tres"> </div>
+		</a>
+	</div>
   <!-- logo -->
 	<a class="navbar-brand" href="<?php echo "../".$link?>">
 		<img src="../images/principal/LOGO.svg" width="30" height="30" class="d-inline-block align-top" alt="LOGO Ecletic.Music">
@@ -60,14 +66,13 @@
 	</a>
   <!-- Icone de busca -->
   <a href="#"><i class="form-inline fas fa-search"></i></a>
-  <!-- menu oculto -->
-
+	<!-- sobreposição do resto da pagina -->
   <div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
   <div class="side-menu-sec">
-    <a href="#" class="mb-4 menu-close">&times;</a>
-		<!-- menu das paginas principais do site -->
+    <a href="#" class="mb-4 menu-close text-right pr-4"><i class="fas fa-arrow-left"></i></a>
+		<!-- menu oculto das paginas principais do site -->
       <ul class="paginas">
-        <li class="mb-2">MENU PRINCIPAL</li>
+        <li class="mb-2 text-secondary font-weight-bold"><?php echo mb_strtoupper ($menu[$ID][9],'UTF-8')?></li>
         <li><a  href="<?php echo "../index.php".$link?>"><i class="mr-3 fas fa-home"> </i>  <?php echo $menu[$ID][0]?></a></li>
         <li><a  href="<?php echo "../noticias.php".$link?>"><i class="mr-3 far fa-newspaper"> </i>  <?php echo $menu[$ID][1]?></a></li>
         <li><a  href="<?php echo "../ranking.php".$link?>"><i class="mr-3 fas fa-chart-line"> </i>  <?php echo $menu[$ID][2]?></a></li>
@@ -76,7 +81,6 @@
         <li><a  href="<?php echo "../quem-somos.php".$link?>"><i class="mr-3 far fa-address-card"> </i>  <?php echo $menu[$ID][5]?></a></li>
         <li><a  href="<?php echo "../contato.php".$link?>"><i class="mr-3 fas fa-phone"> </i>  <?php echo $menu[$ID][6]?></a></li>
       </ul>
-
     <div id="redes-sociais">
       <ul>
         <li class="face"> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -86,7 +90,7 @@
     </div>
   </div>
 </nav>
-<!-- Menu principal das paginas secundarias-->
+<!-- Menu principal das paginas secundarias: Artistas,Origem,Lançamentos,Destaques,Marcos -->
 <nav id="navprincipal">
   <ul class="nav nav-justified">
 	  <li class="nav-item">
