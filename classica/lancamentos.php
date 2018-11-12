@@ -1,13 +1,13 @@
-<!doctype html>
-<html lang="pt-br">
-
-
-<!--HEAD-->
-
-<?php 
-    include('../imports/head.php');
-?>
-
+<?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <!--FINAL HEAD-->
 
 <body>
@@ -33,7 +33,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-4 mb-4">
                 <article>
                     <h5 class="tlancamentos">Clique na composição e aprecie!</h5>
-                    <table class="align-content-center tableclassica table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                    <table class="align-content-center tableclassica table">
                         <thead class="fcolor">
                             <tr>
                                 <th></th>
