@@ -13,9 +13,12 @@ if(!isset($_GET['i'])){
 if ($ID =='EN') {
   $lang = "en-US";
   $link = "?i=EN";
-} else {
+} elseif ($ID =='PT'){
   $lang = "pt-BR";
-  $link = "";
+  $link = "?i=PT";
+} elseif ($ID =='ES') {
+  $lang = "es-ES";
+  $link = "?i=ES";
 }
 
 //variavel ID para usar a posição da Matriz
