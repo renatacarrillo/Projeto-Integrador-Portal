@@ -23,9 +23,9 @@
 
 
 
-                <div class="carousel-item active">
+                <div class="carousel-item active noticiasajuste">
 
-                    <img src="images/noticias/slide/slide-01.jpg" class="img-fluid d-block imgnot" alt="primeiro slide">
+                    <img src="images/noticias/slide/slide-01.jpg" class="img-fluid d-block noticiasajuste" alt="primeiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
                             <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">O novo sucesso da Katy Perry</h3>
@@ -34,9 +34,9 @@
                     </div>
                 </div>
 
-                <div class="carousel-item">
+                <div class="carousel-item noticiasajuste">
 
-                    <img src="images/noticias/slide/slide-02.jpg" class="img-fluid d-block imgnot" alt="segundo slide">
+                    <img src="images/noticias/slide/slide-02.jpg" class="img-fluid d-block noticiasajuste" alt="segundo slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
                             <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Conheça mais sobre a estrelinha do sertanejo universitário</h3>
@@ -46,9 +46,9 @@
 
                 </div>
 
-                <div class="carousel-item">
+                <div class="carousel-item noticiasajuste">
 
-                    <img src="images/noticias/slide/slide-03.jpg" class="img-fluid d-block imgnot" alt="terceiro slide">
+                    <img src="images/noticias/slide/slide-03.jpg" class="img-fluid d-block noticiasajuste" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
                             <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Punk: uma crítica ao sistema</h3>
@@ -58,9 +58,9 @@
 
                 </div>
 
-                <div class="carousel-item">
+                <div class="carousel-item noticiasajuste">
 
-                    <img src="images/noticias/slide/slide-04.jpg" class="img-fluid d-block imgnot" alt="terceiro slide">
+                    <img src="images/noticias/slide/slide-04.jpg" class="img-fluid d-block noticiasajuste" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
                             <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Novo álbum do The Neighbourhood</h3>
@@ -70,9 +70,9 @@
 
                 </div>
 
-                <div class="carousel-item">
+                <div class="carousel-item noticiasajuste">
 
-                    <img src="images/noticias/slide/slide-05.jpg" class="img-fluid d-block imgnot" alt="terceiro slide">
+                    <img src="images/noticias/slide/slide-05.jpg" class="img-fluid d-block noticiasajuste" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
                             <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">A maior orquestra brasileira</h3>
@@ -106,7 +106,7 @@
         <!--ARTICLE-->
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3 ">
-                <img src="images/noticias/gusttavo.jpg" class="img-fluid mt-3" alt="Gusttavo Lima">
+                <img src="images/noticias/noticias-01.jpg" class="img-fluid mt-3" alt="Gusttavo Lima">
             </div>
             <article class="col-12 col-md-6 col-lg-3 ">
                 <div>
@@ -115,7 +115,7 @@
                 </div>
             </article>
             <div class="col-12 col-md-6 col-lg-3 ">
-                <img src="images/noticias/ratos.jpg" class="img-fluid  mt-3" alt="Ratos de Porão">
+                <img src="images/noticias/noticias-02.jpg" class="img-fluid  mt-3" alt="Ratos de Porão">
             </div>
             <article class="col-12 col-md-6 col-lg-3">
                 <div>
@@ -126,7 +126,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <img src="images/noticias/Drake.jpg" class="img-fluid" alt="Drake">
+                <img src="images/noticias/noticias-03.jpg" class="img-fluid" alt="Drake">
             </div>
             <article class="col-12 col-md-6 col-lg-3 mt-3 mb-4">
                 <div>
@@ -135,7 +135,7 @@
                 </div>
             </article>
             <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <img src="images/noticias/thenghb.jpg" class="img-fluid" alt="The Neighbourhood">
+                <img src="images/noticias/noticias-04.jpg" class="img-fluid" alt="The Neighbourhood">
             </div>
             <article class="col-12 col-md-6 col-lg-3 mt-3 mb-4">
                 <div>
