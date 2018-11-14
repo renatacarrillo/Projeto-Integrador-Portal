@@ -3,7 +3,9 @@
       "Marcus e Belutti comemora o aniversário de Mairinque","Chitãozinho e Xororó de volta aos palcos","Agenda de Shows","Mais Lidas","Veja Mais");
   $sertanejo_en = array("Luan Santana does a show at São Roque Theater and presents a new tour","Loubet to take part in the upcoming soap opera",
       "Marcos and Belutti celebrate Mairinque's birthday","Chitãozinho and Xororó back on stage","Show Schedule","Most Read","See more");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+  $sertanejo_es = array("Luan Santana hace show en teatro de São Roque y presenta nueva gira", "Loubet participará en la próxima novela de la Globo",
+      "Marcus y Belutti celebran el aniversario de Mairinque", "Chitãozinho y Xororó de vuelta a los escenarios", "Agenda de Shows", "Más Leidas", "Ver Más");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
  ?>
 <?php
 //PHP para verificar qual o idioma do html

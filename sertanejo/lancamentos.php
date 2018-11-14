@@ -1,7 +1,8 @@
 <?php
   $sertanejo_pt = array("Lançamentos da Semana","Álbum","Música","Cantor");
   $sertanejo_en = array("New Releases","Album","Music","Singer");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+  $sertanejo_es = array("Lanzamientos de la Semana", "Álbum", "Música", "Cantante");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
  ?>
 <?php
 //PHP para verificar qual o idioma do html

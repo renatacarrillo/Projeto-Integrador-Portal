@@ -3,7 +3,7 @@
 <?php
 	$menu_pt = array("Home","Noticias","Ranking","Cifras","Indicações","Quem Somos","Contato","Normas do Site","Conteúdo");
 	$menu_en = array("Home","News","Ranking","Chords","Indications","About Us","Contact","Site Rules","Content");
-    $menu_es = array("Home","Noticias","Clasificación","Cifras musicales","Indicaciones","Sobre nosotros","Contacto","Normas","Contenido","Menú principal");
+  $menu_es = array("Home","Noticias","Clasificación","Cifras musicales","Indicaciones","Sobre nosotros","Contacto","Normas","Contenido","Menú principal");
 	//$menu = array($menu_pt, $menu_en);
 	$menu = array('PT'=> $menu_pt,'EN' => $menu_en,'ES'=> $menu_es);
 	// print_r($menu);

@@ -2,7 +2,7 @@
 <?php
   $footer_pt = array("Serviços","Mapa do Site","Todos os direitos reservado e etc,etc e etc","Idioma:","Sua Opinião nos ajuda!");
   $footer_en = array("Services","Site Map","All rigths reserved and etc, etc and etc...","Language:","Your opinion helps us!");
-  $footer_es = array("Otros","Mapa del sitio","Todos los derechos reservados y etc, etc etc etc...","Idioma:","Su opinión ayuda us!");
+  $footer_es = array("Servicios","Mapa del sitio","Todos los derechos reservados y etc, etc etc etc...","Idioma:","Su opinión ayuda us!");
   //$footer = array($footer_pt, $footer_en);
   $footer = array('PT'=> $footer_pt,'EN' => $footer_en,'ES' => $footer_es);
 ?>
@@ -57,7 +57,7 @@
                         <ul  class="collapse lista-conteudo" id="conteudosite">
                           <li class="nav-item"><a class="nav-link" href="<?php echo "classica/index.php".$link?>">Classica</a></li>
                           <li class="nav-item"><a class="nav-link" href="<?php echo "hip-hop/index.php".$link?>">Hip-Hop</a></li>
-                          <li class="nav-item"><a class="nav-link" href="<?php echo "indie/index.ph".$link?>">Indie</a></li>
+                          <li class="nav-item"><a class="nav-link" href="<?php echo "indie/index.php".$link?>">Indie</a></li>
                           <li class="nav-item"><a class="nav-link" href="<?php echo "pop/index.php".$link?>">Pop</a></li>
                           <li class="nav-item"><a class="nav-link" href="<?php echo "punk/index.php".$link?>">Punk</a></li>
                           <li class="nav-item"><a class="nav-link" href="<?php echo "sertanejo/index.php".$link?>">Sertanejo</a></li>
