@@ -1,9 +1,10 @@
 <?php
   $sertanejo_pt = array("Destaques","Os Destaques e Notícias do Mundo Setanejo","Lançamentos","Acompanhe todos os lançamentos","Veja mais","A História",
                   "Conheça a história do sertanejo","Artistas","Veja os melhores artistas sertanejo","Fatos e Marcos","Veja os fatos que marcaram o ritmo");
-  $sertanejo_en = array("Highlights","Highlights and News Sertanejo Word","Released","Follow all releases","View More"," History","Learn the history of Sertanejo music",
-                  "Artists","See the best sertanejo songs artists","Facts","See the facts that marked the rhythm");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+  $sertanejo_en = array("Highlights","Highlights and News Sertanejo Word","Released","Follow all releases","View More"," History","Learn the history of Sertanejo music","Artists","See the best sertanejo songs artists","Facts","See the facts that marked the rhythm");
+  $sertanejo_es = array("Reflejos","Reflejos y Noticias del Mundo Sertanejo","Comunicados","Acompañe todos los lanzamientos","Mira más","Historia","Aprende la historia de la música de Sertanejo","Artistas","Mejores artistas sertanejo","Hechos y Marcos","Mira los hechos que marcaron el ritmo");
+
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>

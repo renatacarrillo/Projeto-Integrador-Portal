@@ -1,13 +1,13 @@
-<!doctype html>
-<html lang="pt-br">
-
-<!--HEAD-->
-
-<?php 
-    include('../imports/head.php');
-?>
-<!--FINAL DO HEAD-->
-
+<?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <body>
     <!--NAV-->
     <?php 

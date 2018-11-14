@@ -1,12 +1,13 @@
-<!doctype html>
-<html lang="pt-br">
-
-<!--HEAD-->
-
-<?php 
-    include('../imports/head.php');
-?>
-
+<?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <!--FINAL HEAD-->
 
 <body>
@@ -70,7 +71,7 @@
                     <a href="#" class="tdestaqueslink">
                         <h3 class="tdestaques text-center">A música clássica hoje</h3>
                     </a>
-                    <img src="../images/classica/destaque-01.jpg" class="img-fluid rounded" alt="notícia um: a música clássica hoje">
+                    <img src="../images/classica/destaque-01.jpg" class="img-fluid rounded imagensdestaquesclassica" alt="notícia um: a música clássica hoje">
                     <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">Leia mais</a></p>
                 </section>
             </div>
@@ -79,7 +80,7 @@
                     <a href="#" class="tdestaqueslink">
                         <h3 class="tdestaques text-center">Para estudar e relaxar</h3>
                     </a>
-                    <img src="../images/classica/destaque-02.jpg" class="img-fluid rounded" alt="notícia dois: para estudar e ralaxar">
+                    <img src="../images/classica/destaque-02.jpg" class="img-fluid  imagensdestaquesclassica" alt="notícia dois: para estudar e ralaxar">
                     <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">Leia mais</a></p>
                 </section>
             </div>
@@ -88,7 +89,7 @@
                     <a href="#" class="tdestaqueslink">
                         <h3 class="tdestaques text-center">Sucesso nos desenhos</h3>
                     </a>
-                    <img src="../images/classica/destaque-03.jpg" class="img-fluid rounded" alt="notícia três: sucesso nos desenhos">
+                    <img src="../images/classica/destaque-03.jpg" class="img-fluid rounded imagensdestaquesclassica" alt="notícia três: sucesso nos desenhos">
                     <p class="pdestaques text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais">Leia mais</a></p>
                 </section>
             </div>
