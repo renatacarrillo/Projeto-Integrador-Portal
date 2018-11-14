@@ -1,5 +1,12 @@
 <?php
- //PHP para verificar qual o idioma do html
+    $classica_pt = array("Compositores","Conheça mais sobre os compositores mais famosos");
+    $classica_en = array("Composers","Know more about the most famous composers");
+    $classica_es = array("Compositores","Conoce más sobre los compositores más famosos");
+
+    $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
+?>
+<?php
+ //PHP para verificar qual o idioma do html Conheça um pouco dos vários compositores talentosos da história da música clássica
    include('../imports/idioma.php');
  ?>
  <!DOCTYPE html>
@@ -14,13 +21,13 @@
     include('../imports/menu-secundario.php');
 ?>
     <!--NAV ENDS-->
-    <div clas="row">
       <section class="artistas-classica">
         <div class="jumbotron jumbotron-fluid">
-          <h1 class="display-4 text-white pl-5">Compositores</h1>
-          <p class="lead text-white pl-5">Conheça um pouco dos vários compositores talentosos da história da música clássica</p>
-        </div>
+          <h1 class="display-4 text-white pl-5"><?php echo $classica[$ID][0]?></h1>
+          <p class="lead text-white pl-5"><?php echo $classica[$ID][1]?></p>
+          </div>
       </section>
+
     <!--ARTICLE-->
     <div class="container">
 
@@ -69,7 +76,6 @@
                 </article>
             </div>
         </div>
-    </div>
     <!--FIM ARTICLE-->
 
     <!--FOOTER-->
