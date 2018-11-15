@@ -1,19 +1,19 @@
-<!-- definição em PHP para alterar o idioma, OBS: USAR 0 = Pt-BR 1 = En-US-->
+<!-- definição em PHP para alterar o idioma, OBS: USAR 0 = Pt-BR, 1 = En-US, 2 = -->
 <?php
 	$menu_pt = array("Home","Noticias","Ranking","Cifras","Indicações","Quem Somos","Contato","Normas do Site","Conteudo","Menu Principal");
 	$menu_en = array("Home","News","Ranking","Chords","Indications","About Us","Contact","Site Rules","Content", "Main Menu");
+	$menu_es = array("Home","Noticias","Clasificación","Cifras musicales","Indicaciones","Sobre nosotros","Contacto","Normas","Contenido","Menú principal");
 	//$menu = array($menu_pt, $menu_en);
 	$menu = array('PT'=> $menu_pt,'EN' => $menu_en,'ES'=> $menu_es);
-//menu das paginas secundarias
+  //menu das paginas secundarias
 	$menu_sec_pt = array("Artistas","Origem","Lançamentos","Destaques","Marcos");
 	$menu_sec_en = array("Artists","Origin","Releases","Highlights","Mark");
-    $menu_sec_es = array("Artistas","Fuente","Lanzamientos","Reflejos","Hitos");
+  $menu_sec_es = array("Artistas","Fuente","Lanzamientos","Reflejos","Hitos");
 	//$menu_sec = array($menu_sec_pt, $menu_sec_en);
 	$menu_sec = array('PT'=> $menu_sec_pt,'EN' => $menu_sec_en,'ES'=> $menu_sec_es);
 
 	// print_r($menu);
-
-//PHP para alterar a cor do header de acordo com a pagina
+  //PHP para alterar a cor do header de acordo com a pagina
 	// $URL_ATUAL= "$_SERVER[REQUEST_URI]";
 	// $pagina = explode("/", $URL_ATUAL);
 	//echo "pagina1 ".$pagina[0];
@@ -28,7 +28,6 @@
 	// }	else{
 	// 	$navheader = '"navheader"';
 	// }
-
 	// echo(basename (dirname($_SERVER['PHP_SELF']),"/")) .'<br>';
 	// echo basename(__DIR__) . '<br>' ;
 	//pegar o diretorio do arquivo atual

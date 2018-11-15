@@ -1,7 +1,8 @@
 <?php
   $sertanejo_pt = array("Os Melhores Artistas Sertanejo","Álbuns","Anterior","Próximo");
   $sertanejo_en = array("The Best Sertanejo Artists","Albums","Previous","Next");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+  $sertanejo_es = array("Los Mejores Artistas Sertanejo", "Álbumes", "Anterior", "Siguiente");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>

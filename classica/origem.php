@@ -22,8 +22,8 @@
 
     <!--NAV-->
     <?php 
-    include('../imports/menu-secundario.php');
-?>
+      include('../imports/menu-secundario.php');
+    ?>
     <!--FIM NAV-->
     <!--ARTICLE-->
     <div class="container">
@@ -78,8 +78,8 @@
 
     <!--FOOTER-->
     <?php 
-    include('../imports/footer-secundario.php');
-?>
+      include('../imports/footer-secundario.php');
+    ?>
     <!--FIM FOOTER-->
 
 </body>

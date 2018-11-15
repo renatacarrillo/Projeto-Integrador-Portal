@@ -1,7 +1,8 @@
 <?php
   $sertanejo_pt = array("Os Fatos que Marcaram a Música","Anterior","Próximo");
   $sertanejo_en = array("The Facts That Marked Music","Previous","Next");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+  $sertanejo_es = array("Los hechos que marcaron la música", "Anterior", "Siguiente");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>

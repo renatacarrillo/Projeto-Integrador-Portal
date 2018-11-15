@@ -11,10 +11,10 @@
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-<?php
+  <?php
    //importando o head da pagina
      include('../imports/head.php');
-   ?>
+  ?>
 
 <!--FINAL HEAD-->
 
@@ -22,8 +22,8 @@
 
     <!--NAV-->
     <?php 
-    include('../imports/menu-secundario.php');
-?>
+      include('../imports/menu-secundario.php');
+    ?>
     <!--FIM NAV-->
     <!--ARTICLE-->
     <div class="container">
@@ -68,6 +68,7 @@
                     <img src="../images/classica/curiosidades-06.jpg" class="img-fluid rounded imagensmarcosclassica" alt="notícia cinco">
                     <h5 class="tmarcos font-weight-bold"><?php echo $classica[$ID][10]?></h5>
                     <p class="pmarcos text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada feugiat. Curabitur fermentum bibendum nulla, non dictum ipsum tincidunt non... <a href="#" class="cleiamais"><?php echo $classica[$ID][11]?></a></p>
+
                 </section>
             </div>
         </div>
@@ -76,8 +77,8 @@
 
     <!--FOOTER-->
     <?php 
-    include('../imports/footer-secundario.php');
-?>
+      include('../imports/footer-secundario.php');
+    ?>
     <!--FIM FOOTER-->
 
 

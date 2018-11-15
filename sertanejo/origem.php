@@ -1,7 +1,8 @@
 <?php
   $sertanejo_pt = array("A História do Sertanejo","Conheça origem e história do sertanejo","A Origem","A História","Os Primeiros Cantores");
   $sertanejo_en = array("The History of Sertanejo Music","Know the origin and history of the Sertanejo","The Origin","The History","The First Singers");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+  $sertanejo_es = array("La Historia del Sertanejo", "Conozca origen e historia del sertanejo", "El Origen", "La Historia", "Los Primeros Cantantes");
+  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
  ?>
 <?php
 //PHP para verificar qual o idioma do html

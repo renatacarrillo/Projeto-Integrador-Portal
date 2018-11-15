@@ -120,8 +120,8 @@
     </div>
     <!--FOOTER-->
     <?php 
-    include('../imports/footer-secundario.php');
-?>
+      include('../imports/footer-secundario.php');
+    ?>
     <!--FIM FOOTER-->
 
 </body>

@@ -28,7 +28,7 @@
 .side-menu-sec ul li a {
   display: block;
   padding: 10px 4px 10px 4px;
-  color: #989898;
+  color: #FFF;
   transition: 0.3s;
   text-decoration: none;
   /* border-bottom: solid 1px rgba(255,255,255,.7); */
@@ -718,22 +718,72 @@ h3.titulos-indie {
     background-color: black;
 }
 
-#fotinha {
-    margin-top: -100px;
-    position: relative;
-    z-index: 1;
+#sombra{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.336);
+  height: 100%;
 }
 
-#fotinha2 {
-    color: white !important;
+div.header-contato{
+  height: 300px;
+  width: 100%;
+  border-radius: 4px;
+  background: linear-gradient(-45deg,#fc00ff,#00dbde);
+}
+#header-cont{
+    /* background: linear-gradient(-45deg,#fc00ff,#00dbde); */
+    background: url('../images/principal/header-contato.svg') 50% 50%;
+    background-size: cover;
+    width: 100%;
 }
 
-#fotinha img{
-    border: solid 20px;
-    border-color: white;
-    filter: alpha(opacity=65);
+.header-contato img{
+  background-color: #fff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 30%;
+  fill: #0575E6;
 }
 
+div.contato{
+  margin-top: -110px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid 50px;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.linha2{
+  margin-top: 140px;
+  margin-bottom: 2em;
+  color: #fff;
+}
+
+.cx-contato{
+  background: linear-gradient(-45deg,#fc00ff,#00dbde);
+  height: 320px;
+  width:100%;
+  border-radius: 4px;
+  padding-top: 1.5em;
+}
+.texto-contato {
+  padding-top: 4em;
+  color: #fff;
+}
+div.icone-contato{
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  color:#0575E6;
+  font-size: 2em;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /****************************** AJUSTES PG POP ******************************/
 #header-pop  {
@@ -842,6 +892,20 @@ h3.titulos-indie {
   }
   .pl-xs-3{
       padding-left: 1.6em;
+  }
+  /**Ajuste responsivo da pagina contato**/
+  div.icone-contato{
+    width: 80px;
+    height:80px;
+  }
+
+  .cx-contato{
+    height: 200px;
+    font-size: 0.7em;
+  }
+
+  .texto-contato h3{
+    font-size: 1.6em;
   }
 }
 

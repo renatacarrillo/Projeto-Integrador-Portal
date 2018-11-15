@@ -11,17 +11,17 @@
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-<?php
+  <?php
    //importando o head da pagina
      include('../imports/head.php');
-   ?>
+  ?>
 <!--FINAL HEAD-->
 
 <body>
     <!--NAV-->
-    <?php 
+   <?php 
     include('../imports/menu-secundario.php');
-?>
+   ?>
     <!--FIM NAV-->
 
     <!--CARROSEL-->
@@ -115,7 +115,7 @@
     <!--FOOTER-->
     <?php 
     include('../imports/footer-secundario.php');
-?>
+    ?>
     <!--FIM FOOTER-->
 
 </body>
