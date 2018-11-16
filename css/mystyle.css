@@ -4,7 +4,6 @@
   /* background: rgba(0, 0, 0, .95); */
   /* background: linear-gradient(to left, rgba(212, 21, 246, 1), rgba(24, 70, 94, 1)); */
   background: linear-gradient(to left, #580842, #045B63);
-  /* rgba(136,166,176,.9)*/
   padding: 40px 0 0 40px;
   position: fixed;
   top: 0;
@@ -66,23 +65,23 @@
   background-color: #fff;
   margin: 5px 0;
   border-radius: 24px;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .hamburgue{
   display: block;
-  width: 30px;
+  width: 35px;
 }
 .l-um{
-  width: 30px;
+  width: 35px;
 }
 .l-dois{
-  width: 15px;
+  width: 20px;
 }
 .l-tres{
-  width: 23px;
+  width: 26px;
 }
 .hamburgue:hover div{
-  width: 30px;
+  width: 35px;
   background-color: #000;
 }
 .paginas li a:hover {
@@ -357,14 +356,33 @@ a.home-cifras, a.home-ritmo{
 .playlists img{
   max-height: 130px;
 }
-/***********   Quem Somos **************/
-
+/***********  PAGINA QUEM SOMOS **************/
 .quem-somos-black{
   background-color: #000;
   color: #fff;
 }
 
+/********** PAGINA RANKING ******************/
+.tt-rank{
+  margin-top: .1em;
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-shadow: 2px 2px 3px #888;
+}
+.tt-rank img{
+  width: 18px;
+  height: 17px;
+  margin-top:-10px;
+}
 
+.art-ranking ol{
+  text-align: left;
+}
+.art-ranking ol li{
+  padding: 1em 0 1em 0;
+}
 /*****************AJUSTES DAS PAGINAS SERTANEJO *******************************/
 /** Header **/
 #header-sert ,.list-sertanejo{
@@ -762,7 +780,7 @@ div.contato{
 }
 
 .cx-contato{
-  background: linear-gradient(-45deg,#fc00ff,#00dbde);
+  background: linear-gradient(-40deg,#D72CF6,#00dbde);
   height: 320px;
   width:100%;
   border-radius: 4px;
@@ -894,18 +912,31 @@ div.icone-contato{
       padding-left: 1.6em;
   }
   /**Ajuste responsivo da pagina contato**/
+  div#hed-contato.container{
+    padding: 0;
+  }
   div.icone-contato{
     width: 80px;
     height:80px;
   }
-
+  div.m-n1{
+    padding: 7.5px !important;
+  }
   .cx-contato{
-    height: 200px;
+    height: 170px;
     font-size: 0.7em;
   }
 
+  .texto-contato{
+    padding-top: 2em;
+  }
   .texto-contato h3{
     font-size: 1.6em;
+  }
+  /**Ajustes responsivo da pagina ranking**/
+  .bg-mobile{
+    background-color: #000;
+    color: #fff;
   }
 }
 
@@ -918,8 +949,17 @@ div.icone-contato{
   .no-display {
     display: none;
   }
-}
+  /**Ajuste responsivo da pagina contato**/
+  div#hed-contato.container{
+    padding: 0;
+  }
+   /**Ajustes responsivo da pagina ranking**/
+  .bg-mobile{
+    background-color: #000;
+    color: #fff;
+  }
 
+}
 
 /* // Dispositivos médios (tablets com 768px ou mais) */
 @media (min-width: 768px) and (max-width: 991.98px) {

@@ -15,7 +15,7 @@ include('imports/head.php');
     include('imports/menu.php');
     ?>
     <header>
-      <div class="container">
+      <div id ="hed-contato" class="container">
         <div class="row no-gutters">
           <div class="col-12 header-contato text-center">
             <div id="sombra">
@@ -40,7 +40,7 @@ include('imports/head.php');
     <!-- Primeira Linha de Quadrados -->
     <div class="container mb-4">
       <div class="row justify-content-center text-center">
-        <div class="col-6 col-md-4 text-center ">
+        <div class="col-6 col-lg-4 m-n1 text-center ">
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-phone"></i></div>
             <div class="texto-contato">
@@ -49,7 +49,7 @@ include('imports/head.php');
             </div>
           </section>
         </div>
-        <div class="col-6 col-md-4 text-center align-middle">
+        <div class="col-6 col-lg-4 m-n1 text-center align-middle">
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-envelope"></i></div>
             <div class="texto-contato">
@@ -59,8 +59,8 @@ include('imports/head.php');
           </section>
         </div>
       </div>
-      <div class="row mt-4 justify-content-center text-center">
-        <div class="col-6 col-md-4 text-center">
+      <div class="row mt-sm-4 justify-content-center text-center">
+        <div class="col-6 col-lg-4 m-n1 text-center">
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-comment"></i></div>
             <div class="texto-contato">
@@ -69,7 +69,7 @@ include('imports/head.php');
             </div>
           </section>
         </div>
-        <div class="col-6 col-md-4 text-center">
+        <div class="col-6 col-lg-4 m-n1 text-center">
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-comment-alt"></i></div>
             <div class="texto-contato">

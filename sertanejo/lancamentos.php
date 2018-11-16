@@ -1,23 +1,23 @@
 <?php
-  $sertanejo_pt = array("Lançamentos da Semana","Álbum","Música","Cantor");
-  $sertanejo_en = array("New Releases","Album","Music","Singer");
-  $sertanejo_es = array("Lanzamientos de la Semana", "Álbum", "Música", "Cantante");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en,'ES' => $sertanejo_es);
- ?>
+$sertanejo_pt = array("Lançamentos da Semana", "Álbum", "Música", "Cantor");
+$sertanejo_en = array("New Releases", "Album", "Music", "Singer");
+$sertanejo_es = array("Lanzamientos de la Semana", "Álbum", "Música", "Cantante");
+$sertanejo = array('PT' => $sertanejo_pt, 'EN' => $sertanejo_en, 'ES' => $sertanejo_es);
+?>
 <?php
 //PHP para verificar qual o idioma do html
-  include('../imports/idioma.php');
+include('../imports/idioma.php');
 ?>
 <!DOCTYPE html>
-<html lang ="<?php echo $lang?>">
+<html lang ="<?php echo $lang ?>">
   <?php
   //importando o head da pagina
-    include('../imports/head.php');
+  include('../imports/head.php');
   ?>
   <body class="lancamento">
     <!--importandoo menu da pagina -->
     <?php
-      include('../imports/menu-secundario.php');
+    include('../imports/menu-secundario.php');
     ?>
     <!-- conteudo da pagina -->
     <div class="container mt-4 mb-4">
@@ -27,25 +27,25 @@
             <header class="text-center">
               <figure class="pt-2 figure">
                 <?php
-                  date_default_timezone_set('America/Sao_Paulo');
+                date_default_timezone_set('America/Sao_Paulo');
                   // echo date('s');
-                  if (date('s') >= 30) {
-                    echo '<img id="img-lancamento" src="../images/sertanejo/lancamento-01.jpg" class="shadow figure-img img-fluid rounded" alt="CD Luan Santana">';
-                    echo '<figcaption class="text-left figure-caption"><strong>Sofazinho</strong> <br>Luan Santana</figcaption>';
-                  } else{
-                    echo '<img id="img-lancamento" src="../images/principal/home-8.jpg" class="shadow figure-img img-fluid rounded" alt="CD Zé Neto & Cristiano">';
-                    echo '<figcaption class="text-left figure-caption"><strong>Status Que Eu Não Queria</strong> <br>Zé Neto & Cristiano</figcaption>';
-                  }
+                if (date('s') >= 30) {
+                  echo '<img id="img-lancamento" src="../images/sertanejo/lancamento-01.jpg" class="shadow figure-img img-fluid rounded" alt="CD Luan Santana">';
+                  echo '<figcaption class="text-left figure-caption"><strong>Sofazinho</strong> <br>Luan Santana</figcaption>';
+                } else {
+                  echo '<img id="img-lancamento" src="../images/principal/home-8.jpg" class="shadow figure-img img-fluid rounded" alt="CD Zé Neto & Cristiano">';
+                  echo '<figcaption class="text-left figure-caption"><strong>Status Que Eu Não Queria</strong> <br>Zé Neto & Cristiano</figcaption>';
+                }
                 ?>
               </figure>
             </header>
-            <h1 class="text-center h3"><?php echo $sertanejo[$ID][0]?></h1>
+            <h1 class="text-center h3"><?php echo $sertanejo[$ID][0] ?></h1>
             <table class="table table-borderless text-center">
               <thead>
                 <tr>
-                  <th scope="col"><?php echo $sertanejo[$ID][1]?></th>
-                  <th scope="col"><?php echo $sertanejo[$ID][2]?></th>
-                  <th scope="col"><?php echo $sertanejo[$ID][3]?></th>
+                  <th scope="col"><?php echo $sertanejo[$ID][1] ?></th>
+                  <th scope="col"><?php echo $sertanejo[$ID][2] ?></th>
+                  <th scope="col"><?php echo $sertanejo[$ID][3] ?></th>
                 </tr>
               </thead>
               <tbody>
@@ -107,7 +107,7 @@
     </div>
     <!-- importando o footer da pagina -->
     <?php
-      include('../imports/footer-secundario.php');
+    include('../imports/footer-secundario.php');
     ?>
   </body>
 </html>
