@@ -7,7 +7,11 @@
   "Momento's Songs","Increase the Sound and hear our indications","Quer tocar aquela Musica?","See more", "News and Updates","Stay tuned for the news of the World of Music","Daniel Realizes family dream in Ibiúna",
   "The new success of Katy Perry","Interview with The Strokes","News","News","The best songs","complete rankings","Enjoy good music?","Check out our indications","Playlists","
   Check out our playlists as the best selections");
-  $home = array('PT'=> $home_pt,'EN' => $home_en);
+  $home_es = array('Tu portal de música','Los mejores artistas y las canciones más reproducidas en este momento, lo puedes encontrar aquí en Ecletic.Music.',"Navega por el sitio y disfruta de todo el contenido creado para ti que ama y disfruta de la buena música.",
+  "Canciones del Momento","Aumentar el sonido y escuchar nuestras indicaciones","¿Quiere tocar esa música?","Mira más", "Noticias y actualizaciones","Manténgase atento a las noticias del mundo de la música","Daniel realiza el sueño familiar en Ibiúna",
+  "El nuevo éxito de Katy Perry","Entrevista con The Strokes","Noticias","Noticias","Las mejores canciones","Clasificación completa","¿Disfrutar de buena música?","Echa un vistazo a nuestras indicaciones","Listas de reproducción","
+   Echa un vistazo a nuestras listas de reproducción como las mejores selecciones ");
+  $home = array('PT'=> $home_pt,'EN' => $home_en,'ES'=> $home_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
  ?>

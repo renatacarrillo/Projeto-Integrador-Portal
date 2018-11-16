@@ -9,7 +9,7 @@
 	// print_r($menu);
 	$paginaAtual = basename($_SERVER['SCRIPT_NAME']);
 	//echo $paginaAtual;
- ?>
+?>
 	<nav id="navheader" class="navbar navbar-light">
     <!-- botão hamburgue do menu secundario com as paginas -->
     <div class="navbar-nav slide-menu-open">
