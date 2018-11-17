@@ -42,6 +42,8 @@
 		$navheader = '"header-pop"';
 	}elseif ($pagina=="classica"){
 		$navheader = '"header-classica"';
+    }elseif ($pagina=="punk"){
+		$navheader = '"headerpunk"';
 	}	else{
 		$navheader = '"navheader"';
 	}
