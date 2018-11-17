@@ -1,7 +1,7 @@
 <?php
     $classica_pt = array("A maior orquetra brasileira","Composições que marcaram o Brasil","Instrumentos principais","A música clássica hoje","Leia mais","Para estudar e relaxar","Leia mais","Sucessos nos desenhos","Leia mais");
     $classica_en = array("The bigest brazilian orchestra","Historical compositions for Brazil","Main instruments","The classical music today","Read more","For studying and relaxing","Read more","Success on cartoons","Read more");
-    $classica_es = array("La mayor orquesta brasileña","Composiciones que marcaron Brasil","Instrumentos principales","La música clásica hoy","Leer más","Para estudiar y relajarse","Leer más","Sucesos en los dibujos","Leer más");
+    $classica_es = array("La mayor orquesta brasileña","Composiciones que marcaron el Brasil","Instrumentos principales","La música clásica hoy","Leer más","Para estudiar y relajarse","Leer más","Sucesos en los dibujos","Leer más");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>

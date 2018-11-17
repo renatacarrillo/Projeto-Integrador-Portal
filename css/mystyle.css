@@ -587,6 +587,10 @@ img.img-destaque {
     background-image: url('../images/classica/jumbotron.jpg');
     background-size: cover;
 }
+.navartistas {
+    display: flex;
+    align-items: center;
+}
 
 /*Origem a clássica*/
 .porigem {
@@ -633,7 +637,7 @@ img.img-destaque {
 }
 .imagensdestaquesclassica {
     width: 100%;
-    height: 230px;
+    height: 100%;
 }
 .destaqueajustar {
     width: 100%;
@@ -714,6 +718,10 @@ img.img-destaque {
 .noticiasajuste {
     width: 100%;
 }
+.alinhar {
+    margin: 0 auto 0 auto;
+}
+
 /****************************AJUSTES DA PAGINA INDIE  ********************/
 /** Header **/
 #header-indie {

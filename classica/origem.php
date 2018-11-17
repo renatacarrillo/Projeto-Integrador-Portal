@@ -46,7 +46,7 @@
                 </section>
             </div>
             
-            <div class="col-12 col-md-12 col-lg-4 mt-4">
+            <div class="col-12 col-md-12 col-lg-4 mt-4 mb-4">
                 <aside>
                     <div id="boxorigem">
                         <h5 class="text-center ajustevejamais"><?php echo $classica[$ID][1]?></h5>

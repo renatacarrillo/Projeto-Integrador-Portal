@@ -1,3 +1,10 @@
+<?php 
+    $classica_pt = array("O novo sucesso da Katy Perry","Conheça mais sobre a nova estrelinha do sertanejo","Punk: Uma crítica ao sistema","Veja mais sobre o novo álbum do The Neighbourhood","A maior orquestra brasileira","Gusttavo Lima e o sucesso","Leia mais","Por que você precisa ouvir Ratos de Porão?","Leia mais","Topo das paradas: Bateu Os Beatles!","Leia mais","Novo albúm: The Neighbourhood","Leia mais");
+    $classica_en = array("The new Katy Perry success","Know more about the new sertanejo's star","Punk: One criticism for the system","See more about the new's The Neighbourhood album","The biggest brazilian orchestra","Gusttavo Lima and the succes","Read more","Why listen Ratos do Porão?","Read more","TOP: He passed The Beatles!","Read more","The new album: The Neighbourhood","Read more");
+    $classica_es = array("El nuevo éxito de katy perry","Conoce más sobre la estrella del sertanejo","Punk: una crítica al sistema","Mira más sobre el nuevo álbum de The Neighbourhood","La mayor orquesta brasileña","Gusttavo Lima y el éxito","Leer más","¿Por qué escuchar a Ratos do Porão?","Leer más","TOP: ¡Pasó a The Beatles!","Leer más","El nuevo álbum: The Neighborhood","Leer más");
+
+    $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
+?>
 <?php
 //PHP para verificar qual o idioma do html
   include('imports/idioma.php');
@@ -28,7 +35,7 @@
                     <img src="images/noticias/slide/slide-01.jpg" class="img-fluid d-block noticiasajuste" alt="primeiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
-                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">O novo sucesso da Katy Perry</h3>
+                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][0]?></h3>
                             <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                         </a>
                     </div>
@@ -39,7 +46,7 @@
                     <img src="images/noticias/slide/slide-02.jpg" class="img-fluid d-block noticiasajuste" alt="segundo slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
-                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Conheça mais sobre a estrelinha do sertanejo universitário</h3>
+                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][1]?></h3>
                             <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                         </a>
                     </div>
@@ -51,7 +58,7 @@
                     <img src="images/noticias/slide/slide-03.jpg" class="img-fluid d-block noticiasajuste" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
-                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Punk: uma crítica ao sistema</h3>
+                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][2]?></h3>
                             <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                         </a>
                     </div>
@@ -63,7 +70,7 @@
                     <img src="images/noticias/slide/slide-04.jpg" class="img-fluid d-block noticiasajuste" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
-                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">Novo álbum do The Neighbourhood</h3>
+                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][3]?></h3>
                             <p class="pcarrossel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                         </a>
                     </div>
@@ -75,7 +82,7 @@
                     <img src="images/noticias/slide/slide-05.jpg" class="img-fluid d-block noticiasajuste" alt="terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
                         <a href="#" class="hnoticias">
-                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3">A maior orquestra brasileira</h3>
+                            <h3 class="tcarousel text-left font-weight-bold text-white pl-0 pb-3"><?php echo $classica[$ID][4]?></h3>
                             <p class="pcarousel text-left text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus massa lectus, fringilla pharetra tortor aliquam vitae. Pellentesque luctus massa non elit viverra pellentesque.</p>
                         </a>
                     </div>
@@ -110,8 +117,8 @@
             </div>
             <article class="col-12 col-md-6 col-lg-3 ">
                 <div>
-                    <h3 class="tnoticias font-weight-bold mt-3">Gusttavo Lima e o sucesso</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
+                    <h3 class="tnoticias font-weight-bold mt-3 text-left"><?php echo $classica[$ID][5]?></h3>
+                    <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][6]?></a></p>
                 </div>
             </article>
             <div class="col-12 col-md-6 col-lg-3 ">
@@ -119,8 +126,8 @@
             </div>
             <article class="col-12 col-md-6 col-lg-3">
                 <div>
-                    <h3 class="tnoticias font-weight-bold mt-3">Por que ouvir Ratos de Porão?</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
+                    <h3 class="tnoticias font-weight-bold mt-3 noticiasfonte text-left"><?php echo $classica[$ID][7]?></h3>
+                    <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet...  <a href="#" class="lnoticias"><?php echo $classica[$ID][8]?></a></p>
                 </div>
             </article>
         </div>
@@ -130,8 +137,8 @@
             </div>
             <article class="col-12 col-md-6 col-lg-3 mt-3 mb-4">
                 <div>
-                    <h3 class="tnoticias font-weight-bold">Topo das paradas: Bateu os Beatles!</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
+                    <h3 class="tnoticias font-weight-bold text-left"><?php echo $classica[$ID][9]?></h3>
+                    <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][10]?></a></p>
                 </div>
             </article>
             <div class="col-12 col-md-6 col-lg-3 mt-3">
@@ -139,8 +146,8 @@
             </div>
             <article class="col-12 col-md-6 col-lg-3 mt-3 mb-4">
                 <div>
-                    <h3 class="tnoticias font-weight-bold">Novo albúm: The Neighbourhood</h3>
-                    <p class="pnoticias text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet malesuada... <a href="#" class="lnoticias"> Leia mais</a></p>
+                    <h3 class="tnoticias font-weight-bold text-left"><?php echo $classica[$ID][11]?></h3>
+                    <p class="pnoticias text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum ipsum id dictum volutpat. Nam volutpat placerat sit amet... <a href="#" class="lnoticias"><?php echo $classica[$ID][12]?></a></p>
                 </div>
             </article>
         </div>
