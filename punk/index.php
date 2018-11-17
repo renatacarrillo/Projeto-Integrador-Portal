@@ -30,7 +30,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                         <a href="artistas.php">
                             <img src="../images/punk/ratosdeporao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                             <figcaption class="figure-caption">
-                                <h3><?php echo $punk[$ID][0] ?></h3>
+                                <h3 id="importancia3"><?php echo $punk[$ID][0] ?></h3>
                             </figcaption>
                         </a>
                     </figure>
@@ -44,7 +44,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                                     <a href="index.php">
                                         <img src="../images/punk/homemulheres.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3>Destaques.</h3>
+                                            <h3 id="importancia3">Destaques.</h3>
                                         </figcaption>
                                     </a>
                                 </figure>
@@ -56,7 +56,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                                     <a href="index.php">
                                         <img src="../images/punk/homemenstruacao.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3>Ranking.</h3>
+                                            <h3 id="importancia3">Ranking.</h3>
                                         </figcaption>
                                     </a>
                                 </figure>
@@ -69,7 +69,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                                     <a href="index.php">
                                         <img src="../images/punk/impacto%20social.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3>Impacto Social.</h3>
+                                            <h3 id="importancia3">Impacto Social.</h3>
                                         </figcaption>
                                     </a>
                                 </figure>
@@ -80,7 +80,7 @@ $punk = array('PT' => $punk_pt, 'EN' => $punk_en, 'ES' => $punk_es);
                                     <a href="index.php">
                                         <img src="../images/punk/homeblindpigs.jpg" class="figure-img img-fluid rounded" alt="Loren Ipsum sit amet consectur.">
                                         <figcaption class="figure-caption">
-                                            <h3>lancamentos.</h3>
+                                            <h3 id="importancia3">lancamentos.</h3>
                                         </figcaption>
                                     </a>
                                 </figure>
