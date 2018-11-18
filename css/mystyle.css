@@ -1,3 +1,8 @@
+/* Remover o hover padrão do bootstrap */
+a:hover{
+  text-decoration: none;
+}
+
 /**** estilo do menu oculto ********************/
 .side-menu-sec {
   overflow: hidden;
@@ -179,9 +184,6 @@
   text-shadow: 2px 1px 1px #000;
 }
 
-#myCarousel p:hover{
-  text-shadow: none;
-}
 /**************** FONTES DO SITE ****************************************/
 body {
   font-family: 'Roboto', sans-serif;
@@ -497,7 +499,9 @@ img.img-destaque {
   /* background-color: rgba(255, 145, 0, 0.6); */
   min-height: 30em;
 }
-
+.sert-dest-aside span:hover{
+  color:#B95A09;
+}
 .menu-icon-dest {
   font-size: 3em;
 }
@@ -739,15 +743,23 @@ h3.titulos-indie {
   color: #a0a0a0 !important;
 }
 
+.indietexto {
+    color: white;
+    position: relative;
+    top: -100px;
+    margin-left: 4em;
+}
+
+.imgindie {
+    top: -35px;
+}
+
+.hdois {
+    font-size: 1.5em;
+}
 /****************************AJUSTES CONTATO******************************/
 .contatinho{
     background-color: black;
-}
-
-#sombra{
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.336);
-  height: 100%;
 }
 
 div.header-contato{
@@ -758,9 +770,10 @@ div.header-contato{
 }
 #header-cont{
     /* background: linear-gradient(-45deg,#fc00ff,#00dbde); */
-    background: url('../images/principal/header-contato.svg') 50% 50%;
+    background: url('../images/principal/header-contat.png') 50% 50%;
     background-size: cover;
     width: 100%;
+    opacity: .2;
 }
 
 .header-contato img{
@@ -770,6 +783,14 @@ div.header-contato{
   border-radius: 50%;
   padding: 30%;
   fill: #0575E6;
+  position:relative;
+  opacity: 1;
+}
+
+#sombra{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 div.contato{
@@ -786,6 +807,7 @@ div.contato{
   margin-bottom: 2em;
   color: #fff;
 }
+
 
 .cx-contato{
   background: linear-gradient(-40deg,#D72CF6,#00dbde);
@@ -907,16 +929,6 @@ div.icone-contato{
     height: 70px;
 }
 
-h2 {
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 10px;
-    font-family: sans-serif;
-    font: roboto;
-    color: white;
-}
-
 .legenda {
     position: relative;
     bottom: 120px;
@@ -945,32 +957,6 @@ h2 {
     color: white;
 }
 
-#footer {
-    color: white;
-    position: relative;
-    top: 30px;
-    background: black;
-
-}
-
-.menu-secundario {
-    position: relative;
-    top: -20px;
-
-}
-
-.copy {
-    position: relative;
-    20px;
-}
-
-.logo-footer {
-    position: relative;
-    top: 20px;
-}
-
-
-
 #importancia3 {
     background-color: black;
     text-emphasis-color: white;
@@ -980,13 +966,6 @@ h2 {
     position: relative;
     top: -20px;
 }
-
-#footer{
-    position: relative;
-    top: -20px;
-}
-
-
 
 /*PÃGINA punk*/
 

@@ -1,4 +1,10 @@
 <?php
+$contato_pt = array("Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", "Formulario", "Preencha o Formulario");
+$contato_en = array("Music Portal", "Contact Us", "Telephone", "Message", "Form", "Fill in the Form");
+$contato_es = array("Portal de Musica", "Contáctenos", "Teléfono", "Mensaje", "Formulario", "Rellene el Formulario");
+$contato = array('PT' => $contato_pt, 'EN' => $contato_en, 'ES' => $contato_es);
+?>
+<?php
 //PHP para verificar qual o idioma do html
 include('imports/idioma.php');
 ?>
@@ -31,8 +37,9 @@ include('imports/head.php');
         <div class="row linha2">
           <div class="col-12 text-center">
             <!-- Título e Sub -->
-            <h2>Portal de Musica</h2>
-            <p>Fale Conosco</p>
+            <!--  -->  
+            <h2><?php echo $contato[$ID][0]; ?></h2> 
+            <p><?php echo $contato[$ID][1]; ?></p> 
           </div>
         </div>
       </div>
@@ -44,7 +51,7 @@ include('imports/head.php');
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-phone"></i></div>
             <div class="texto-contato">
-              <h3>Telefone</h3>
+              <h3><?php echo $contato[$ID][2]; ?></h3>
               <p>+55 11 1234 5678</p>
             </div>
           </section>
@@ -64,7 +71,7 @@ include('imports/head.php');
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-comment"></i></div>
             <div class="texto-contato">
-              <h3>Mensagem</h3>
+              <h3><?php echo $contato[$ID][3]; ?></h3>
               <p>+55 11 1234 5678</p>
             </div>
           </section>
@@ -73,8 +80,8 @@ include('imports/head.php');
           <section class="cx-contato">
             <div class="icone-contato"><i class="fas fa-comment-alt"></i></div>
             <div class="texto-contato">
-              <h3>Formulario</h3>
-              <p>Preencha o Formulario</p>
+              <h3><?php echo $contato[$ID][4]; ?></h3>
+              <p><?php echo $contato[$ID][5]; ?></p>
             </div>
           </section>
         </div>
