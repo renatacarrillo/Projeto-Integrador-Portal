@@ -42,7 +42,10 @@
 		$navheader = '"header-pop"';
 	}elseif ($pagina=="classica"){
 		$navheader = '"header-classica"';
-	}	else{
+	}elseif ($pagina=="hip-hop"){
+        $navheader = '"header-hip-hop"';
+    }
+    else{
 		$navheader = '"navheader"';
 	}
 
