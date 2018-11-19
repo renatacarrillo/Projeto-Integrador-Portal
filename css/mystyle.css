@@ -362,7 +362,10 @@ a.home-cifras, a.home-ritmo{
   background-color: #000;
   color: #fff;
 }
-
+img.imgquemsomos {
+    width: 150px;
+    height: 150px;
+}
 /********** PAGINA RANKING ******************/
 .tt-rank{
   margin-top: .1em;

@@ -19,7 +19,7 @@
       <div class="container">
         <div class="row pb-2">
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/quem-somos.jpg" alt="Foto Karina Lucind">
+            <img class="mb-2 rounded-circle shadow imgquemsomos" src="images/principal/karina-quem-somos.jpeg" alt="Foto Karina Lucindo">
               <h2 class="shadow-text font-weight-bold">Karina Lucindo</h2>
               <?php
               if ($ID=='PT') {
