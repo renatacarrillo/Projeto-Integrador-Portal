@@ -1,94 +1,98 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<!--head-->
 <?php
-    include('../imports/head.php');
+ //PHP para verificar qual o idioma do html
+include('../imports/idioma.php');
+ ?>
+<!DOCTYPE html>
+<html lang="<?php echo $lang?>">
+    
+<?php
+//importando o head da pagina
+include('../imports/head.php');
 ?>
+
 
 <body>
 
 <!-- Menu -->
 <?php
-    include('../imports/menu-secundario.php');
+include('../imports/menu-secundario.php');
 ?>
 
     <!-- Conteúdo da pagina -->
     <main>
-    <br>
+    <br><br>
 
         <!-- Primeira Linha -->
-        <div class="countainer">
+        <div class="container">
 
             <div class="row text-center home-geral">
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. <span class="badge badge-info">Noticias</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/emicida-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>E.M.I.C.I.D.A.</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.<span class="badge badge-success">Novidades</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/coruja-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>Coruja BC1</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. <span class="badge badge-success">Novidades</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/rael-destaques.png" alt="Generic placeholder image"></a>
+                    <h3>Rael da Rima</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. <span class="badge badge-success">Novidades</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/sant-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>Sant</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
             </div>
         </div>
-
-        <!-- Segunda Linha -->
         <br>
 
-        <div class="countainer">
+        <!-- Segunda Linha -->
+        <div class="container">
 
             <div class="row text-center home-geral">
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-1.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. <span class="badge badge-info">Noticias</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/imagine-dragons-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>Imagine Dragons</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-2.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.<span class="badge badge-success">Novidades</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/nirvana-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>Nirvana</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. <span class="badge badge-success">Novidades</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/belle-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>Belle & Sebastian</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <a href="#"><img class="rounded img-fluid" src="../images/principal/home-3.jpg" alt="Generic placeholder image"></a>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. <span class="badge badge-success">Novidades</span></p>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <a href="#"><img class="img-fluid" src="../images/Indie/lorde-destaques.jpg" alt="Generic placeholder image"></a>
+                    <h3>Lorde</h3>
+                    <p class="text-justify">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                 </div>
             </div>
         </div>
+        <br>
 
     </main>
 
-    <!-- FOOTER -->
-    <br>
-
-    <?php
-        include('../imports/footer-secundario.php');
-    ?>
+<!-- FOOTER -->
+<br>
+<?php
+include('../imports/footer-secundario.php');
+?>
 
 </body>
 
