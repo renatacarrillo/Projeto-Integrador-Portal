@@ -32,7 +32,7 @@ include('imports/idioma.php');
       <article class="art-ranking">
         <div class="row">
           <div class="col-6 col-lg-2 pt-4 text-center">
-            <img src="images/principal/ranking.jpg" alt="Imagem do ranking Top 10" class="img-fluid">
+            <img src="images/principal/ranking.png" alt="Imagem do ranking Top 10" class="img-fluid">
             <h2 class="tt-rank">Top <img src="images/principal/star-solid.png" 
                 alt="icone estrela"> 10 <?php echo $ranking[$ID][0]?></h2>
           </div>
@@ -51,7 +51,7 @@ include('imports/idioma.php');
             </ol>
           </div>
           <div class="col-6 col-lg-2 pt-4 text-center bg-mobile">
-            <img src="images/principal/ranking.jpg" alt="Imagem do ranking Top 10" class="img-fluid">
+            <img src="images/principal/ranking.png" alt="Imagem do ranking Top 10" class="img-fluid">
             <h2 class="tt-rank">Top <img src="images/principal/star-solid.png" 
                 alt="icone estrela"> 10 <?php echo $ranking[$ID][1]?></h2>
           </div>
@@ -70,7 +70,7 @@ include('imports/idioma.php');
             </ol>
           </div>
           <div class="col-6 col-lg-2 text-center pt-4">
-            <img src="images/principal/ranking.jpg" alt="Imagem do ranking Top 10" class="img-fluid">
+            <img src="images/principal/ranking.png" alt="Imagem do ranking Top 10" class="img-fluid">
             <h2 class="tt-rank">Top <img src="images/principal/star-solid.png" 
                 alt="icone estrela"> 10 <?php echo $ranking[$ID][2]?></h2>
           </div>

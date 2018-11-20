@@ -1,17 +1,17 @@
 <?php
-$home_pt = array(
-  'O Seu Portal da Música', 'Os melhores artistas e as musicas mais tocadas no momento você encontra aqui no Ecletic.Music.', "Navegue pelo site e aproveite todo o conteúdo feito para você que adora e curte boa musica.",
+$home_pt = array('O Seu Portal da Música', 'Os melhores artistas e as musicas mais tocadas no momento você encontra aqui no Ecletic.Music.', "Navegue pelo site e aproveite todo o conteúdo feito para você que adora e curte boa musica.",
   'As músicas do Momento', "Aumente o Som e ouça nossas indicações", "Quer tocar aquela Musica?", "Veja Mais", "Notícias e Novidades", "Fique por dentro das novidades do Mundo da Música", "Daniel Realiza sonho de família em Ibiúna",
   "O novo sucesso da Katy Perry", "Entrevista com The Strokes", "Noticias", "Novidades", "As melhores músicas", "classificação completa", "Curte boa Música?", "Confira então nossas indicações", "Playlists",
-  "Confira nossas playlists com as melhores seleções"
-);
-$home_en = array(
-  'Your Music Portal', 'The best artists and the most played songs at the moment you can find it here at Ecletic.Music.', "Browse the site and enjoy all the content made for you who loves and enjoy good music.",
+  "Confira nossas playlists com as melhores seleções","semanal","mensal", "anual");
+$home_en = array('Your Music Portal', 'The best artists and the most played songs at the moment you can find it here at Ecletic.Music.', "Browse the site and enjoy all the content made for you who loves and enjoy good music.",
   "Momento's Songs", "Increase the Sound and hear our indications", "Quer tocar aquela Musica?", "See more", "News and Updates", "Stay tuned for the news of the World of Music", "Daniel Realizes family dream in Ibiúna",
   "The new success of Katy Perry", "Interview with The Strokes", "News", "News", "The best songs", "complete rankings", "Enjoy good music?", "Check out our indications", "Playlists", "
-  Check out our playlists as the best selections"
-);
-$home = array('PT' => $home_pt, 'EN' => $home_en);
+  Check out our playlists as the best selections","weekly","monthly", "annual");
+  $home_es = array('Tu portal de música','Los mejores artistas y las canciones más reproducidas en este momento, lo puedes encontrar aquí en Ecletic.Music.',"Navega por el sitio y disfruta de todo el contenido creado para ti que ama y disfruta de la buena música.",
+  "Canciones del Momento","Aumentar el sonido y escuchar nuestras indicaciones","¿Quiere tocar esa música?","Mira más", "Noticias y actualizaciones","Manténgase atento a las noticias del mundo de la música","Daniel realiza el sueño familiar en Ibiúna",
+  "El nuevo éxito de Katy Perry","Entrevista con The Strokes","Noticias","Noticias","Las mejores canciones","Clasificación completa","¿Disfrutar de buena música?","Echa un vistazo a nuestras indicaciones","Listas de reproducción","
+   Echa un vistazo a nuestras listas de reproducción como las mejores selecciones","semanal","mensuales","anual");
+  $home = array('PT'=> $home_pt,'EN' => $home_en,'ES'=> $home_es);
 //usar $ID para os Vetores
 ?>
 <?php
@@ -91,7 +91,7 @@ include('imports/idioma.php');
       </a>
     </div>
   </div>
-    <div class="container">
+    <div class="container mt-5">
       <!-- As colun com os testos das Noticias -->
       <aside class="art-home mt-3">
         <div class="row">
@@ -122,19 +122,21 @@ include('imports/idioma.php');
         </div>
       </aside>
     </div><!-- /.container -->
-    <div class="container">
-      <div class="row mr-0">
+    <div class="container mt-5">
+      <div class="row">
         <!--Section com o resumo dos rankings -->
-        <div class="col-lg-4">
-          <section class="rank shadow p-3 mb-5 bg-white rounded">
+        <div class="col-lg-4 mt-2">
+          <section class="rank p-3 mb-5 rounded">
             <div class="row">
               <div class="col">
-                <h2><?php echo $home[$ID][14] ?></h2>
+                <h2 class="h4 text-center"><?php echo $home[$ID][14] ?></h2>
               </div>
             </div>
             <div class="row no-gutters align-items-center">
               <div class="col-5">
-                <img class="img-fluid" src="images/principal/ranking.jpg" alt="Top da Paradas">
+                <img class="img-fluid" src="images/principal/ranking.png" alt="Top da Paradas">
+                <p class="tt-rank">Top <img src="images/principal/star-solid.png" 
+                alt="icone estrela"> 10 <?php echo $home[$ID][20] ?></p>
               </div>
               <div class="col-7">
                 <ol>
@@ -146,7 +148,9 @@ include('imports/idioma.php');
             </div>
             <div class="row no-gutters align-items-center">
               <div class="col-5">
-                <img class="img-fluid" src="images/principal/ranking.jpg" alt="Top da Paradas">
+                <img class="img-fluid" src="images/principal/ranking.png" alt="Top da Paradas">
+                <p class="tt-rank">Top <img src="images/principal/star-solid.png" 
+                alt="icone estrela"> 10 <?php echo $home[$ID][21] ?></p>
               </div>
               <div class="col-7">
                 <ol>
@@ -158,7 +162,9 @@ include('imports/idioma.php');
             </div>
             <div class="row no-gutters align-items-center">
               <div class="col-5">
-                <img class="img-fluid" src="images/principal/ranking.jpg" alt="Top da Paradas">
+                <img class="img-fluid" src="images/principal/ranking.png" alt="Top da Paradas">
+                <p class="tt-rank">Top <img src="images/principal/star-solid.png" 
+                alt="icone estrela"> 10 <?php echo $home[$ID][22] ?></p>
               </div>
               <div class="col-7">
                 <ol>
@@ -190,18 +196,18 @@ include('imports/idioma.php');
                   </div>
                   <div class="col-6 col-md-4">
                     <img class="rounded img-fluid" src="images/principal/home-4.jpg" alt="Donec sed odio duielit">
-                    <p>Donec sed odio duielit</p>
+                    <p>Donec sed odio</p>
                   </div>
                   <div class="no-display col-6 col-md-4">
                     <img class="rounded img-fluid" src="images/principal/home-5.jpg" alt="Donec sed odio duielit.">
-                    <p>Donec sed odio duielit.</p>
+                    <p>Donec sed odio</p>
                   </div>
                 </div>
                 <!-- Linha 2 da sugestão -->
                 <div class="row justify-content-md-center align-items-center text-center">
                   <div class="col-6 col-md-4">
                     <img class="rounded img-fluid" src="images/principal/home-6.jpg" alt="Donec sed odio duielit.">
-                    <p>Donec sed odio duielit.</p>
+                    <p>Donec sed odio</p>
                   </div>
                   <div class="col-6 col-md-4">
                     <img class="rounded img-fluid" src="images/principal/home-7.jpg" alt="Lorem Ipsummm">
@@ -209,7 +215,7 @@ include('imports/idioma.php');
                   </div>
                   <div class="no-display col-6 col-md-4">
                     <img class="rounded img-fluid" src="images/principal/home-8.jpg" alt="Donec sed odio duielit.">
-                    <p>Donec sed odio duielit.</p>
+                    <p>Donec sed odio</p>
                   </div>
                 </div>
               </div>
