@@ -1,7 +1,7 @@
 <?php
-    $classica_pt = array("A história da música clássica","Veja mais","Períodos da música clássica","Orquestras mais conhecidas","Por que ouvir música clássica?");
-    $classica_en = array("The classical music's history","See more","Classical music's periods","The best known orchestras","Why listen classical music?");
-    $classica_es = array("La historia de la música clásica","Mira más","Períodos de la música clásica","Las orquestras más populares","¿Por qué escuchar música clásica?");
+    $classica_pt = array("A história da música clássica","Veja mais:","Períodos da música clássica","Orquestras mais conhecidas","Por que ouvir música clássica?");
+    $classica_en = array("The classical music's history","See more:","Classical music's periods","The best known orchestras","Why listen classical music?");
+    $classica_es = array("La historia de la música clásica","Mira más:","Períodos de la música clásica","Las orquestras más populares","¿Por qué escuchar música clásica?");
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
@@ -49,25 +49,25 @@
             <div class="col-12 col-md-12 col-lg-4 mt-4 mb-4">
                 <aside>
                     <div id="boxorigem">
-                        <h5 class="text-center ajustevejamais"><?php echo $classica[$ID][1]?></h5>
+                        <h5 class="text-center ajustevejamais font-weight-bold"><?php echo $classica[$ID][1]?></h5>
                     </div>
                     
-                        <div class="col-12 col-md-12 col-lg-12 morigem">
-                            <a href="#">
-                                <h5 class="tboxorigem text-left"><?php echo $classica[$ID][2]?></h5>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <a href="#" class="origemhover">
+                                <h5 class="tboxorigem origemhover"><?php echo $classica[$ID][2]?></h5>
+                                <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
                             </a>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-12 morigem">
-                            <a href="#">
-                                <h5 class="tboxorigem text-left"><?php echo $classica[$ID][3]?></h5>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <a href="#" class="origemhover">
+                                <h5 class="tboxorigem origemhover"><?php echo $classica[$ID][3]?></h5>
+                                <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
                             </a>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-12 morigem">
-                            <a href="#">
-                                <h5 class="tboxorigem text-left"><?php echo $classica[$ID][4]?></h5>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="col-12 col-md-12 col-lg-12">
+                            <a href="#" class="origemhover">
+                                <h5 class="tboxorigem origemhover"><?php echo $classica[$ID][4]?></h5>
+                                <p class="text-muted tamanhop text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in urna sem. Vivamus... </p>
                             </a>
                         </div>
                 </aside>
