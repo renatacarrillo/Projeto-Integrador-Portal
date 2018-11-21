@@ -41,7 +41,7 @@ include('imports/idioma.php');
       </ol>
       <div class="carousel-inner">
         <article class="carousel-item active">
-          <img class="first-slide" src="images/principal/carrossel-01.jpg" alt="First slide">
+          <div class="first-slide slide-carrocel slide-1"></div>
           <div class="container">
             <div class="carousel-caption text-left">
               <h1><?php echo $home[$ID][0] ?></h1>
@@ -51,7 +51,7 @@ include('imports/idioma.php');
           </div>
         </article>
         <section class="carousel-item">
-          <img class="second-slide" src="images/principal/carrossel-02.jpg" alt="Second slide">
+          <div class="second-slide slide-carrocel slide-2"></div>
           <div class="container">
             <div class="carousel-caption">
               <h1><?php echo $home[$ID][3] ?></h1>
@@ -61,7 +61,7 @@ include('imports/idioma.php');
           </div>
         </section>
         <section class="carousel-item">
-          <img class="third-slide" src="images/principal/carrossel-03.jpg" alt="Third slide">
+          <div class="third-slide slide-carrocel slide-3"></div>
           <div class="container">
             <div class="carousel-caption text-right">
               <h1><?php echo $home[$ID][4] ?></h1>
@@ -71,7 +71,7 @@ include('imports/idioma.php');
           </div>
         </section>
         <section class="carousel-item">
-          <img class="four-slide" src="images/principal/carrossel-04.jpg" alt="Four slide">
+          <div class="four-slide slide-carrocel slide-4"></div>
           <div class="container">
             <div class="carousel-caption text-right">
               <h1><?php echo $home[$ID][5] ?></h1>
@@ -221,7 +221,7 @@ include('imports/idioma.php');
               </div>
             </section>
           </div>
-          <div class="row no-gutters">
+          <div class="row no-gutters mb-md-4 mb-lg-0">
             <div class="col-12">
               <section class="playlists">
                 <h3><?php echo $home[$ID][18] ?></h3>

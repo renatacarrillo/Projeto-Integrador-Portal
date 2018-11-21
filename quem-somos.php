@@ -55,13 +55,13 @@
                 }
               if ($ID=='ES') {
                 echo "<p>RA:2650831813022 - Revelador</p>";
-                echo '<p><a href="classica/index.php">Classica</a></p>';
+                echo '<p><a href="punk/index.php">Punk/Hardcore</a></p>';
                 echo "<p>Soy Rafael Jacome, 24 años de edad, estudiante de Fatec São Roque del curso Sistemas para Internet. Mi elección de curso es debido a mi situación de pobreza. Estoy cansado de ser pobre, quiero ser muy rico, Inchalah.</p>";
                 }
               ?>
           </div>
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/quem-somos.jpg" alt="Foto Reginaldo Domingos">
+            <img class="mb-2 rounded-circle shadow" src="images/principal/reginaldo-quem-somos.jpg" alt="Foto Reginaldo Domingos">
               <h2 class="shadow-text font-weight-bold">Reginaldo Domingos</h2>
               <?php
               if ($ID=='PT') {
@@ -76,7 +76,7 @@
                 }
               if ($ID=='ES') {
                 echo "<p>RA:2650831813022 - Revelador</p>";
-                echo '<p><a href="classica/index.php">Classica</a></p>';
+                echo '<p><a href="sertanejo/index.php">Sertanejo</a></p>';
                 echo "<p>Estudiante del curso de Sistemas para Internet, en la FATEC São Roque, estoy en el 2 semestre. Apreciando a desarrollar sitios para Internet. Responsable por auxiliar en el desarrollo de los javascripts y PHP del Portal.</p>";
                 }
               ?>
@@ -103,7 +103,7 @@
                 }
               if ($ID=='ES') {
                 echo "<p>RA:2650831813022 - Revelador</p>";
-                echo '<p><a href="classica/index.php">Classica</a></p>';
+                echo '<p><a href="hip-hop/index.php">Hip-Hop</a></p>';
                 echo "<p>Estudiante del segundo semestre del curso de Sistemas para Internet en la FATEC São Roque, tiene 22 años, es responsable de la parte de la creación de las páginas Hip Hop, y de la página de Cifras.</p>";
                 }
                 ?>
@@ -124,7 +124,7 @@
               }
               if ($ID=='ES') {
                 echo "<p>RA:2650831813022 - Revelador</p>";
-                echo '<p><a href="classica/index.php">Classica</a></p>';
+                echo '<p><a href="pop/index.php">Pop</a></p>';
                 echo "<p>Estudiante de Sistemas para Internet en el 2º Semestre de la Fatec - São Roque, responsable por la creación del contenido POP y de la página indicaciones en el PORTAL</p>";
                 }
               ?>
