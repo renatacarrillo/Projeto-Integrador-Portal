@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<!--importando o head da pagina -->
 <?php
-    include('../imports/head.php');
-  ?>
-
+  $hiphop_pt = array("Artistas","Sobre");
+  $hiphop_en = array("Artist","About");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+// print_r($sertanejo);
+//usar $ID para os Vetores
+ ?>
+ <?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <body>
-    <!--importandoo menu da pagina -->
-    <?php
+  <!--importandoo menu da pagina -->
+  <?php
     include('../imports/menu-secundario.php');
   ?>
 
@@ -17,7 +27,7 @@
                 <main>
                     <div class="row mt-3 mb-3">
                         <div class="col-12">
-                            <h1 class="text-white bg-dark text-center font-italic font-weight-bold">Artistas</h1>
+                            <h1 class="text-white bg-dark text-center font-italic font-weight-bold"><?php echo $hiphop[$ID][0]?></h1>
                         </div>
                     </div>
                     <div class="container">
@@ -30,11 +40,11 @@
                                 <span class="badge badge-secondary">Top 1</span>
                                 <span class="badge badge-secondary">Hip Hop</span>
                                 <span class="badge badge-secondary">Rap</span>
-                                <p><button type="button" class="btn btn-outline-success mt-3">Spotify</button></p>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3">Spotify</button></a></p>
                             </div>
                             <div class="col-sm-6 mt-2">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
-                                    <div class="card-header">Sobre</div>
+                                    <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
@@ -51,11 +61,11 @@
                                 <span class="badge badge-secondary">Top 1</span>
                                 <span class="badge badge-secondary">Hip Hop</span>
                                 <span class="badge badge-secondary">Rap</span>
-                                <p><button type="button" class="btn btn-outline-success mt-3">Spotify</button></p>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3">Spotify</button></a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
-                                    <div class="card-header">Sobre</div>
+                                    <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
@@ -72,11 +82,11 @@
                                 <span class="badge badge-secondary">Top 1</span>
                                 <span class="badge badge-secondary">Hip Hop</span>
                                 <span class="badge badge-secondary">Rap</span>
-                                <p><button type="button" class="btn btn-outline-success mt-3">Spotify</button></p>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3">Spotify</button></a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
-                                    <div class="card-header">Sobre</div>
+                                    <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
@@ -93,11 +103,11 @@
                                 <span class="badge badge-secondary">Top 1</span>
                                 <span class="badge badge-secondary">Hip Hop</span>
                                 <span class="badge badge-secondary">Rap</span>
-                                <p><button type="button" class="btn btn-outline-success mt-3">Spotify</button></p>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3">Spotify</button></a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
-                                    <div class="card-header">Sobre</div>
+                                    <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
@@ -114,11 +124,11 @@
                                 <span class="badge badge-secondary">Top 1</span>
                                 <span class="badge badge-secondary">Hip Hop</span>
                                 <span class="badge badge-secondary">Rap</span>
-                                <p><button type="button" class="btn btn-outline-success mt-3">Spotify</button></p>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3">Spotify</button></a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
-                                    <div class="card-header">Sobre</div>
+                                    <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
                                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>

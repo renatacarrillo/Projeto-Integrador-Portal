@@ -1,20 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<!--importando o head da pagina -->
 <?php
-    include('../imports/head.php');
-  ?>
-
+  $hiphop_pt = array("Marcos: Mais Ouvidas","Posição","Artista","Música","Albúm");
+$hiphop_en = array("Mark: Most Listened","Status","Artist","Music","Album");
+  $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en);
+// print_r($sertanejo);
+//usar $ID para os Vetores
+ ?>
+ <?php
+ //PHP para verificar qual o idioma do html
+   include('../imports/idioma.php');
+ ?>
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
+   //importando o head da pagina
+     include('../imports/head.php');
+   ?>
 <body>
-    <!--importandoo menu da pagina -->
-    <?php
+  <!--importandoo menu da pagina -->
+  <?php
     include('../imports/menu-secundario.php');
   ?>
     <main>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                        <h1 class="text-white bg-dark text-center font-italic font-weight-bold">Mais Ouvidas</h1>
+                        <h1 class="text-white bg-dark text-center font-italic font-weight-bold mt-4 mb-3"><?php echo $hiphop[$ID][0]?></h1>
                 </div>
             </div>
 <div class="row">
@@ -22,10 +32,10 @@
             <table class="table table-striped table-dark">
                 <thead>
                     <tr>
-                        <th scope="col">Posição</th>
-                        <th scope="col">Artista</th>
-                        <th scope="col">Música</th>
-                        <th scope="col">Albúm</th>
+                        <th scope="col"><?php echo $hiphop[$ID][1]?></th>
+                        <th scope="col"><?php echo $hiphop[$ID][2]?></th>
+                        <th scope="col"><?php echo $hiphop[$ID][3]?></th>
+                        <th scope="col"><?php echo $hiphop[$ID][4]?></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -97,33 +107,33 @@
                 <div class="row">
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Nonstop</h4>
-                        <img src="../images/hip-hop/capadrake.jpg" class="img-fluid" alt="Responsive image">
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none">Spotify</button>
+                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
+                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">God's Plan</h4>
-                        <img src="../images/hip-hop/capadrake.jpg" class="img-fluid" alt="Responsive image">
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none">Spotify</button>
+                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
+                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Elevate</h4>
-                        <img src="../images/hip-hop/capadrake.jpg" class="img-fluid" alt="Responsive image">
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none">Spotify</button>
+                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
+                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Mob Ties</h4>
-                        <img src="../images/hip-hop/capadrake.jpg" class="img-fluid" alt="Responsive image">
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none">Spotify</button>
+                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
+                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">I'm Upset</h4>
-                        <img src="../images/hip-hop/capadrake.jpg" class="img-fluid" alt="Responsive image">
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none">Spotify</button>
+                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
+                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
                     </div>
                     <div class="col-12 col-sm-2">
                         <h4 class="text-center mt-4">Elevate</h4>
-                        <img src="../images/hip-hop/capadrake.jpg" class="img-fluid" alt="Responsive image">
-                        <button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mb-4">Spotify</button>
+                        <img src="../images/hip-hop/capa.jpg" class="img-fluid" alt="Responsive image">
+                        <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-primary btn-lg btn-block btn btn-success float-none mt-3 mb-4">Spotify</button></a>
                     </div>
                 </div>
             </div>
