@@ -105,6 +105,7 @@
                     </a>
                 </div>
             </div>
+            </div>
             <div class="container">
                 <!-- As colun com os testos das Noticias -->
                 <aside class="art-home mt-3">
