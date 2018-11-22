@@ -2,13 +2,12 @@
  //PHP para verificar qual o idioma do html
    include('../imports/idioma.php');
  ?>
-<!DOCTYPE html>
-<html lang="<?php echo $lang?>">
-<?php
+ <!DOCTYPE html>
+ <html lang ="<?php echo $lang?>">
+   <?php
    //importando o head da pagina
      include('../imports/head.php');
    ?>
-
 <body>
     <!--importandoo menu da pagina -->
     <?php
@@ -24,12 +23,7 @@
                 <div class="col-md-6 col-lg-6">
                     <div class="caixa1">
                         <img class="img-fluid" src="../images/pop/LADY%20SHOW.jpg" alt="Lady Gaga no RR" width="550px">
-                        <div class="caixaT1">
-                            <h6> Lady Gaga divulga planos para a nova turnes!</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam.
-                            </p>
-                        </div>
-
+                        <p class="caixaT1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id elit diam. </p>
                     </div>
                 </div>
 
