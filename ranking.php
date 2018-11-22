@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--importando o head da pagina -->
+<?php
+=======
 <?php
 //Arrays com os idiomas da pagina
 $ranking_pt = array("semanal","mensal", "anual");
@@ -10,12 +15,21 @@ $ranking = array('PT' => $ranking_pt, 'EN' => $ranking_en, 'ES' => $ranking_es);
 include('imports/idioma.php');
 ?>
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang ="<?php echo $lang ?>">
   <?php
   //importando o head da pagina
   include('imports/head.php');
+=======
+<html lang="<?php echo $lang?>">
+<?php
+  //importando o head da pagina
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
+    include('imports/head.php');
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7
   ?>
-  <body>
+
+<body>
     <!--importandoo menu da pagina -->
     <?php
     include('imports/menu.php');
@@ -96,5 +110,11 @@ include('imports/idioma.php');
     <?php
     include('imports/footer.php');
     ?>
+<<<<<<< HEAD
   </body>
 </html>
+=======
+</body>
+
+</html>
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7

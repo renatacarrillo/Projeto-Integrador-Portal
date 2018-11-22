@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="pt-br">
+	<!--head-->
+    <?php
+        include('imports/head.php');
+    ?>
+    <body>
+
+=======
 <?php
   $hiphop_pt = array("Cifras","2 dias atrás","3 dias atrás","4 dias atrás","5 dias atrás","Albúm","Letra","Artista","Música");
   $hiphop_en = array("Lyrics","2 days ago", "3 days ago", "4 days ago", "5 days ago","Album","Lyrics","Artist","Music");
@@ -20,7 +30,21 @@
   <?php
     include('imports/menu.php');
   ?>
+<<<<<<< HEAD
     
+=======
+  <body>
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
+    <!-- Menu top das paginas -->
+    <?php
+      include('imports/menu.php');
+      ?>
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7
         <main>
         <div class="container">
             <div class="row">
@@ -28,6 +52,7 @@
                     <h1 class="text-white bg-dark text-center font-italic font-weight-bold"><?php echo $hiphop[$ID][0]?></h1>
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="row">
                 
                 <div class="col-12 col-sm-4">
@@ -197,9 +222,26 @@
                 </div>
     </main>
         
+=======
+            </div>
+        </main>
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7
                  <!-- FOOTER -->
         <?php
             include('imports/footer.php');
         ?>
     </body>
+<<<<<<< HEAD
 </html>
+=======
+<<<<<<< HEAD
+</html>
+=======
+</html>
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7

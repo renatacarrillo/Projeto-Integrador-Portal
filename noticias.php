@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
     $classica_pt = array("O novo sucesso da Katy Perry","Conheça mais sobre a nova estrelinha do sertanejo","Punk: Uma crítica ao sistema","Veja mais sobre o novo álbum do The Neighbourhood","A maior orquestra brasileira","Gusttavo Lima e o sucesso","Leia mais","Por que você precisa ouvir Ratos de Porão?","Leia mais","Topo das paradas: Bateu Os Beatles!","Leia mais","Novo albúm: The Neighbourhood","Leia mais");
     $classica_en = array("The new Katy Perry success","Know more about the new sertanejo's star","Punk: One criticism for the system","See more about the new's The Neighbourhood album","The biggest brazilian orchestra","Gusttavo Lima and the succes","Read more","Why listen Ratos do Porão?","Read more","TOP: He passed The Beatles!","Read more","The new album: The Neighbourhood","Read more");
@@ -5,6 +6,24 @@
 
     $classica = array('PT'=> $classica_pt,'EN' => $classica_en,'ES' => $classica_es);
 ?>
+=======
+<<<<<<< HEAD
+<!doctype html>
+<html lang="pt-br">
+
+<!--HEAD-->
+
+<?php 
+    include('imports/head.php');
+?>
+
+<!--FINAL HEAD-->
+
+<body>
+    <!--NAV-->
+    <?php 
+=======
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7
 <?php
 //PHP para verificar qual o idioma do html
   include('imports/idioma.php');
@@ -18,6 +37,7 @@
   <body>
     <!--NAV-->
     <?php
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
     include('imports/menu.php');
 ?>
     <!--NAV ENDS-->
@@ -158,7 +178,11 @@
 
 
     <!--FOOTER-->
+<<<<<<< HEAD
+    <?php 
+=======
     <?php
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
     include('imports/footer.php');
 ?>
     <!--FIM FOOTER-->

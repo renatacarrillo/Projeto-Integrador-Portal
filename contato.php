@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+<html lang="pt-br">
+
+=======
 <?php
 $contato_pt = array("Portal de Musica", "Fale Conosco", "Telefone", "Mensagem", "Formulario", "Preencha o Formulario");
 $contato_en = array("Music Portal", "Contact Us", "Telephone", "Message", "Form", "Fill in the Form");
@@ -9,7 +13,12 @@ $contato = array('PT' => $contato_pt, 'EN' => $contato_en, 'ES' => $contato_es);
 include('imports/idioma.php');
 ?>
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang ="<?php echo $lang ?>">
+=======
+<html lang ="<?php echo $lang?>">
+>>>>>>> ba72f7c8789a97331dbf2bd0d126af2b4856a650
+>>>>>>> 970f825dce1e1c7d9a5a070d37793af4987caea7
 <!--head-->
 <?php
 include('imports/head.php');
