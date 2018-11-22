@@ -1,31 +1,32 @@
 <?php
-  $sertanejo_pt = array("Os Fatos que Marcaram a Música","Anterior","Próximo");
-  $sertanejo_en = array("The Facts That Marked Music","Previous","Next");
-  $sertanejo = array('PT'=> $sertanejo_pt,'EN' => $sertanejo_en);
+$sertanejo_pt = array("Os Fatos que Marcaram a Música", "Anterior", "Próximo");
+$sertanejo_en = array("The Facts That Marked Music", "Previous", "Next");
+$sertanejo_es = array("Los hechos que marcaron la música", "Anterior", "Siguiente");
+$sertanejo = array('PT' => $sertanejo_pt, 'EN' => $sertanejo_en, 'ES' => $sertanejo_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
- ?>
- <?php
+?>
+<?php
  //PHP para verificar qual o idioma do html
-   include('../imports/idioma.php');
- ?>
+include('../imports/idioma.php');
+?>
  <!DOCTYPE html>
- <html lang ="<?php echo $lang?>">
-   <?php
+ <html lang ="<?php echo $lang ?>">
+  <?php
    //importando o head da pagina
-     include('../imports/head.php');
-   ?>
+  include('../imports/head.php');
+  ?>
   <body>
     <!--importandoo menu da pagina -->
     <?php
-      include('../imports/menu-secundario.php');
+    include('../imports/menu-secundario.php');
     ?>
     <!-- conteudo da pagina -->
     <div class="container mt-4 mb-4">
       <div class="row">
         <div class="col text-center">
           <header>
-            <h1><?php echo $sertanejo[$ID][0]?></h1>
+            <h1><?php echo $sertanejo[$ID][0] ?></h1>
           </header>
           <div class="popup-gallery">
             <a href="../images/sertanejo/destaques-1.jpg" title="lorem Ipsum -1970"><img src="../images/sertanejo/destaques-1.jpg" class="bk-color" width="200" height="150"></a>
@@ -39,8 +40,9 @@
     </div>
     <!-- importando o footer da pagina -->
     <?php
-      include('../imports/footer-secundario.php');
+    include('../imports/footer-secundario.php');
     ?>
+    <!--Scripts JS para efeitos do Magnific Popup -->
     <script src="../js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {

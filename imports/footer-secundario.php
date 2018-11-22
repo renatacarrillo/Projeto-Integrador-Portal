@@ -2,19 +2,20 @@
 <?php
   $footer_pt = array("Serviços","Mapa do Site","Todos os direitos reservado e etc,etc e etc","Idioma:","Sua Opinião nos ajuda!");
   $footer_en = array("Services","Site Map","All rigths reserved and etc, etc and etc...","Language:","Your opinion helps us!");
+  $footer_es = array("Servicios","Mapa del sitio","Todos los derechos reservados y etc, etc etc etc...","Idioma:","Su opinión ayuda us!");
   //$footer = array($footer_pt, $footer_en);
-  $footer = array('PT'=> $footer_pt,'EN' => $footer_en);
+  $footer = array('PT'=> $footer_pt,'EN' => $footer_en,'ES' => $footer_es);
 ?>
   <footer id="footer">
     <div class="container">
       <div class="row no-gutters">
-        <div class="col-10  col-md-12">
+        <div class="col-10  col-lg-12">
           <div class="container">
             <div class="row">
-              <div class="col-3 col-md-1 py-2">
-                <p class="text-center"><?php echo strtoupper($footer[$ID][0])?></p>
+              <div class="col-3 col-lg-1 py-2">
+                <p class="text-center"><?php echo mb_strtoupper($footer[$ID][0],'UTF-8')?></p>
               </div>
-              <div class="col-8 col-md-3 pb-3 pb-sm-0">
+              <div class="col-8 col-lg-3 pb-3 pb-sm-0">
                 <nav class="menu-secundario">
                   <ul class="nav flex-column pl-xs-3">
                     <li class="nav-item">
@@ -29,10 +30,10 @@
                   </ul>
                 </nav>
               </div>
-              <div class="col-3 col-md-1 py-2">
+              <div class="col-3 col-lg-1 py-2">
                 <p class="text-center"><?php echo strtoupper($footer[$ID][1])?></p>
               </div>
-              <div class="col-8 col-md-3 pb-3 pb-sm-0">
+              <div class="col-8 col-lg-3 pb-3 pb-sm-0">
                 <nav class="menu-secundario">
                   <ul class="nav flex-column pl-xs-3">
                     <li class="nav-item">
@@ -65,10 +66,10 @@
                   </ul>
                 </nav>
               </div>
-              <div class="col-3 col-md-1 py-2">
+              <div class="col-3 col-lg-1 py-2">
                 <p class="text-center"><?php echo strtoupper($menu[$ID][6])?></p>
               </div>
-              <div class="col-8 col-md-3  pb-3 pb-sm-0">
+              <div class="col-8 col-lg-3  pb-3 pb-sm-0">
                 <nav class="menu-secundario">
                   <ul class="nav flex-column pl-xs-3">
                     <li class="nav-item nav-link">
@@ -124,13 +125,20 @@
             if ($ID == 'PT') {
               $idativo1 = 'idiomaatual';
               $idativo2 = '';
+              $idativo3 = '';
             } elseif(($ID == 'EN')){
               $idativo2 = 'idiomaatual';
+              $idativo3 = '';
               $idativo1 = '';
+            } elseif(($ID == 'ES')){
+              $idativo3 = 'idiomaatual';
+              $idativo1 = '';
+              $idativo2 = '';
             }
             echo '<p class="text-right">' .$footer[$ID][3] .'</p>';
-            echo '<p class="text-right"> <a href="'.$urlidioma .'?i=EN"><img class="selidioma '.$idativo2 .'" src="../images/principal/united_states_flags.png" alt="Idioma Ingles"></a>';
-            echo '<a href="'.$urlidioma .'?i=PT"><img class="selidioma '.$idativo1 .'" src="../images/principal/brazil_flags.png" alt="Idioma Portugues"></a></p>';
+            echo '<p class="text-right"> <a href="'.$urlidioma .'?i=EN"><img class="selidioma '.$idativo2 .'" src="../images/principal/us_flag.png" alt="Idioma Ingles"></a>';
+            echo '<a href="'.$urlidioma .'?i=PT"><img class="selidioma '.$idativo1 .'" src="../images/principal/brazil_flag.png" alt="Idioma Portugues"></a>';
+            echo '<a href="'.$urlidioma .'?i=ES"><img class="selidioma '.$idativo3 .'" src="../images/principal/spain_flag.png" alt="Idioma Espanhol"></a></p>';
           ?>
 
           </div>
