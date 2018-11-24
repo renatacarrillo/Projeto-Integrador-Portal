@@ -14,16 +14,26 @@ include('imports/idioma.php');
 <?php
 include('imports/head.php');
 ?>
-
 <body class="contatinho">
     <!-- Menu -->
     <?php
     include('imports/menu.php');
     ?>
     <header>
+    <?php
+        //alterar a cor do background de acordo o numero gerado
+    $numbk = rand(1, 10);
+    if ($numbk >= 1 and $numbk < 4) {
+      $corbk = "header-contato-bg";
+    } elseif ($numbk >= 5 and $numbk < 8) {
+      $corbk = "header-contato-bg-2";
+    } else {
+      $corbk = "header-contato-bg-3";
+    }
+    ?>
       <div id ="hed-contato" class="container">
         <div class="row no-gutters">
-          <div class="col-12 header-contato text-center">
+          <div class="col-12 header-contato text-center <?php echo $corbk ?> ">
             <div id="sombra">
             <div id="header-cont" class="header-contato">
             </div>
@@ -87,12 +97,9 @@ include('imports/head.php');
         </div>
       </div>
     </div>
-
     <!-- Footer -->
     <?php
     include('imports/footer.php');
     ?>
-
 </body>
-
 </html>

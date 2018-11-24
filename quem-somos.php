@@ -19,7 +19,7 @@
       <div class="container">
         <div class="row pb-2">
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow imgquemsomos" src="images/principal/karina-quem-somos.jpeg" alt="Foto Karina Lucindo">
+            <img class="mb-2 rounded-circle" src="images/principal/karina-quem-somos.jpeg" alt="Foto Karina Lucindo">
               <h2 class="shadow-text font-weight-bold">Karina Lucindo</h2>
               <?php
               if ($ID=='PT') {
@@ -40,7 +40,7 @@
               ?>
           </div>
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/quem-somos.jpg" alt="Foto Rafael Jacome">
+            <img class="mb-2 rounded-circle" src="images/principal/quem-somos.jpg" alt="Foto Rafael Jacome">
               <h2 class="shadow-text font-weight-bold">Rafael Jacome</h2>
               <?php
               if ($ID=='PT') {
@@ -61,7 +61,7 @@
               ?>
           </div>
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/reginaldo-quem-somos.jpg" alt="Foto Reginaldo Domingos">
+            <img class="mb-2 rounded-circle" src="images/principal/reginaldo-quem-somos.jpg" alt="Foto Reginaldo Domingos">
               <h2 class="shadow-text font-weight-bold">Reginaldo Domingos</h2>
               <?php
               if ($ID=='PT') {
@@ -88,7 +88,7 @@
       <div class="container">
         <div class="row pb-2">
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/quem-somos.jpg" alt="Foto Renata Carrillo">
+            <img class="mb-2 rounded-circle" src="images/principal/quem-somos.jpg" alt="Foto Renata Carrillo">
               <h2 class="shadow-text font-weight-bold">Renata Carrillo</h2>
                 <?php
                 if ($ID=='PT') {
@@ -109,7 +109,7 @@
                 ?>
           </div>
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/quem-somos.jpg" alt="Foto Thais Machado">
+            <img class="mb-2 rounded-circle" src="images/principal/thais-quem-somos.jpg" alt="Foto Thais Machado">
               <h2 class="shadow-text font-weight-bold">Thais Machado</h2>
               <?php
               if ($ID=='PT') {
@@ -130,7 +130,7 @@
               ?>
           </div>
           <div class="text-center col-lg-4 mt-4">
-            <img class="mb-2 rounded-circle shadow" src="images/principal/quem-somos.jpg" alt="Foto Victor Campos">
+            <img class="mb-2 rounded-circle" src="images/principal/quem-somos.jpg" alt="Foto Victor Campos">
               <h2 class="shadow-text font-weight-bold">Victor Campos</h2>
               <?php
               if ($ID=='PT') {
