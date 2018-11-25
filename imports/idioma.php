@@ -1,26 +1,19 @@
-<?php
-if(!isset($_GET['i'])){
-  $ID = "PT";
-} else {
-  $ID = $_GET['i'];
-}
-//if (!isset($_GET['i'])) {
-//  $_GET['i']='PT';
-//} else{
-//}
+<?php 
+//abertura da seção para carregar o idioma
+session_start();
+if(!isset($_SESSION['idioma'])){ $idioma = "PT";} else {$idioma = $_SESSION['idioma'];}
+
+//variavel ID para usar a posição da Matriz
+//  $ID = $_GET['idioma'];
+$ID = $idioma;
 
 //variavel lang para usar na definição do idioma do html
 if ($ID =='EN') {
   $lang = "en-US";
-  $link = "?i=EN";
 } elseif ($ID =='PT'){
   $lang = "pt-BR";
-  $link = "?i=PT";
 } elseif ($ID =='ES') {
   $lang = "es-ES";
-  $link = "?i=ES";
 }
 
-//variavel ID para usar a posição da Matriz
-//  $ID = $_GET['i'];
 ?>
