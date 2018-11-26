@@ -78,8 +78,6 @@
         <div class="row pb-2">
           <div class="text-center col-lg-4 mt-4">
             <img class="mb-2 rounded-circle shadow" src="images/principal/r.jpg" alt="Foto Renata Carrillo">
-=======
-            <img class="mb-2 rounded-circle" src="images/principal/quem-somos.jpg" alt="Foto Renata Carrillo">
               <h2 class="shadow-text font-weight-bold">Renata Carrillo</h2>
                 <?php
                 if ($ID=='PT') {
