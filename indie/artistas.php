@@ -4,7 +4,7 @@ include('../imports/idioma.php');
  ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang?>">
-    
+
 <?php
 //importando o head da pagina
 include('../imports/head.php');
@@ -23,11 +23,11 @@ include('../imports/menu-secundario.php');
         <!-- Primeira Linha -->
         <br>
         <div class="container">
-            <div class="row">
+        <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a><img class="img-fluid" src="../images/Indie/of-monster-and-man.jpg" alt="Generic placeholder image"></a>
+                    <a><img class="img-fluid" src="../images/indie/of-monster-and-man.jpg" ></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -38,7 +38,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Segunda Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a><img class="img-fluid" src="../images/Indie/radio-head.jpg" alt="Generic placeholder image"></a>
+                    <a><img class="img-fluid" src="../images/indie/radio-head.jpg" ></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -53,11 +53,11 @@ include('../imports/menu-secundario.php');
         <!-- Segunda Linha -->
         <br>
         <div class="container">
-            <div class="row">
+        <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/Indie/arcade-fire.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="img-fluid" src="../images/indie/arcade-fire.jpg"></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -68,7 +68,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Segunda Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/Indie/the-neighbourhood.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="img-fluid" src="../images/indie/the-neighbourhood.jpg" ></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -83,11 +83,11 @@ include('../imports/menu-secundario.php');
         <!-- Terceira Linha -->
         <br>
         <div class="container">
-            <div class="row">
+        <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/Indie/tame-impala.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="img-fluid" src="../images/indie/tame-impala.jpg"></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -98,7 +98,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Segunda Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/Indie/twenty-one-pilots.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="img-fluid" src="../images/indie/twenty-one-pilots.jpg"></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -113,11 +113,11 @@ include('../imports/menu-secundario.php');
         <!-- Quarta Linha -->
         <br>
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
 
                 <!-- Primeira Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/Indie/florence-and-the-machine.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="img-fluid" src="../images/indie/florence-and-the-machine.jpg"></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -128,7 +128,7 @@ include('../imports/menu-secundario.php');
 
                 <!-- Segunda Imagem -->
                 <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <a href="#"><img class="img-fluid" src="../images/Indie/kings-of-leon.jpg" alt="Generic placeholder image"></a>
+                    <a href="#"><img class="img-fluid" src="../images/indie/kings-of-leon.jpg"></a>
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
