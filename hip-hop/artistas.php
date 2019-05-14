@@ -28,7 +28,7 @@
                 <main>
                     <div class="row mt-3 mb-3">
                         <div class="col-12">
-                            <h1 class="text-white bg-dark text-center font-italic font-weight-bold"><?php echo $hiphop[$ID][0]?></h1>
+                            <h1 class="text-white bg-dark text-center font-italic font-weight-bold" tabindex="0"><?php echo $hiphop[$ID][0]?></h1>
                         </div>
                     </div>
                     <div class="container">
@@ -37,17 +37,17 @@
                                 <img src="../images/hip-hop/defitiniva2.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-sm-3 col-12 mt-2">
-                                <h2 class="text-muted ml-4">Drake</h2>
-                                <span class="badge badge-secondary ml-4">Top 1</span>
-                                <span class="badge badge-secondary">Hip Hop</span>
-                                <span class="badge badge-secondary">Rap</span>
-                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3 ml-4">Spotify</button></a></p>
+                                <h2 class="text-muted ml-4" tabindex="0">Drake</h2>
+                                <span class="badge badge-secondary ml-2" tabindex="0">Top 1</span>
+                                <span class="badge badge-secondary" tabindex="0">Hip Hop</span>
+                                <span class="badge badge-secondary" tabindex="0">Rap</span>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active mt-3 ml-4" role="button" aria-pressed="true">Spotify</a></p>
                             </div>
                             <div class="col-sm-6 mt-2">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
                                     <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
+                                        <p class="card-text" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
                                 </div>
                             </div>
@@ -58,17 +58,17 @@
                                 <img src="../images/hip-hop/defitiniva2.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-sm-3 col-12 mt-5">
-                                <h2 class="text-muted ml-4">Blackbear</h2>
-                                <span class="badge badge-secondary ml-4">Top 1</span>
-                                <span class="badge badge-secondary">Hip Hop</span>
-                                <span class="badge badge-secondary">Rap</span>
-                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3 ml-4">Spotify</button></a></p>
+                                <h2 class="text-muted ml-4" tabindex="0">Blackbear</h2>
+                                <span class="badge badge-secondary ml-2" tabindex="0">Top 1</span>
+                                <span class="badge badge-secondary" tabindex="0">Hip Hop</span>
+                                <span class="badge badge-secondary" tabindex="0">Rap</span>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active mt-3 ml-4" role="button" aria-pressed="true">Spotify</a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
                                     <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
+                                        <p class="card-text" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,17 +79,17 @@
                                 <img src="../images/hip-hop/defitiniva2.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-sm-3 col-12 mt-5">
-                                <h2 class="text-muted ml-4">Konai</h2>
-                                <span class="badge badge-secondary ml-4">Top 1</span>
-                                <span class="badge badge-secondary">Hip Hop</span>
-                                <span class="badge badge-secondary">Rap</span>
-                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3 ml-4">Spotify</button></a></p>
+                                <h2 class="text-muted ml-4" tabindex="0">Konai</h2>
+                                <span class="badge badge-secondary ml-2" tabindex="0">Top 1</span>
+                                <span class="badge badge-secondary" tabindex="0">Hip Hop</span>
+                                <span class="badge badge-secondary" tabindex="0">Rap</span>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active mt-3 ml-4" role="button" aria-pressed="true">Spotify</a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
                                     <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
+                                        <p class="card-text" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
                                 </div>
                             </div>
@@ -100,17 +100,17 @@
                                 <img src="../images/hip-hop/defitiniva2.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-sm-3 col-12 mt-5">
-                                <h2 class="text-muted ml-4">G-eazy</h2>
-                                <span class="badge badge-secondary ml-4">Top 1</span>
-                                <span class="badge badge-secondary">Hip Hop</span>
-                                <span class="badge badge-secondary">Rap</span>
-                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3 ml-4">Spotify</button></a></p>
+                                <h2 class="text-muted ml-4" tabindex="0">G-eazy</h2>
+                                <span class="badge badge-secondary ml-2" tabindex="0">Top 1</span>
+                                <span class="badge badge-secondary" tabindex="0">Hip Hop</span>
+                                <span class="badge badge-secondary" tabindex="0">Rap</span>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active mt-3 ml-4" role="button" aria-pressed="true">Spotify</a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
                                     <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
+                                        <p class="card-text" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
                                 </div>
                             </div>
@@ -121,17 +121,17 @@
                                 <img src="../images/hip-hop/defitiniva2.jpg" class="rounded mx-auto d-block img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-sm-3 col-12 mt-5">
-                                <h2 class="text-muted ml-4">The Weekend</h2>
-                                <span class="badge badge-secondary ml-4">Top 1</span>
-                                <span class="badge badge-secondary">Hip Hop</span>
-                                <span class="badge badge-secondary">Rap</span>
-                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4"><button type="button" class="btn btn-outline-success mt-3 ml-4">Spotify</button></a></p>
+                                <h2 class="text-muted ml-4" tabindex="0">The Weekend</h2>
+                                <span class="badge badge-secondary ml-2" tabindex="0">Top 1</span>
+                                <span class="badge badge-secondary" tabindex="0">Hip Hop</span>
+                                <span class="badge badge-secondary" tabindex="0">Rap</span>
+                                <p><a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" class="btn btn-outline-success active mt-3 ml-4" role="button" aria-pressed="true">Spotify</a></p>
                             </div>
                             <div class="col-sm-6 mt-5">
                                 <div class="card border-secondary mb-3" style="max-width: 30rem;">
                                     <div class="card-header"><?php echo $hiphop[$ID][1]?></div>
                                     <div class="card-body text-secondary">
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
+                                        <p class="card-text" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus orci nec purus aliquet dapibus. Donec ultricies placerat dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce pharetra vulputate gravida.</p>
                                     </div>
                                 </div>
                             </div>
