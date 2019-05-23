@@ -5,6 +5,9 @@
   $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
+//tag<title>  Titulo das paginas;
+$titlePagina = array('PT' => "Hip Hop | Pagina inicial", 'EN' => "Hip Hop | Home", 'ES' => "Hip Hop | Pagina principal");
+
  ?>
  <?php
  //PHP para verificar qual o idioma do html
@@ -21,15 +24,15 @@
   <?php
     include('../imports/menu-secundario.php');
   ?>
-    <main>
+    <main id="content">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 mt-4 mb-4">
                     <h1 class="text-white bg-dark text-center font-italic font-weight-bold" tabindex="0"><?php echo $hiphop[$ID][0]?></h1>
                 <div class="jumbotron mt-4">
-                    <h1 class="display-4" tabindex="0">American Music Awards</h1>
+                    <h1 class="display-4">American Music Awards</h1>
                     <hr class="my-4">
-                    <p tabindex="0"><?php echo $hiphop[$ID][1]?></p>
+                    <p><?php echo $hiphop[$ID][1]?></p>
                 </div>
                 </div>
             </div>
@@ -41,7 +44,7 @@
             <div class="row">
                 <div class="col-12 mt-4">
                     <div class="card">
-                        <div class="card-header" tabindex="0">
+                        <div class="card-header">
                             AMA
                         </div>
                         <div class="card-body">

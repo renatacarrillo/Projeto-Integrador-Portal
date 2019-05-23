@@ -5,6 +5,9 @@
   $hiphop = array('PT'=> $hiphop_pt,'EN' => $hiphop_en, 'ES' => $hiphop_es);
 // print_r($sertanejo);
 //usar $ID para os Vetores
+//tag<title>  Titulo das paginas;
+$titlePagina = array('PT' => "Hip Hop | Pagina inicial", 'EN' => "Hip Hop | Home", 'ES' => "Hip Hop | Pagina principal");
+
  ?>
  <?php
  //PHP para verificar qual o idioma do html
@@ -21,7 +24,7 @@
   <?php
     include('../imports/menu-secundario.php');
   ?>
-    <main>
+    <main id="content">
         <div class="container">
             <div class="row">
                 <div class="col-12">
